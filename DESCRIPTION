@@ -1,0 +1,14 @@
+Package: ThermalFogger
+Title: The Thermal Fogger: An Imperial Tetherball
+Version: 0.1.1
+Authors@R: c(person(c("Juniper", "L."), "Simonis", email = "simonis@dapperstats.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-9798-0460")))
+Description: Open source booklet on the history of the thermal fogger's use in chemical warfare.
+License: MIT + file LICENSE
+URL: https://chemicalweaponsresearch.com/thermal_fogger, https://github.com/chemicalweaponsresearch/thermal_fogger
+BugReports: https://github.com/chemicalweaponsresearch/thermal_fogger/issues
+Imports: 
+    bookdown
+Remotes: 
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1

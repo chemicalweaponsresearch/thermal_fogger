@@ -1,0 +1,39 @@
+--- 
+title: "The Thermal Fogger"
+subtitle: "An Imperial Tetherball"
+author: "Dr. Juniper L. Simonis (they/them/theirs)"
+date: "2021-05-25"
+description: "The history of use of thermal fogging in chemical warfare."
+github-repo: "chemicalweaponsresearch/thermal_fogger"
+cover-image: "img/cover.png"
+url: "chemicalweaponsresearch.com/thermal_fogger"
+colorlinks: yes
+graphics: yes
+bibliography: [packages.bib, references.bib]
+biblio-style: apalike
+link-citations: yes
+knit: bookdown::render_book
+site: bookdown::bookdown_site
+---
+
+
+
+#  {-}
+
+This is the online home of *The Thermal Fogger: An Imperial Tetherball*, an open-source, actively curated book on the history of thermal foggers in chemical warfare.
+[An archived version is available on Zenodo](https://doi.org/10.5281/zenodo.4668002).
+
+<br>
+<div style="text-align: center;">
+<figure>
+  <img src="img/cover.png" width="750" alt="B/W newspaper clipping. To left is an officer wearing long pants, long sleeved shirt, and a helmet walking forward carrying a fogger in the right hand. The fogger is blowing fog through a tube and a cloud is forming. Background is a storefront window and door. To the right 2 people are moving away from the fog, leaning on one another, and covering their faces with their hands." style="margin: 0 1em 0 1em" />
+  <figcaption>
+  Deployment of a thermal fogger by police in Berkeley CA, 8/31/1968; UPI Telephoto
+  </figcaption>
+</figure>
+</div>
+
+<br>
+
+
+

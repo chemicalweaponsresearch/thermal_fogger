@@ -19,7 +19,7 @@ Danville, Illinois (1970 pop. 42,570 [@USCB1970]) Police used a pepper fogger to
 ### July 29 2020 {- #PortlandOR2020_07_29}
 
 At the beginning of July 2020, then-president Trump deployed Department of Homeland Security agents to "protect" federal property in Portland, OR [@DHS2020; @Flanigan2020; @Trump2020].
-During the final days of the visible presence and response of federal agents in Summer 2020, they unveiled their thermal fogger, which has been identified through photos as an [IGEBA TF35](https://www.nixalite.com/product/igeba-tf-35) thermal fogger from Nixalite of America Inc.
+During the final days of the visible presence and response of federal agents in Summer 2020, they unveiled their thermal fogger [@Recompiler2020_07_29], which has been identified through photos as an [IGEBA TF35](https://www.nixalite.com/product/igeba-tf-35) thermal fogger from Nixalite of America Inc.
 This machine is designed and marketed for bird control, and while "_training tool for military/law enforcement_" is listed among its uses [@Nixalite2009a], its safety requirements explicitly state: 
 
 > "_**19. Do not fog directly against persons...During operation keep distance of minimum [10 ft].**_"
@@ -41,9 +41,13 @@ This machine is designed and marketed for bird control, and while "_training too
 
 ### Immigration and Customs Enforcement Rental Property {- #PortlandORICE2020_2021}
 
-While the thermal fogger hasn't been deployed at the federal Courthouse in downtown Portland since July 29 2020, it has been used repeatedly by Department of Homeland Security agents at the private property US Immigration and Customs Enforcement rents to use as a holding center for deportees in the South Waterfront neighborhood [@Simonis2021].
+While the thermal fogger hasn't been deployed at the federal Courthouse in downtown Portland since July 29 2020, it has been used repeatedly by Department of Homeland Security agents at the private property US Immigration and Customs Enforcement (ICE) rents to use as a holding center for deportees in the South Waterfront neighborhood [@Simonis2021] -- the same building that saw the weeks-long Ocuppy ICE protests in 2018 [@Dubois2018]. 
 
-The first of such deployments occurred during the fall of 2020
+The first of such deployments occurred during the fall of 2020.
+
+Along with cities across the country, Portland hosted many events on October 17th focused around the racial and gender justice [@Recompiler2020_10_17].
+In the evening, there was a gathering at Willamette Park in the Southwest part of the city, where organizers passed out balloons detailing harrowing experiences of migrants and immigrants detained by ICE [@Recompiler2020_10_17].
+After marching to the ICE rental property, individuals tied the balloons to the gate to the parking garage, and Department of Homeland Security (DHS) agents including Customs and Border Protection (CBP) officers deployed massive amounts of chemical weapons, including via a thermal fogger, throughout the neighborhood [@Recompiler2020_10_17].
 
 <br>
 <div style="text-align: center;">
@@ -58,8 +62,8 @@ The first of such deployments occurred during the fall of 2020
 
 #### Inaugration 2021 {- #J20}
 
-The same fogger (or at least the same model) was again brought out at the ICE rental property on January 20th 2021 (Inaguration Day; "J20") in response to a protester spray painting a piece of plywood tacked outside the building [@Simonis2021]. 
-The fogged up and down multiple blocks, with visible plumes entering units in the adjacent apartment complexes and covering the playground of an adjacent public school [@Simonis2021].
+The same fogger (or at least the same model) was again brought out at the ICE rental property on January 20th 2021 during the Inauguration Day ("J20") Abolish ICE protests in response to an individual spray painting a piece of plywood tacked outside the building [@Recompiler2021_01_20]. 
+The fogged up and down multiple blocks, with visible plumes entering units in the adjacent apartment complexes and covering the playground of an adjacent public school [@Recompiler2021_01_20; @Simonis2021].
 
 <br>
 <div style="text-align: center;">
@@ -72,7 +76,7 @@ The fogged up and down multiple blocks, with visible plumes entering units in th
 </div> 
 <br>
 
-That weekend, CBP deployed the fogger again, this time gassing even more of the neighborhood, including the local public school [@Simonis2021].
+That weekend, CBP deployed the fogger again during Abolish ICE protests, this time gassing even more of the neighborhood, including the local public school and veterans-preference housing [@Recompiler2021_01_23; @Simonis2021].
 
 
 <br>

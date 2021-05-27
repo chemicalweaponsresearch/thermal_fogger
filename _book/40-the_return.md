@@ -4,13 +4,26 @@
 
 As to be expected following the basic trajectory of an Imperial Boomerang [@Cesaire1950; @Arendt1951; @Foucault1976], the repressive technique (thermal fogging) developed by an imperialist country (USA) to control colonial territories (Vietnam) was brought home by the imperialist nation to use on its own people [@Graham2013].
 
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/M106.png" width="500" alt="Yellowed black and white photo of a stationary Mighty Mite thermal fogger. It's a backpack fogger, so there's a giant hose that's like a vacuum hose wrapped around in the middle and then another one coming off of the actual backpack, which is upright in the middle back right. there is a metal frame and a large reservoir tank sitting on top of the engine and other aspects of the machinery. There is a tube running out to the end of the hose nose from the back pack. On the right side of the image is a scale bar that makes it seem like the backpack is 24 inches tall." style="margin: 0 1em 0 1em" />
+    <figcaption>
+      M-106 Mighty Mite Thermal Fogger, as promoted to law enforcement in @Applegate1969.
+      According to @Applegate1969, it is an "insecticide blower ... adopted for use in Vietnam... [that can disperse] the gas agent continuosly for [15 minutes]".
+    </figcaption>
+  </figure>
+</div>
+<br>
+
 Indeed, it took just _three years_ from initial deployment in Vietnam on October 8 1965 to first application in the United States to gas Black racial justice protesters in [Miami, Florida on August 8th, 1968](#MiamiFL1968_08_08) during the Liberty City Riots [@Tschenschlok1995; @Lorentzen2018]. 
 
 In alignment with the general "Imperial Circuit of Tear Gas" [@Schrader2019] between the US and Vietnam, the return of the fogger was aided significantly by the weapons industry, militarization of US police forces, the transition of veterans to law enforcement occupations upon returning home, and substantial propaganda in a variety of specialized and generalized outlets.
 
 ## General Ordnance Equipment Corporation {- #GOEC}
 
-The General Ordnance Equipment Corporation (GOEC), who developed and trademarked Chemical Mace the year prior, began using the phrase "Pepper Fog" in July 1968 on their thermal fogger line and applied for a trademark on the phrase in October of the same year [@USTPO2018].
+The General Ordnance Equipment Corporation (GOEC), who developed and trademarked Chemical Mace the year prior, began marketing a hand-held thermal fogger using the phrase "Pepper Fog" in July 1968 on their [@Applegate1969].
+They and applied for a trademark on the phrase in October of the same year [@USTPO2018].
 By the end of August 1969, GOEC had received the trademark on "Pepper Fog", which they (and their subsequent owners including Smith and Wesson, Federal Laboratories, and Safariland) retained until it expired in 1991 [@USTPO2018].
 
 <br>
@@ -18,7 +31,7 @@ By the end of August 1969, GOEC had received the trademark on "Pepper Fog", whic
   <figure>
     <img src="img/goec_pf.png" width="500" alt="Yellowed black and white photo of a stationary pepper fog thermal fogger pointed to the left sitting by itself. The main body is a square box that's dark with a tag in the middle that's lighter and has dark writing on it that says pepper fog g o e c. The nozzle points to the left and is a longer thinner tube about twice as long as the main body. It is also dark and has a metal cage around it that is sparse and shiny. There's also a handle and some knobs on the top of the item and something that's a little bit difficult to make out off the back of the main body." style="margin: 0 1em 0 1em" />
     <figcaption>
-      Product image for thermal fogger [@GOECphoto].
+      General Ordnance Equipment Corporation thermal fogger [@GOECphoto], as shown in @Applegate1969.
     </figcaption>
   </figure>
 </div>

@@ -18,7 +18,7 @@ By the end of August 1969, GOEC had received the trademark on "Pepper Fog", whic
   <figure>
     <img src="img/goec_pf.png" width="500" alt="Yellowed black and white photo of a stationary pepper fog thermal fogger pointed to the left sitting by itself. The main body is a square box that's dark with a tag in the middle that's lighter and has dark writing on it that says pepper fog g o e c. The nozzle points to the left and is a longer thinner tube about twice as long as the main body. It is also dark and has a metal cage around it that is sparse and shiny. There's also a handle and some knobs on the top of the item and something that's a little bit difficult to make out off the back of the main body." style="margin: 0 1em 0 1em" />
     <figcaption>
-      Product image for thermal fogger [@GOECphoto]
+      Product image for thermal fogger [@GOECphoto].
     </figcaption>
   </figure>
 </div>
@@ -31,7 +31,7 @@ Indeed, to this day, the current owner of the legacy branding ([Safariland](http
   <figure>
     <img src="img/defense_tech_gepf.png" width="500" alt="Yellow-gold box shape tool with a handle on top, an image of an eagle in flight on the side, and some gauges on top.The back of the box tapers and appears to have switches and controls. Coming out of the front is a long tube that narrows at the end. The tube has a wire cage surrounding it." style="margin: 0 1em 0 1em" />
     <figcaption>
-      Product image for thermal fogger [@DTPFGphoto]
+      Product image for thermal fogger [@DTPFGphoto].
     </figcaption>
   </figure>
 </div>
@@ -51,7 +51,7 @@ Indeed, Rex published what can only be described as a long-form written sales pi
   <figure>
     <img src="img/demo.png" width="500" alt="Black and white photo of a person using a pepper fogger across some railroad tracks. The person is standing in the mid ground on the left side of the photo and fogging towards the right mid-ground where the train tracks come from. The fog obscures the origins of the tracks off to the background on the right side of the photo. Behind the person on the left side is a taller tree along short building a car and some foliage. Further behind is a ridge of some kind with trees on it. The train tracks are old and partially overgrown." style="margin: 0 1em 0 1em" />
     <figcaption>
-      Demonstration of a pepper fogger [@Applegate1970]
+      Demonstration of a pepper fogger [@Applegate1970].
     </figcaption>
   </figure>
 </div>

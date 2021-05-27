@@ -4,4 +4,4 @@ While not an intentional deployment, in at least one documented incident, a pepp
 On December 15 1981, The Southeast Bullitt Volunteer Fire Department In Kentucky was conducting a smoke training exercise using a pepper fogger on loan from the fire marshal's office when their "victim" and 16 others (including firefighters) began experiencing coughing fits, headaches, and chest pains [@Judd1981].
 
 Although Smith and Wesson (the Pepper Fogger manufacturer at the time) claimed this was a one-off incident, the Kentucky State Fire Marshal's office had received other reports of firefighters becoming sick when using foggers in smoke training [@Judd1981]. 
-Residue tests later revealed no unexpected compounds [@Courier-Journal1982], indicating the toxicity had come from the design-for-use "safe" smoke.
+Residue tests later revealed no unexpected compounds [@TheCourierJournal1982_01_10], indicating the toxicity had come from the design-for-use "safe" smoke.

@@ -16,7 +16,7 @@ The specialized forces designated for the work were dubbed "Tunnel Rats" and tea
   <figure>
     <img src="img/rat_mask.png" width="500" alt="B/W image. Open trench at bottom, center. Pipe runs across trench and into the dirt on either side. Person in gas mask crouched below pipe looking up and forward. Leg in pants and lace up boot stretched over trench leaning against right edge. Other leg and boot partially visible on left. Hand holding lit cigarette resting on foot on left." style="margin: 0 1em 0 1em" />
     <figcaption>
-      Tunnel rat in a gas mask, undated; Unknown credit from @Hemmings2019.
+      Tunnel rat in a gas mask, undated [@Hemmings2019].
     </figcaption>
   </figure>
 </div>
@@ -34,7 +34,7 @@ And although (highly toxic; @Simonis2020) munitions smoke was used in this appli
   <figure>
     <img src="img/mity_mite.jpg" width="500" alt="Technical rendering sketch of a tank with the words Mity Mite on the side. Funnel on bottom of tank leads to exhaust hose below and pipe on bottom of tank has small flexible hose attaching to exhaust hose as well. Exhaust hose comes from below and curves upward to the right. Below the tanks and attached by a frame is a small motor." style="margin: 0 1em 0 1em" />
     <figcaption>
-      [@USMACV1965]
+      [@USMACV1965].
     </figcaption>
   </figure>
 </div>
@@ -51,7 +51,7 @@ The United States military was publishing on the utility of the fogger in offici
   <figure>
     <img src="img/mighty_mite.png" width="500" alt="B/W image in a dirt field. Helmeted soldier on one knee with tank strapped on back. Lifting a board with left hand and holding an exhaust tube from the tank under the board with right hand." style="margin: 0 1em 0 1em" />
     <figcaption>
-      A soldier uses a backpack Mity Mite to fog a tunnel, undated [@USArmy1966]
+      A soldier uses a backpack Mity Mite to fog a tunnel, undated [@USArmy1966].
     </figcaption>
   </figure>
 </div>
@@ -65,7 +65,7 @@ And by 1968's Battle of Khe Sanh, it was standard practice to use foggers for tu
   <figure>
     <img src="img/unpack_test.jpg" width="500" alt="Engineers unpack and test a Mitey-Mite blower in the Vietnamese jungle" style="margin: 0 1em 0 1em" />
     <figcaption>
-      Engineers unpack and test a Mitey-Mite blower, undated [@USAES]
+      Engineers unpack and test a Mitey-Mite blower, undated [@USAES].
     </figcaption>
   </figure>
 </div>

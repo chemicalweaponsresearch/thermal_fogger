@@ -5,9 +5,9 @@ As a result of a [heavy propaganda and branding campaign](#TheReturn), the therm
 Importantly, by the summer of 1968, the Florida Highway Patrol, Chicago Police Department, and California State Police all had purchased foggers.
 
 
-## Miami FL, August 8 1968 {- #MiamiFL1968_08_08}
+## Miami August 8 {- #MiamiFL1968_08_08}
 
-The first use of a thermal fogger to deploy chemical weapons in the US that I have been able to uncover was during the "[Liberty City Riots](https://en.wikipedia.org/wiki/1968_Miami_riot)", which took place in during the [1968 Republican National Convention](https://en.wikipedia.org/wiki/1968_Republican_National_Convention) (RNC) [@Tschenschlok1995; @Tschenschlok1996; @McArdle2018].
+The first use of a thermal fogger to deploy chemical weapons in the US that I have been able to uncover was during the "[Liberty City Riots](https://en.wikipedia.org/wiki/1968_Miami_riot)", which took place in during the [1968 Republican National Convention](https://en.wikipedia.org/wiki/1968_Republican_National_Convention) (RNC) in Miami, Florida [@Tschenschlok1995; @Tschenschlok1996; @McArdle2018].
 A white reporter with the Miami Herald attempted to gain access to rally of concerned Black people that was meant to be only among Black people that was occurring in Liberty City, a Black neighborhood, on August 7th [@Tschenschlok1995; @Tschenschlok1996].
 When the reporter was ejected from the rally, Miami police responded with a large and heavy presence and during the standoff, a white motorist with a "Wallace for President" bumper sticker attempted to drive through but was met with resistance and drove into another car, and fled the scene on foot [@Tschenschlok1995; @Lorentzen2018].
 
@@ -21,9 +21,9 @@ FHP used the truck-mounted thermal foggers indiscriminately and caused visible s
 The fog quickly spread into neighborhood homes, forcing residents outside to seek fresh air [@Tschenschlok1995].
 
 
-## Chicago IL, August 26 - 29 1968 {- #ChicagoIL1968_08_26}
+## Chicago August 26 - 29 {- #ChicagoIL1968_08_26}
 
-Later that month anti-war protests took place in Chicago during the [Democratic National Convention](https://en.wikipedia.org/wiki/1968_Democratic_National_Convention), and a massive force of law enforcement (Chicago Police with assistance from over 6,000 National Guard members and 6,000 Army troops [@TaylorandMorris2018]) responded excessively, including with chemical weapons, on network news [@Schultz1969; @Karnow1983; @Farber1988; @Langguth2000]. 
+Later that month anti-war protests took place in Chicago, Illinois during the [Democratic National Convention](https://en.wikipedia.org/wiki/1968_Democratic_National_Convention), and a massive force of law enforcement (Chicago Police with assistance from over 6,000 National Guard members and 6,000 Army troops [@TaylorandMorris2018]) responded excessively, including with chemical weapons, on network news [@Schultz1969; @Karnow1983; @Farber1988; @Langguth2000]. 
 After four days, hundreds had been given medical assistance for exposure to chemical weapons [@TaylorandMorris2018].
 
 Although I have yet to find contemporary documentation of fogger use during the convention, an AP report on fogger use in [Berkeley the year later](#BerkeleyCA1969_02_21) states
@@ -36,9 +36,9 @@ As such, I consider this a very likely deployment.
 I am continuing to search for evidence.
 
 
-## Berkeley CA, August 31 1968 {-}
+## Berkeley August 31 {-}
 
-A demonstration was called by the Young Socialist Alliance, Independent Socialist Club, and the Black Panther Party in solidarity with anti-war protesters in Chicago who the police had recently brutalized [@PatersonEveningNews1968_08_31; @TheCapitalTimes1968_08_31], including [use of a pepper fogger](#ChicagoIL1968_08_26) [@TheDailyTribune1969_02_21].
+A demonstration in Berkeley, California was called by the Young Socialist Alliance, Independent Socialist Club, and the Black Panther Party in solidarity with anti-war protesters in Chicago who the police had recently brutalized [@PatersonEveningNews1968_08_31; @TheCapitalTimes1968_08_31], including [use of a pepper fogger](#ChicagoIL1968_08_26) [@TheDailyTribune1969_02_21].
 In response, police brutalized the protesters, and in the process brought out a hand-held pepper fogger, a "new police weapon... which produced a gas that caused sneezing" [@PatersonEveningNews1968_08_31].
 
 <br>

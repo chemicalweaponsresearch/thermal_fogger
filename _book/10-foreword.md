@@ -2,25 +2,25 @@
 
 # Foreword {-}
 
-## Land Acknowledgment {-}
+### Land Acknowledgment {-}
 
 This work's impetus comes from present-day Portland, Oregon, United States of America -- the Indigenous land of the Chinook people, who were colonized and spread across multiple federally recognized tribes in Oregon, Washington and Idaho including Cowlitz, Siletz, Wasco, and Yakima.
 
 Chemical weapons are a common tool among oppressive regimes, including colonizing forces.
 The events cataloged in this book occur at many locations across the present-day USA and internationally, including Mexico and Vietnam.
 
-## Content Warning {-}
+### Content Warning {-}
 
 This booklet deals with police and corrections violence in frank terminology.
 Pictures of chemical weapons being deployed on individuals, including those passively resisting, are included.
 Casualties and fatalities are discussed.
 
-## Inherent Bias {-}
+### Inherent Bias {-}
 
-This booklet timeline has been produced by collating historical documentation and records, which are inherently biased, as will be planly evident in the documents.
+This book has been produced by collating historical documentation and records, which are inherently biased, as will be plainly evident in the documents.
 As such, it is important to recognize that there are likely records that have not yet been found by the researchers or which have been lost to time, and even more substantially it is critical to be clear about the fact that many uses of thermal foggers have likely never been recorded, as too will be made clear through the documents that have been recovered.
 
-## Author Position {-}
+### Author Position {-}
 
 I, Dr. Juniper L. Simonis (_they/them/theirs_), am a 36-year-old middle-class, white, non-binary, queer, physically and psychologically disabled person. 
 I come to the study of the history of chemical weapons use in America via my personal experience being the recipient of law enforcement's chemical weapons and my ensuing scientific research into its impacts on the environment.
@@ -29,12 +29,12 @@ Through my ecological research, I have uncovered historical and current informat
 From this need to share historical information came this booklet, a concise way for me to pass along a window into the racist, classist, capitalistic, and colonialistic throughline of the thermal fogger.
 I am an abolitionist in multiple senses: I believe that the use of chemical weapons, police, and the carceral system should all be abolished, full-stop.
 
-## Financial Statement {-}
+### Financial Statement {-}
 
 All work for this product was conducted by Dr. Juniper L. Simonis via internal time at DAPPER Stats.
 No external funding was provided.
 
-## Acknowledgments {-}
+### Acknowledgments {-}
 
 My deepest heartfelt condolences to the family of Robert Forsythe.
 I cannot even begin to imagine the impact Bobby's murder and the subsequent trial and media presence had on you and your community.
@@ -46,6 +46,8 @@ I have no idea how many people have been involved in digitizing historical newsp
 
 Sandra Simonis provided significant help with writing alt-text for images.
 
-## Contribute Information {-} 
+Twitter users NewNameJeanette and WillHickox notified me of the [Lawrence High School](#Lawrence1970_04_21) protest and use of the thermal fogger, for which I am very thankful.
+
+### Contribute Information {-} 
 
 If you are aware of incidents where a pepper fogger was used to deploy chemical weapons that we have not included, please [reach out](/contact/)!

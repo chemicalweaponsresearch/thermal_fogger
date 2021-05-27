@@ -1,5 +1,5 @@
 
-# Vietnam {-}
+# Vietnam {- #Vietnam}
 
 The modern day use of thermal foggers for chemical weapons deployment was born from the American colonization of Vietnam in the mid-to-late-20th Century [@Bunker1996]. 
 
@@ -22,7 +22,7 @@ The specialized forces designated for the work were dubbed "Tunnel Rats" and tea
 </div>
 <br>
 
-## Genesis {-}
+## Genesis {- #Genesis}
 
 In 1965, the US Chemical Advisor to the South Vietnamese Army's (ARVN) III Corps participated in planning a "search and destroy" operation in the Iron Triangle, which was known to house an elaborate Viet Cong tunnel system, and suggested using a Mity Mite fogger to aid in clearing tunnels [@USMACV1965].
 On the first day of the operation (October 8th), the force located a tunnel and set into motion an elaborate scheme to fog the tunnels with [hexachloroethane (HC)](/hc) smoke from burning pots, marking the first known tactical use of a thermal fogger to deploy chemical weapons agents [@USMACV1965; @RottmanDelf2012].

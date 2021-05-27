@@ -1,0 +1,29 @@
+# Celebrations {-}
+
+On occassion, police forces have used foggers against protests or riots that are more of a celebratory nature but still do not respond to their commands to disperse.
+
+### 1975 New Years Eve {-}
+
+New Year's Eve 1975 was apparently quite raucous in Florida, as many cities experienced revelry that got out-of-hand enough to elicit police use of force [@TheTampaTribune1976_01_02].
+In Ft. Lauderdale, party-goers pulled down a traffic light and police deployed multiple foggers on a crowd of 2,500 on the beach [@TheTampaTribune1976_01_02].
+
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/ft_lauderdale_1975_12_31.png" alt="B/W image: Two people in foreground wearing helmets and face shields with gas masks and uniforms with short sleeves walking towards the camera, carrying boxy looking tools with nozzles pointing forward, with both hands. Person behind, also in short sleeve uniform, helmet, and gas mask carrying slim sabre or rod across the body. Behind these people seem to be more people but there are no clear details.    " width="500"  style="margin: 0 1em 0 1em" />
+     <figcaption> 
+       Police carrying pepper foggers towards a crowd in the street, Ft Lauderdale, FL 12/31/1975 [@UPIphoto1975].
+     </figcaption>
+  </figure>
+</div>
+<br>
+
+
+The mayhem was noteworthy enough to garner publication in the Berkeley Gazette [@BerkeleyGazette1976_01_02] as well as the Tampa Tribune [@TheTampaTribune1976_01_02].
+
+
+### 1974 NHRA Nationals {-}
+
+Indiana State Police used a pepper fogger and gas grenades on a crowd of 2,000 drag racing fans blocking a highway between the track and campsites at the Hot Rod Association's US Nationals in Clermont IN, September 1 1974 [@Courier1974_09_02; @TheBillingsGazette1982_01_10].
+
+

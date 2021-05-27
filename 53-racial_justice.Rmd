@@ -7,14 +7,14 @@ Indeed, the first use of the fogger in the United States was during the [Liberty
 The thermal fogger made a very visible return to the public sphere in July of 2020, when US Customs and Border Protection (CBP) officers brought a bright-green version to Portland, OR during the [2020 Black Lives Matter protests](#PortlandOR2020_07_29) [@pb20202021].
 Since then, the fogger has been deployed [three additional times by CBP in Portland](), all at the property Immigration and Customs Enforcement (ICE) rents on the South Waterfront.
 
-## Danville IL, Aug 10 1969 {-}
+## Danville {-}
 
 Foggers have been used in a variety of cities, not just major metropolitan areas. 
 
-Danville, Illinois (1970 pop. 42,570 [@USCB1970]) Police used a pepper fogger to disperse a crowd of Black protesters that had used picnic tables to barricade a street through their neighborhood on a second night of demonstrations [@Palladium-Item1969].
+Danville, Illinois (1970 pop. 42,570 [@USCB1970]) Police used a pepper fogger to disperse a crowd of Black protesters that had used picnic tables to barricade a street through their neighborhood on a second night of demonstrations [@Palladium-Item1969], August 10th 1969.
 
 
-## Portland OR 2020-2021 {- #PortlandOR2020_2021}
+## Portland OR {- #PortlandOR2020_2021}
 
 ### July 29 2020 {- #PortlandOR2020_07_29}
 
@@ -39,12 +39,11 @@ This machine is designed and marketed for bird control, and while "_training too
 
 
 
-### October 17 2020, January 20 & 23 2021 {- #PortlandORICE2020_2021}
+### Immigration and Customs Enforcement Rental Property {- #PortlandORICE2020_2021}
 
-While the thermal fogger hasn't been deployed at the Courthouse in Portland since July 29 2020, it has been used repeatedly by Department of Homeland Security agents at the private property US Immigration and Customs Enforcement rents to use as a holding center for deportees in South Waterfront neighborhood (Simonis, personal observation).
+While the thermal fogger hasn't been deployed at the federal Courthouse in downtown Portland since July 29 2020, it has been used repeatedly by Department of Homeland Security agents at the private property US Immigration and Customs Enforcement rents to use as a holding center for deportees in the South Waterfront neighborhood [@Simonis2021].
 
-The first of such deployments occurred during the fall of 2020.
-
+The first of such deployments occurred during the fall of 2020
 
 <br>
 <div style="text-align: center;">
@@ -59,7 +58,8 @@ The first of such deployments occurred during the fall of 2020.
 
 #### Inaugration 2021 {- #J20}
 
-The same fogger (or at least the same model) was again brought out at the ICE rental property on January 20th 2021 (Inaguration Day; "J20") in response to a protester spray painting a piece of plywood tacked outside the building (Simonis, personal observation). 
+The same fogger (or at least the same model) was again brought out at the ICE rental property on January 20th 2021 (Inaguration Day; "J20") in response to a protester spray painting a piece of plywood tacked outside the building [@Simonis2021]. 
+The fogged up and down multiple blocks, with visible plumes entering units in the adjacent apartment complexes and covering the playground of an adjacent public school [@Simonis2021].
 
 <br>
 <div style="text-align: center;">
@@ -72,7 +72,7 @@ The same fogger (or at least the same model) was again brought out at the ICE re
 </div> 
 <br>
 
-That weekend, CBP deployed the fogger against another protest.
+That weekend, CBP deployed the fogger again, this time gassing even more of the neighborhood, including the local public school [@Simonis2021].
 
 
 <br>

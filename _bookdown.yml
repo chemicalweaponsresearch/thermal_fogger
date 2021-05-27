@@ -9,10 +9,9 @@ rmd_files:
     - "52-high_schools.Rmd"
     - "53-racial_justice.Rmd"
     - "54-labor.Rmd"
-    - "55-NYE.Rmd"
-    - "56-NHRA.Rmd"
+    - "55-celebrations.Rmd"
     - "60-the_carceral_system.Rmd"
-    - "70-trainings.Rmd"
+    - "70-accidents.Rmd"
     - "99-references.Rmd"
 new_session: yes
 delete_merged_file: true

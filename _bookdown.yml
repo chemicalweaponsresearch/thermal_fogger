@@ -4,8 +4,15 @@ rmd_files:
     - "20-introduction.Rmd"
     - "30-vietnam.Rmd"
     - "40-the_return.Rmd"
-    - "50-deployments1.Rmd"
-    - "60-deployments2.Rmd"
+    - "50-the_conventions.Rmd"
+    - "51-universities.Rmd"
+    - "52-high_schools.Rmd"
+    - "53-NHRA.Rmd"
+    - "54-NYE.Rmd"
+    - "55-labor.Rmd"
+    - "56-pdx.Rmd"
+    - "60-the_carceral_system.Rmd"
+    - "70-trainings.Rmd"
     - "99-references.Rmd"
 new_session: yes
 delete_merged_file: true

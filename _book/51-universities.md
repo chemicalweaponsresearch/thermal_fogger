@@ -14,7 +14,7 @@ The police reportedly chased protesters across campus with the fogger, including
   <figure>
     <img src="img/durham_1969_02_13_1.jpg" alt="B/W Image: One person wearing gas mask and helmet, centered, stepping to the right. Person is holding slim white club in left hand and pepper-fogger in right hand. Fogger is pointing forward and a white cloud is surrounding the person to the front, back, and behind. The remaining background is black.    " width="500"  style="margin: 0 1em 0 1em" />
     <figcaption> 
-      Deployment of a thermal fogger by police on Duke Campus, Durham NC, 2/13/1969 [@DMH1969].  
+      Deployment of a thermal fogger by police on Duke Campus [@DMH1969].  
     </figcaption>
   </figure>
 </div> 
@@ -25,7 +25,7 @@ The police reportedly chased protesters across campus with the fogger, including
   <figure>
     <img src="img/durham_1969_02_13_2.jpg" alt="B/W Image: Background has brick building with steps. In front of the building from center to right, a line of 5 police officers facing front and wearing helmets & gas masks holding slim white clubs about a yard long. They are standing with legs apart and clubs in both hands in front of their bodies. On the left 5 officers similarly dressed, facing towards one another. Four slim clubs are visible, and one officer is holding what appears to be a fogger in one arm hanging down at the side.    " width="500"  style="margin: 0 1em 0 1em" />
     <figcaption> 
-      Police with pepper fogger on Duke campus, Durham NC 2/13/1969 [@DMH1969].  
+      Police with pepper fogger on Duke campus [@DMH1969].  
      </figcaption>
   </figure>
 </div> 
@@ -44,7 +44,7 @@ A year after using the fogger on a protest held in solidarity with the Chicago P
   <figure> 
     <img src="img/berkeley_1969_02_21a.jpg" alt="B/W newspaper clipping. Four people walking towards camera wearing helmets with face shields. Person on the left wearing white shirt and tie has several items hanging from belt. In right hand carrying radio with extended antenna. On right side person dressed in all black standing with a wide stance and holding pepper-fogger at hip height in right hand aimed forward. In center two more people dressed in all black, one with a short stick or club in left hand. Background is mostly cloudy with someone behind white shirt person, holding some sort of stick aloft.  Glimpses of additional bodies are visible in the cloudy background.    " width="500"  style="margin: 0 1em 0 1em" />
      <figcaption> 
-       Police use a pepper fogger and other weapons to clear a University plaza, Berkeley CA 2/21/1969 [@APphoto1969a].
+       Police use a pepper fogger and other chemical weapons to clear a University plaza [@APphoto1969a].
      </figcaption>
   </figure>
 </div> 
@@ -57,7 +57,7 @@ This deployment was covered in papers across the country including the Press-Tel
   <figure> 
     <img src="img/berkeley_1969_02_21b.jpg" alt="B/W newspaper clipping. Rather difficult to make out the people differentially in the background, but there's a large group of folks standing in the back part of the photo, the mid ground is relatively empty but filling with a cloud of white smoke eminating from an area on the left that appears to be an officer holding a thermal fogger. Behind everyone is the student union. " width="500"  style="margin: 0 1em 0 1em" />
      <figcaption> 
-       Police use a pepper fogger and other weapons to clear a University plaza, Berkeley CA 2/21/1969 [@APphoto1969a].
+       Police engulf a University plaza in chemical fog [@APphoto1969a].
      </figcaption>
   </figure>
 </div> 
@@ -74,7 +74,7 @@ The following week, the police in Berkeley were joined by California National Gu
   <figure>
     <img src="img/berkeley_1969_02_28_1.jpg" alt="Guardsmen with bayonetted rifles and sheriff's deputies with tear and and pepper fogger walking through UC campus: B/W newspaper clipping:  Eight people in masks, shields, and tied boots walking from left to right, the one in front wearing a spray fogger strapped on back and holding the hose and nozzle in front. A cloud of fog is spraying from the nozzle. The second person is carrying a bayoneted rifle upright. The others are only partially visible as they are passing behind a tree. On the right ahead of the others an additional helmeted person can be seen turning towards the left. Two slim trees are in the foreground.    " width="500"  style="margin: 0 1em 0 1em" />
      <figcaption> 
-       National guardsmen and police use a pepper fogger and other weapons on striking students, Berkeley CA 2/28/1969 [@APphoto1969c].
+       National guardsmen and police fog UC Berkeley [@APphoto1969c].
      </figcaption>
   </figure>
 </div> 
@@ -85,7 +85,7 @@ The following week, the police in Berkeley were joined by California National Gu
   <figure>
     <img src="img/berkeley_1969_02_28_2.jpg" alt="Four people walking away from camera, wearing helmets and holsters. Lead person has a fogger on their back and is holding the hose on the right spraying a fog ahead of them. Person on the right is carrying a bayoneted rifle raised above the left shoulder. The four are walking into the fog they’ve produced. There are some small trees to the right.    " width="500"  style="margin: 0 1em 0 1em" />
      <figcaption> 
-       View from behind of the police using a pepper fogger on striking students, Berkeley CA 2/28/1969 [@APphoto1969d].
+       View from behind of the police using a pepper fogger on striking students [@APphoto1969d].
      </figcaption>
   </figure>
 </div> 
@@ -138,7 +138,21 @@ By later in the day, UMD students had heard about the Ohio National Guard shooti
 </div> 
 <br>
 
-## Iowa City {-}
+The Maryland State Police liked the [GOEC](#GOEC) fogger so much they included it in their Manual on Civil Disturbances as a tool for deploying [CS gas](https://en.wikipedia.org/wiki/CS_gas) [@MSP]:
+
+
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/MSP.jpg" alt="Black and white photo of a GOEC Pepper Fog fogger on a white ground with a maryland state police badge and in front of a brick wall. The fogger is in the mid right and points off to the left." width="500"  style="margin: 0 1em 0 1em" />
+     <figcaption> 
+       Maryland State Police's [GOEC](#GOEC) pepper fogger [@MSP].
+     </figcaption>
+  </figure>
+</div> 
+<br>
+
+## Iowa City {- #IowaCity}
 
 Johnson County sheriffs - including two deputies carrying pepper foggers - used chemical weapons against protesters in Iowa City, Iowa IA on May 6 1971  [@Eckholt1971].
 
@@ -156,6 +170,6 @@ The fogger was used to direct the crowd around campus and spread gas over large 
 
 ## Gainesville  {-}
 
-Similarly to in [Minneapolis](#Minneapolis1972_05_10), on the campus of the University of Florida in Gainesville, Florida Highway Patrol deployed a riot vehicle dubbed "The Monster" which "spewed tear gas" [@ArgusLeader1972_05_11b].
+Similarly to the anti-mine protests in [Minneapolis](#Minneapolis1972_05_10), on the campus of the University of Florida in Gainesville, Florida Highway Patrol deployed a riot vehicle dubbed "The Monster" which "spewed tear gas" [@ArgusLeader1972_05_11b].
 Although a fogger is not mentioned specifically, this is the same agency (Florida Highway Patrol) that first [deployed thermal foggers via a truck](Liberty City #MiamiFL1968_08_08) in 1968 [@Tschenschlok1995; @Lorentzen2018]. 
 

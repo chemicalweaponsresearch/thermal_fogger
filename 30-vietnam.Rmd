@@ -24,7 +24,7 @@ The specialized forces designated for the work were dubbed "Tunnel Rats" and tea
 
 ## Genesis {- #Genesis}
 
-In 1965, the US Chemical Advisor to the South Vietnamese Army's (ARVN) III Corps participated in planning a "search and destroy" operation in the Iron Triangle, which was known to house an elaborate Viet Cong tunnel system, and suggested using a Mity Mite fogger to aid in clearing tunnels [@USMACV1965].
+In 1965, the US Chemical Advisor to the South Vietnamese Army's (ARVN) III Corps participated in planning a "search and destroy" operation in the Iron Triangle, which was known to house an elaborate Viet Cong tunnel system, and suggested using a Mity Mite (Mitey Mite, Mighty Mite) fogger to aid in clearing tunnels [@USMACV1965].
 On the first day of the operation (October 8th), the force located a tunnel and set into motion an elaborate scheme to fog the tunnels with [hexachloroethane (HC)](/hc) smoke from burning pots, marking the first known tactical use of a thermal fogger to deploy chemical weapons agents [@USMACV1965; @RottmanDelf2012].
 Overall, the endeavor was dubbed a success in the report distributed the next month, despite the tunnel having been empty already [@USMACV1965].
 And although (highly toxic; @Simonis2020) munitions smoke was used in this application, it was noted that tear gas would be "very effective in flushing VC from tunnels" should there been any present [@USMACV1965]. 
@@ -51,7 +51,7 @@ The United States military was publishing on the utility of the fogger in offici
   <figure>
     <img src="img/mighty_mite.png" width="500" alt="B/W image in a dirt field. Helmeted soldier on one knee with tank strapped on back. Lifting a board with left hand and holding an exhaust tube from the tank under the board with right hand." style="margin: 0 1em 0 1em" />
     <figcaption>
-      A soldier uses a backpack Mity Mite to fog a tunnel, undated [@USArmy1966].
+      A soldier uses a backpack Mity Mite to fog a tunnel [@USArmy1966].
     </figcaption>
   </figure>
 </div>
@@ -63,12 +63,44 @@ And by 1968's Battle of Khe Sanh, it was standard practice to use foggers for tu
 <br>
 <div style="text-align: center;">
   <figure>
-    <img src="img/unpack_test.jpg" width="500" alt="Engineers unpack and test a Mitey-Mite blower in the Vietnamese jungle" style="margin: 0 1em 0 1em" />
+    <img src="img/unpack_test.jpg" width="500" alt="B/W image. In a clearing in a densely vegetated area, a small tank with an exhaust pipe blowing fog to the right. The cloud of fog covers much of the right side. Towards the back, 2 people wearing helmets and fatigues with sleeves rolled up stand with hands on hips on either side of the fogger, watching it." style="margin: 0 1em 0 1em" />
     <figcaption>
-      Engineers unpack and test a Mitey-Mite blower, undated [@USAES].
+      Engineers unpack and test a Mitey-Mite blower [@USAES].
     </figcaption>
   </figure>
 </div>
 <br>
 
+In 1969, the US Army Limited War Laboratory published a report on "riot control" methods that included a section on foggers and agents for use in them, naming the [General Ordinance Equipment Corporation](#GOEC) and [Federal Laboratories](#DefenseTech) models that were already in production [@Samuelsetal1969].
 
+
+## International Melting Pot {-}
+
+A handful of other countries were explicitly involved in supporting the US colonization in Vietnam, providing an pathway for the fogger idea to be rapidly picked up by the armed forces of other nations.
+For example, by 1966 the Australian Tunnel Rats were particularly fond of fogging tunnels with acetylene [@vietnam_aus1; @vietnam_aus2].
+
+
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/vietnam_aus1.jpg" width="500" alt="Black and white photo of a Mighty Mite blower on the left and two containers of acetylene in the middle, both containers are metal boxes with labeling in small white text and then some bladder bag on top. There are large vaccum size hozes coming off the blower and going off frame to the right. The scene is the ground of a jungle that has been cleared a little, there are trees and foliage in the background and dense but matted down grass in the fore." style="margin: 0 1em 0 1em" />
+    <figcaption>
+      Double Acetylene Generator and a Mighty Mite Air Blower Used to Blow Fumes into Viet Cong Tunnels [@vietnam_aus1].
+    </figcaption>
+  </figure>
+</div>
+<br>
+
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/vietnam_aus2.jpg" width="500" alt="An individual crouches on the ground next to a blower, facing off to the right, with his left hand slightly resting on it. The photo is aimed down at this person, so the two people looking at the fogger while standing are partially visible from the feet upwards. The photo is an old black and white image and there are items around the sides that are difficult to make out, including potentially a cache of chemical weapons grenades on the right side and some sandbacks in the back." style="margin: 0 1em 0 1em" />
+    <figcaption>
+      Mighty Mite Machine Used to Contaminate Viet Cong Tunnel Systems with Acetylene [@vietnam_aus2].
+    </figcaption>
+  </figure>
+</div>
+<br>
+
+And, [as expected](#TheReturn), the fogger quickly made it to Australian police departments, although with a decidedly different response from the news media, who called it "highly controversial" admist a Sydney Police spending scandal [@Allen1972].
+Unnamed Australian arms experts who spoke on background said there was no application for the fogger in the country [@Allen1972], although that hasn't stopped its use elsewhere. 

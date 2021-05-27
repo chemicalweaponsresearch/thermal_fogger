@@ -11,7 +11,7 @@ Although undated, this photograph printed in The Delta Democrat-Times (Greenvill
   <figure>
     <img src="img/san_bernardino_1969_xx_xx.jpg" alt="B/W faded image: To the left is a person wearing a uniform with a patch on the shoulder and a helmet. In their right hand is the nozzle to a fogger and it appears to be emitting fog. There is a white fog cloud covering most of the rest of the image." width="500"  style="margin: 0 1em 0 1em" />
      <figcaption> 
-       Police use a pepper fogger on a crowd of students at San Gordonio High School, San Bernardino [@UPIphoto1969].  
+       Police use a pepper fogger on students at San Gordonio High School [@UPIphoto1969].  
      </figcaption>
   </figure>
 </div> 

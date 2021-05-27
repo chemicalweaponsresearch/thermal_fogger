@@ -12,6 +12,8 @@ rmd_files:
     - "55-celebrations.Rmd"
     - "60-the_carceral_system.Rmd"
     - "70-accidents.Rmd"
+    - "80-cbp.Rmd"
+    - "90-science.Rmd"
     - "99-references.Rmd"
 new_session: yes
 delete_merged_file: true

@@ -15,7 +15,7 @@ For example, Riley County (Kansas; 1970 pop. 56,788; @USCB1970) Sheriffs had a f
 The thermal fogger made a very visible return to the public sphere in July of 2020, when US Customs and Border Protection (CBP) officers brought a bright-green version to Portland, OR during the [2020 Black Lives Matter protests](#PortlandOR2020_07_29) [@pb20202021].
 Since then, the fogger has been deployed [three additional times by CBP in Portland](#PortlandORICE2020_2021), all at the property Immigration and Customs Enforcement (ICE) rents on the South Waterfront.
 
-## Danville {-}
+## Danville IL {-}
 
 Foggers have been used in a variety of cities, not just major metropolitan areas. 
 
@@ -30,7 +30,7 @@ At the beginning of July 2020, then-president Trump deployed Department of Homel
 During the final days of the visible presence and response of federal agents in Summer 2020, Customs and Border Protection (CBP) unveiled their thermal fogger [@Recompiler2020_07_29], which has been identified through photos as an [IGEBA TF35](https://www.nixalite.com/product/igeba-tf-35) thermal fogger from Nixalite of America Inc.
 This machine is designed and marketed for bird control, and while "_training tool for military/law enforcement_" is listed among its uses [@Nixalite2009a], its safety requirements explicitly state: 
 
-> "_**19. Do not fog directly against persons...During operation keep distance of minimum [10 ft].**_"  - [@Nixalite2009b].
+> "_**19. Do not fog directly against persons...During operation keep distance of minimum [10 ft].**_"  - [@Nixalite2009b]
 
 <br>
 
@@ -49,7 +49,7 @@ This machine is designed and marketed for bird control, and while "_training too
 
 
 
-### Immigration and Customs Enforcement Rental Property {- #PortlandORICE2020_2021}
+### Abolish ICE: Immigration and Customs Enforcement Rental Property {- #PortlandORICE2020_2021}
 
 While the thermal fogger hasn't been deployed at the federal Courthouse in downtown Portland since July 29 2020, it has been used repeatedly by Department of Homeland Security agents at the private property US Immigration and Customs Enforcement (ICE) rents to use as a holding center for deportees in the South Waterfront neighborhood [@Simonis2021] -- the same building that saw the weeks-long Ocuppy ICE protests in 2018 [@Dubois2018]. 
 
@@ -74,7 +74,7 @@ After marching to the ICE rental property, individuals tied the balloons to the 
  
 <br>
 
-#### Inaugration 2021 {- #J20}
+### Inaugration 2021 {- #J20}
 
 The same fogger (or at least the same model) was again brought out at the ICE rental property on January 20th 2021 during the Inauguration Day ("J20") Abolish ICE protests in response to an individual spray painting a piece of plywood tacked outside the building [@Recompiler2021_01_20]. 
 The fogged up and down multiple blocks, with visible plumes entering units in the adjacent apartment complexes and covering the playground of an adjacent public school [@Recompiler2021_01_20; @Simonis2021].

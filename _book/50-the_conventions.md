@@ -33,9 +33,7 @@ After four days, hundreds had been given medical assistance for exposure to chem
 
 Although I have yet to find contemporary documentation of fogger use during the convention, an AP report on fogger use in [Berkeley the year later](#BerkeleyCA1969_02_21) states
 
-> A similar device was used during demonstrations in Chicago during the Democratic convention last summer.
-
-[@TheDailyTribune1969_02_21]
+> A similar device was used during demonstrations in Chicago during the Democratic convention last summer. - @TheDailyTribune1969_02_21
 
 As such, I consider this a very likely deployment.
 I am continuing to search for evidence.

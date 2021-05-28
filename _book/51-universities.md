@@ -50,7 +50,7 @@ The police reportedly chased protesters across campus with the fogger, including
 
 #### February 21 1969 {- #BerkeleyCA1969_02_21}
 
-A year after using the fogger on a protest held in solidarity with the Chicago Protest](#ChicagoIL1968_08_26), police in Berkeley again deployed a fogger to clear demonstrators including striking students from outside a University Regents and Sproul Hall plaza on the University of California campus. 
+A year after [using the fogger on a protest held in solidarity with the Chicago Protest](#ChicagoIL1968_08_26), police in Berkeley again deployed a fogger to clear demonstrators including striking students from outside a University Regents and Sproul Hall plaza on the University of California campus. 
 
 <br>
 

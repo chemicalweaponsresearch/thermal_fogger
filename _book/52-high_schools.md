@@ -6,9 +6,9 @@ title: High Schools
 
 Almost immediately, law enforcement extended use of foggers from [universities]{#Universities} to high schools, specifically using the weapons against Black youth protesters.
 
-I will stop to repeat that again so that we can all (myself included).
+I will stop to repeat that again so that we can all (myself included) reflect on this.
 
-Law enforcement agencies used chemical weapons against Black junior and high school students during the Civil Rights Era, including a weapon (the thermal fogger) developed not even five years prior to [gas Vietnamese soldiers and civilians from tunnels](#Vietnam).
+Law enforcement agents used chemical weapons against Black junior and high school students during the Civil Rights Era, including a weapon (the thermal fogger) developed not even five years prior to [gas Vietnamese soldiers and civilians from tunnels](#Vietnam).
 
 ## San Gordonio {- #SanGordonio}
 
@@ -24,12 +24,12 @@ Although undated, this photograph printed in The Delta Democrat-Times (Greenvill
 
 }
 
-\caption{(ref:)}(\#fig:imgsanbernardino1969xxxx)
+\caption{(ref:imgsanbernardino1969xxxx)}(\#fig:imgsanbernardino1969xxxx)
 \end{figure}
  
 <br>
 
-This event appears credible, given the much more documented deployment on December 3, 1971.
+Use of the thermal fogger by police that day seems likely, given their more documented deployment of it on December 3, 1971.
 On that day, a combination of San Bernardino police, San Bernardino County sheriffs, and California Highway Patrol used tear gas from a pepper fogger to break up a "major racial confrontation" among students at San Gorgonio High School and across a 20-block area surrounding campus [@Yetzeretal1971].
 
 

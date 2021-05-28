@@ -33,7 +33,7 @@ And although (highly toxic; @Simonis2020) munitions smoke was used in this appli
 
 <br>
   
-(ref:imgmitymite) [@USMACV1965]
+(ref:imgmitymite) Technical drawing of a backpack fogger [@USMACV1965]
 
 ```{r imgmitymite, out.width = 500, fig.cap="(ref:imgmitymite)", fig.alt = "Technical rendering sketch of a tank with the words Mity Mite on the side. Funnel on bottom of tank leads to exhaust hose below and pipe on bottom of tank has small flexible hose attaching to exhaust hose as well. Exhaust hose comes from below and curves upward to the right. Below the tanks and attached by a frame is a small motor.", echo = FALSE, fig.align = "center"}
     

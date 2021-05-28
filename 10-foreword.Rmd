@@ -46,6 +46,11 @@ I am an abolitionist in multiple senses: I believe that the use of chemical weap
 All work for this product was conducted by Dr. Juniper L. Simonis via internal time at DAPPER Stats.
 No external funding was provided.
 
+### Licenses {-}
+
+This book it created under a [dual license](https://github.com/chemicalweaponsresearch/thermal_fogger/blob/main/LICENSE.md) that recognizes a separation between the software and non-software components.
+All underlying documents (photos, etc.) are cited in the [References](#References) amd do not indicate the original licensor endorses this book or its authors.
+
 ### Acknowledgments {-}
 
 My deepest heartfelt condolences to the family of Robert Forsythe.
@@ -65,4 +70,4 @@ Twitter users NewNameJeanette and WillHickox notified me of the [Lawrence High S
 
 ### Contribute Information {-} 
 
-If you are aware of incidents where a pepper fogger was used to deploy chemical weapons that we have not included, please reach out [via the Chem Weapons Research Website](chemicalweaponsresearch.com/contact/) or submit an [issue](https://github.com/chemicalweaponsresearch/thermal_fogger/issues/new/choose) or [pull request](https://github.com/chemicalweaponsresearch/thermal_fogger/compare) on our [GitHub repository for the book](https://github.com/chemicalweaponsresearch/thermal_fogger).
+If you are aware of incidents where a pepper fogger was used to deploy chemical weapons that we have not included, please reach out [via the Chem Weapons Research Website](https://chemicalweaponsresearch.com/contact/) or submit an [issue](https://github.com/chemicalweaponsresearch/thermal_fogger/issues/new/choose) or [pull request](https://github.com/chemicalweaponsresearch/thermal_fogger/compare) on our [GitHub repository for the book](https://github.com/chemicalweaponsresearch/thermal_fogger).

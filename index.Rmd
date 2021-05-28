@@ -22,25 +22,16 @@ is_online = curl::has_internet()
 is_html = knitr::is_html_output()
 ```
 
-```{asis index-2, echo=is_html}
-#  {-}
 
-This is the online home of *The Thermal Fogger: An Imperial Tetherball*, an open-source, actively curated book on the history of thermal foggers in chemical warfare.
-[An archived version is available on Zenodo](https://doi.org/10.5281/zenodo.4668002).
 
-<br>
-<div style="text-align: center;">
-<figure>
-  <img src="img/cover.png" width="750" alt="B/W newspaper clipping. To left is an officer wearing long pants, long sleeved shirt, and a helmet walking forward carrying a fogger in the right hand. The fogger is blowing fog through a tube and a cloud is forming. Background is a storefront window and door. To the right 2 people are moving away from the fog, leaning on one another, and covering their faces with their hands." style="margin: 0 1em 0 1em" />
-  <figcaption>
-  Deployment of a thermal fogger by police in Berkeley CA, 8/31/1968 [@UPIphoto1968]
-  </figcaption>
-</figure>
-</div>
+(ref:imgcover) Deployment of a thermal fogger by police in Berkeley CA, 8/31/1968 [@UPIphoto1968]
 
-<br>
+```{r imgcover, out.width = 500, fig.cap="(ref:imgcover)", fig.alt = "Black and white newspaper clipping. To left is an officer wearing long pants, long sleeved shirt, and a helmet walking forward carrying a fogger in the right hand. The fogger is blowing fog through a tube and a cloud is forming. Background is a storefront window and door. To the right 2 people are moving away from the fog, leaning on one another, and covering their faces with their hands.", echo = FALSE, fig.align = "center"}
+    
+knitr::include_graphics("img/cover.png")
+```  
 
-```
+[An archived version of this book is available on Zenodo](https://doi.org/10.5281/zenodo.4668002).
 
 
 ```{r include=FALSE}

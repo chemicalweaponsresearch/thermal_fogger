@@ -8,14 +8,10 @@ On July 29th, 2020 federal agents of the Department of Homeland Security (DHS) C
 
 (ref:imgportland20200729) CBP agent using a thermal fogger in front of the federal courthouse, Portland OR, 7/29/2020 [@Brown2020]
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/portland_2020_07_29} 
-
-}
-
-\caption{(ref:imgportland20200729)}(\#fig:imgportland20200729)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/portland_2020_07_29.jpg" alt="Fully riot-geared and for some reason in green camo US Homeland Security agents (to the middle and the left of the photo) behind a row of two-foot tall, one-foot radius metal posts, behind a metal grate wall over 7 feet tall with metal support beams and concrete pylon buttressing. In the front of the left side is an agent holding a plastic clear riot shield, through which you can see a patch that say 'Border Patrol Federal Agent' in yellow and some insignia patches as well. In the middle are the agents in camo, one with a hand on the shoulder of another who is operating a thermal fogger machine shooting gas through the fence. The machine is maybe four or five feet long and has a body not unlike a bush whacker with a two-cycle engine, but fueling a vaporizer instead of a rotor. The agent is holding the machine with their right hand visibly and there is a black strap across their shoulder holding it up. The machine is mostly shiny metal, although the tip is showing signs of corrosion (no surprise based on the compounds and heat) and the supports of the body are a bright green" width="500" />
+<p class="caption">(\#fig:imgportland20200729)(ref:imgportland20200729)</p>
+</div>
 
 
 In doing so, DHS made a large swath of the populace aware of an insidious weapon that was [birthed](#Genesis) in the American occupation of Vietnam, perfected for use against domestic protesters in the 1960s and '70s, and sent abroad via US Border Patrol in the years since. 

@@ -17,14 +17,10 @@ The original Mighty Mite that established the fogger as a method of chemical dis
 
 (ref:imgM106) M-106 Mighty Mite Thermal Fogger, as promoted to law enforcement in @Applegate1969. According to @Applegate1969, it is an "insecticide blower ... adopted for use in Vietnam... [that can disperse] the gas agent continuosly for [15 minutes]".
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/M106} 
-
-}
-
-\caption{(ref:imgM106)}(\#fig:imgM106)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/M106.png" alt="Yellowed black and white photo of a stationary Mighty Mite thermal fogger. It's a backpack fogger, so there's a giant hose that's like a vacuum hose wrapped around in the middle and then another one coming off of the actual backpack, which is upright in the middle back right. there is a metal frame and a large reservoir tank sitting on top of the engine and other aspects of the machinery. There is a tube running out to the end of the hose nose from the back pack. On the right side of the image is a scale bar that makes it seem like the backpack is 24 inches tall." width="500" />
+<p class="caption">(\#fig:imgM106)(ref:imgM106)</p>
+</div>
 
 <br>
 
@@ -41,14 +37,10 @@ By the end of August 1969, GOEC had received the trademark on "Pepper Fog", whic
 
 (ref:goecpf) General Ordnance Equipment Corporation thermal fogger [@GOECphoto], as shown in @Applegate1969.
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/goec_pf} 
-
-}
-
-\caption{(ref:goecpf)}(\#fig:goecpf)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/goec_pf.png" alt="Yellowed black and white photo of a stationary pepper fog thermal fogger pointed to the left sitting by itself. The main body is a square box that's dark with a tag in the middle that's lighter and has dark writing on it that says pepper fog g o e c. The nozzle points to the left and is a longer thinner tube about twice as long as the main body. It is also dark and has a metal cage around it that is sparse and shiny. There's also a handle and some knobs on the top of the item and something that's a little bit difficult to make out off the back of the main body." width="500" />
+<p class="caption">(\#fig:goecpf)(ref:goecpf)</p>
+</div>
 
 <br>
 
@@ -62,14 +54,10 @@ Indeed, to this day, the current owner of the legacy branding ([Safariland](http
 
 (ref:imgdefensetechgepf) Product image for thermal fogger [@DTPFGphoto].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/defense_tech_gepf} 
-
-}
-
-\caption{(ref:imgdefensetechgepf)}(\#fig:imgdefensetechgepf)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/defense_tech_gepf.png" alt="Yellow-gold box shape tool with a handle on top, an image of an eagle in flight on the side, and some gauges on top.The back of the box tapers and appears to have switches and controls. Coming out of the front is a long tube that narrows at the end. The tube has a wire cage surrounding it." width="500" />
+<p class="caption">(\#fig:imgdefensetechgepf)(ref:imgdefensetechgepf)</p>
+</div>
 
 <br>
 
@@ -88,14 +76,10 @@ Indeed, Rex published what can only be described as a long-form written sales pi
 
 (ref:imgdemo) Demonstration of a pepper fogger [@Applegate1970]
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/demo} 
-
-}
-
-\caption{(ref:imgdemo)}(\#fig:imgdemo)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/demo.png" alt="Black and white photo of a person using a pepper fogger across some railroad tracks. The person is standing in the mid ground on the left side of the photo and fogging towards the right mid-ground where the train tracks come from. The fog obscures the origins of the tracks off to the background on the right side of the photo. Behind the person on the left side is a taller tree along short building a car and some foliage. Further behind is a ridge of some kind with trees on it. The train tracks are old and partially overgrown." width="500" />
+<p class="caption">(\#fig:imgdemo)(ref:imgdemo)</p>
+</div>
 
 <br>
 
@@ -109,14 +93,10 @@ Newspapers around the country were more than happy to print "articles" that prom
 
 (ref:imgVance1970) Amarillo Texas Police Sergent Jerry Austin with a thermal fogger and shotgun [@Vance1970]. Amarillo's 1970 population was 127,010 [@USCB1970].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/Vance1970} 
-
-}
-
-\caption{(ref:imgVance1970)}(\#fig:imgVance1970)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/Vance1970.jpg" alt="Black and white newspaper clipping of an officer standing in front of a open garage door, next to a police car that is partially in frame on the left and front areas. A GOEC-style thermal fogger sits on the hood of the car in front of the officer, pointing towards and to the left of the camera. The officer is wearing beat clothing and a cop hat and also has a shotgun." width="500" />
+<p class="caption">(\#fig:imgVance1970)(ref:imgVance1970)</p>
+</div>
 
 <br>
 
@@ -124,14 +104,10 @@ Newspapers around the country were more than happy to print "articles" that prom
 
 (ref:imgAmanphoto1970) Richland County (Ohio) Sheriff's Captain Robert Dysart demonstrating a thermal fogger to a crowd of >200 people [@Amanphoto1970]. Richland County's 1970 population was 129,997 [@USCB1970].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/Amanphoto1970} 
-
-}
-
-\caption{(ref:imgAmanphoto1970)}(\#fig:imgAmanphoto1970)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/Amanphoto1970.jpg" alt="Black and white newspaper clipping of an officer standing in a field just front a forest/brush line, fogging out into the open area as part of a demonstration. The officer is wearing a riot helmet and coveralls and has the fogger slug over their right arm with a strap they are also holding with their left hand. The officer stands in the left part of the frame, fogging to the right, using a GOEC-style fogger with the nozzle tip right in the middle of the photo." width="500" />
+<p class="caption">(\#fig:imgAmanphoto1970)(ref:imgAmanphoto1970)</p>
+</div>
 
 <br>
 
@@ -140,14 +116,10 @@ Newspapers around the country were more than happy to print "articles" that prom
 <br>
 (ref:imgGaylord1971) A McHenry County (Illinois) Sheriff's officer fogs some grass in a rural landscape during a training and press demo day [@Gaylord1971; @PlainDealer1971]. McHenry County's 1970 population was 111,555 [@USCB1970].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/Gaylord1971} 
-
-}
-
-\caption{(ref:imgGaylord1971)}(\#fig:imgGaylord1971)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/Gaylord1971.jpg" alt="Black and white photo of an individual standing in a grass field with wood horse fence and trees and barns in the background. The individual is in light clothes and a black cap and is using both hands to hold a pepper fogger, which they are using to fog some grass on the right side of the photo. they are facing the camera, so the classic GOEC label is visible." width="500" />
+<p class="caption">(\#fig:imgGaylord1971)(ref:imgGaylord1971)</p>
+</div>
 
 <br>
 
@@ -157,14 +129,10 @@ Newspapers around the country were more than happy to print "articles" that prom
 
 (ref:imgWinter1970) Scott County (Iowa) deputy sheriff Jim Lewis, left, holds a new grenade launcher and a riot gun while Sheriff William Strout displays a pepper fogger and gas mask [@Winter1970]. Scott County's 1970 population was 142,687 [@USCB1970].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/Winter1970} 
-
-}
-
-\caption{(ref:imgWinter1970)}(\#fig:imgWinter1970)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/Winter1970.jpg" alt="Black and white newspaper clipping of two officers standing in front of a large brick wall. Scott County deputy sheriff Jim Lewis, left, holds a new grenade launcher and a riot gun. he is donning a standard beat uniform with a bucket hat. Sheriff William Strout is on the right in street clothes and is holding a GOEC pepper fogger in his right hand and gas mask in his left. The officers are making an X with the barrells of the grenade launcher and fogger." width="500" />
+<p class="caption">(\#fig:imgWinter1970)(ref:imgWinter1970)</p>
+</div>
 
 <br>
 
@@ -208,14 +176,10 @@ They had, however, only used it in training and for demoing to the media [@Cain1
 
 (ref:imgOrlandoEveningStar1968) Sanford Police Officer Roy Williams shows off a fogger [@OrlandoEveningStar1968].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/OrlandoEveningStar1968} 
-
-}
-
-\caption{(ref:imgOrlandoEveningStar1968)}(\#fig:imgOrlandoEveningStar1968)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/OrlandoEveningStar1968.jpg" alt="(ref:imgOrlandoEveningStar1968)" width="500" />
+<p class="caption">(\#fig:imgOrlandoEveningStar1968)(ref:imgOrlandoEveningStar1968)</p>
+</div>
 
 <br>
 
@@ -228,14 +192,10 @@ The department and new state regulations required officers to be trained in chem
 
 (ref:imgCopleyNewsService1970) Los Angeles Sheriff's Department Officer demonstrating a fogger [@CopleyNewsService1970].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/CopleyNewsService1970} 
-
-}
-
-\caption{(ref:imgCopleyNewsService1970)}(\#fig:imgCopleyNewsService1970)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/CopleyNewsService1970.jpg" alt="(ref:imgCopleyNewsService1970)" width="500" />
+<p class="caption">(\#fig:imgCopleyNewsService1970)(ref:imgCopleyNewsService1970)</p>
+</div>
 
 <br>
 
@@ -265,14 +225,10 @@ Gaston County North Caolina (1970 pop. 47,322; @USCB1970) Sheriffs purchased a f
 
 (ref:imgTheGastoniaGazetteSun19701004) Gaston County Sheriff's Deputy Anne Huffsteller poses with a thermal fogger [@TheGastoniaGazetteSun1970_10_04].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/TheGastoniaGazetteSun1970_10_04} 
-
-}
-
-\caption{(ref:imgTheGastoniaGazetteSun19701004)}(\#fig:imgTheGastoniaGazetteSun19701004)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/TheGastoniaGazetteSun1970_10_04.jpg" alt="(ref:imgTheGastoniaGazetteSun19701004)" width="500" />
+<p class="caption">(\#fig:imgTheGastoniaGazetteSun19701004)(ref:imgTheGastoniaGazetteSun19701004)</p>
+</div>
 
 <br>
 
@@ -293,14 +249,10 @@ A convention of US and Canadian police chiefs held in Halifax, Nova Scotia in 19
 
 (ref:imgMacKenzie1976) Sergeant Al Oakley shows off a pepper fogger [@MacKenzie1976].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/MacKenzie1976} 
-
-}
-
-\caption{(ref:imgMacKenzie1976)}(\#fig:imgMacKenzie1976)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/MacKenzie1976.jpg" alt="(ref:imgMacKenzie1976)" width="500" />
+<p class="caption">(\#fig:imgMacKenzie1976)(ref:imgMacKenzie1976)</p>
+</div>
 
 <br>
 

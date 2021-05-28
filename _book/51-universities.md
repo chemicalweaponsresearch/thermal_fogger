@@ -15,14 +15,10 @@ The police reportedly chased protesters across campus with the fogger, including
 
 (ref:imgdurham196902131) Deployment of a thermal fogger by police on Duke Campus [@DMH1969].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/durham_1969_02_13_1} 
-
-}
-
-\caption{(ref:imgdurham196902131)}(\#fig:imgdurham196902131)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/durham_1969_02_13_1.jpg" alt="B/W Image: One person wearing gas mask and helmet, centered, stepping to the right. Person is holding slim white club in left hand and pepper-fogger in right hand. Fogger is pointing forward and a white cloud is surrounding the person to the front, back, and behind. The remaining background is black." width="500" />
+<p class="caption">(\#fig:imgdurham196902131)(ref:imgdurham196902131)</p>
+</div>
  
 <br>
 
@@ -30,14 +26,10 @@ The police reportedly chased protesters across campus with the fogger, including
 
 (ref:imgdurham196902132) Police with pepper fogger on Duke campus [@DMH1969].  
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/durham_1969_02_13_2} 
-
-}
-
-\caption{(ref:imgdurham196902132)}(\#fig:imgdurham196902132)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/durham_1969_02_13_2.jpg" alt="B/W Image: Background has brick building with steps. In front of the building from center to right, a line of 5 police officers facing front and wearing helmets &amp; gas masks holding slim white clubs about a yard long. They are standing with legs apart and clubs in both hands in front of their bodies. On the left 5 officers similarly dressed, facing towards one another. Four slim clubs are visible, and one officer is holding what appears to be a fogger in one arm hanging down at the side." width="500" />
+<p class="caption">(\#fig:imgdurham196902132)(ref:imgdurham196902132)</p>
+</div>
  
 <br>
 
@@ -53,14 +45,10 @@ A year after [using the fogger on a protest held in solidarity with the Chicago 
 
 (ref:imgberkeley19690221a) Police use a pepper fogger and other chemical weapons to clear a University plaza [@APphoto1969a].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/berkeley_1969_02_21a} 
-
-}
-
-\caption{(ref:imgberkeley19690221a)}(\#fig:imgberkeley19690221a)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/berkeley_1969_02_21a.jpg" alt="B/W newspaper clipping. Four people walking towards camera wearing helmets with face shields. Person on the left wearing white shirt and tie has several items hanging from belt. In right hand carrying radio with extended antenna. On right side person dressed in all black standing with a wide stance and holding pepper-fogger at hip height in right hand aimed forward. In center two more people dressed in all black, one with a short stick or club in left hand. Background is mostly cloudy with someone behind white shirt person, holding some sort of stick aloft.  Glimpses of additional bodies are visible in the cloudy background.    " width="500" />
+<p class="caption">(\#fig:imgberkeley19690221a)(ref:imgberkeley19690221a)</p>
+</div>
  
 <br>
 
@@ -70,14 +58,10 @@ This deployment was covered in papers across the country including the Press-Tel
 
 (ref:imgberkeley19690221b) Police engulf a University plaza in chemical fog [@APphoto1969a].
  
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/berkeley_1969_02_21b} 
-
-}
-
-\caption{(ref:imgberkeley19690221b)}(\#fig:imgberkeley19690221b)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/berkeley_1969_02_21b.jpg" alt="B/W newspaper clipping. Rather difficult to make out the people differentially in the background, but there's a large group of folks standing in the back part of the photo, the mid ground is relatively empty but filling with a cloud of white smoke eminating from an area on the left that appears to be an officer holding a thermal fogger. Behind everyone is the student union. " width="500" />
+<p class="caption">(\#fig:imgberkeley19690221b)(ref:imgberkeley19690221b)</p>
+</div>
  
 <br>
 
@@ -91,14 +75,10 @@ The following week, the police in Berkeley were joined by California National Gu
 
 (ref:imgberkeley196902281) National guardsmen and police fog UC Berkeley [@APphoto1969c].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/berkeley_1969_02_28_1} 
-
-}
-
-\caption{(ref:imgberkeley196902281)}(\#fig:imgberkeley196902281)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/berkeley_1969_02_28_1.jpg" alt="Guardsmen with bayonetted rifles and sheriff's deputies with tear and and pepper fogger walking through UC campus: B/W newspaper clipping:  Eight people in masks, shields, and tied boots walking from left to right, the one in front wearing a spray fogger strapped on back and holding the hose and nozzle in front. A cloud of fog is spraying from the nozzle. The second person is carrying a bayoneted rifle upright. The others are only partially visible as they are passing behind a tree. On the right ahead of the others an additional helmeted person can be seen turning towards the left. Two slim trees are in the foreground." width="500" />
+<p class="caption">(\#fig:imgberkeley196902281)(ref:imgberkeley196902281)</p>
+</div>
  
 <br>
 
@@ -107,14 +87,10 @@ The following week, the police in Berkeley were joined by California National Gu
 
 (ref:imgberkeley196902282) View from behind of the police using a pepper fogger on striking students [@APphoto1969d].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/berkeley_1969_02_28_2} 
-
-}
-
-\caption{(ref:imgberkeley196902282)}(\#fig:imgberkeley196902282)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/berkeley_1969_02_28_2.jpg" alt="Four people walking away from camera, wearing helmets and holsters. Lead person has a fogger on their back and is holding the hose on the right spraying a fog ahead of them. Person on the right is carrying a bayoneted rifle raised above the left shoulder. The four are walking into the fog they’ve produced. There are some small trees to the right." width="500" />
+<p class="caption">(\#fig:imgberkeley196902282)(ref:imgberkeley196902282)</p>
+</div>
  
 <br>
 
@@ -147,14 +123,10 @@ By later in the day, UMD students had heard about the Ohio National Guard shooti
 
 (ref:imgCabe1970) Police fog the University of Maryland [@Cabe1970].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/Cabe1970} 
-
-}
-
-\caption{(ref:imgCabe1970)}(\#fig:imgCabe1970)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/Cabe1970.jpg" alt="Black and white photo of a college quad with brick facade white column buildingsbehind trees around the left, back, and part of right sides of the frame. Eight or so police officers walking away from the camera wear riot gear. A few in dark, a few in light. One in light near the front is carrying a fogger with a shoulder strap and spraying a big cloud off to the left, obscuring a large portion of the photograph." width="500" />
+<p class="caption">(\#fig:imgCabe1970)(ref:imgCabe1970)</p>
+</div>
  
 <br>
 
@@ -162,14 +134,10 @@ By later in the day, UMD students had heard about the Ohio National Guard shooti
 
 (ref:imgOates1970) Police fog the University of Maryland Chapel [@Cabe1970].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/Oates1970} 
-
-}
-
-\caption{(ref:imgOates1970)}(\#fig:imgOates1970)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/Oates1970.jpg" alt="Black and white photo of a college A whole bunch of police officers stand on or in front of a short (3 ft) brick wall surrounding the open field. A road, grass, and sidewalk are on this side of the wall, and a tree is just over it on that side. The open field behind the wall is filled with fog from one or perhaps two individuals fogging the chapel, which is where a large crowd gathers on the steps in the background. The chapel has a brick facade and white columns and a very large spire clock tower. The student protesters are visible on the steps of the chapel holding sigms." width="500" />
+<p class="caption">(\#fig:imgOates1970)(ref:imgOates1970)</p>
+</div>
  
 <br>
 
@@ -180,14 +148,10 @@ The Maryland State Police liked the [GOEC](#GOEC) fogger so much they included i
 
 (ref:imgMSP) Maryland State Police's [GOEC](#GOEC) pepper fogger [@MSP].
 
-\begin{figure}
-
-{\centering \includegraphics[width=500px]{img/MSP} 
-
-}
-
-\caption{(ref:imgMSP)}(\#fig:imgMSP)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/MSP.jpg" alt="Black and white photo of a GOEC Pepper Fog fogger on a white ground with a maryland state police badge and in front of a brick wall. The fogger is in the mid right and points off to the left." width="500" />
+<p class="caption">(\#fig:imgMSP)(ref:imgMSP)</p>
+</div>
  
 <br>
 

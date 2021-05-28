@@ -14,6 +14,7 @@ biblio-style: apalike
 link-citations: yes
 knit: bookdown::render_book
 site: bookdown::bookdown_site
+output_dir: "/docs"
 ---
 
 

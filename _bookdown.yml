@@ -17,4 +17,4 @@ rmd_files:
     - "99-references.Rmd"
 new_session: yes
 delete_merged_file: true
-output_dir: "docs"
+

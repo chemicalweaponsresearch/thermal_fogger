@@ -1,7 +1,3 @@
----
-title: The Science of Thermal Fogging
----
-
 # The Science of Thermal Fogging {-}
 
 The concept behind using a thermal fogger to disperse chemical weapons is known as [pulsejet technology](https://en.wikipedia.org/wiki/Pulsejet), which is indeed a jet propulsion method.

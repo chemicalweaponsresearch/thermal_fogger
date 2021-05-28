@@ -1,6 +1,3 @@
----
-title: The Return
----
 
 # The Return {- #TheReturn}
 

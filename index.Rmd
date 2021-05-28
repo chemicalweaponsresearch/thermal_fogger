@@ -22,7 +22,10 @@ is_online = curl::has_internet()
 is_html = knitr::is_html_output()
 ```
 
+```{asis index-2, echo=is_html}
+#  {-}
 
+```
 
 (ref:imgcover) Deployment of a thermal fogger by police in Berkeley CA, 8/31/1968 [@UPIphoto1968]
 
@@ -31,7 +34,13 @@ is_html = knitr::is_html_output()
 knitr::include_graphics("img/cover.png")
 ```  
 
+<br> 
+
+```{asis index-3, echo=is_html}
+
 [An archived version of this book is available on Zenodo](https://doi.org/10.5281/zenodo.4668002).
+
+```
 
 
 ```{r include=FALSE}

@@ -1,6 +1,3 @@
----
-title: The 1968 Conventions
----
 
 # The 1968 Conventions {-}
 

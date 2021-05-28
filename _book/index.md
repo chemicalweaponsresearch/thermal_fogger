@@ -31,7 +31,9 @@ site: bookdown::bookdown_site
 \caption{(ref:imgcover)}(\#fig:imgcover)
 \end{figure}
 
-[An archived version of this book is available on Zenodo](https://doi.org/10.5281/zenodo.4668002).
+<br> 
+
+
 
 
 

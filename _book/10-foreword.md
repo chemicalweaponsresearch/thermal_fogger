@@ -1,7 +1,3 @@
----
-title: Foreword
----
-
 # Foreword {-}
 
 ### Content Warning {-}
@@ -46,7 +42,7 @@ I am an abolitionist in multiple senses: I believe that the use of chemical weap
 All work for this product was conducted by Dr. Juniper L. Simonis via internal time at DAPPER Stats.
 No external funding was provided.
 
-### Licenses
+### Licenses {-}
 
 This book it created under a [dual license](https://github.com/chemicalweaponsresearch/thermal_fogger/blob/main/LICENSE.md) that recognizes a separation between the software and non-software components.
 All underlying documents (photos, etc.) are cited in the [References](#References) amd do not indicate the original licensor endorses this book or its authors.

@@ -1,6 +1,3 @@
----
-title: High Schools
----
 
 # High Schools {-}
 

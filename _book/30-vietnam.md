@@ -1,6 +1,4 @@
----
-title: Vietnam
----
+
 
 # Vietnam {- #Vietnam}
 
@@ -38,7 +36,7 @@ And although (highly toxic; @Simonis2020) munitions smoke was used in this appli
 
 <br>
   
-(ref:imgmitymite) [@USMACV1965]
+(ref:imgmitymite) Technical drawing of a backpack fogger [@USMACV1965]
 
 \begin{figure}
 

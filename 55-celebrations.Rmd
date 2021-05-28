@@ -1,6 +1,4 @@
----
-title: Celebrations
----
+
 # Celebrations {-}
 
 On occassion, police forces have used foggers against protests or riots that are more of a celebratory nature but still do not respond to their commands to disperse.

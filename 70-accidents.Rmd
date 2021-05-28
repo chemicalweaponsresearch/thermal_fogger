@@ -1,7 +1,3 @@
----
-title: Accidents
----
-
 # Accidents {-}
 
 ### Bullitt Volunteer Fire Deptartment {-}

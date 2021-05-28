@@ -1,7 +1,3 @@
----
-title: "Border Patrol: A Second Boomeranging"
----
-
 # Border Patrol: A Second Boomeranging {-}
 
 United States Border Patrol (BP) has played an outsized role in policing and corrections within the federal immigration system and abroad both in support of armed services and independently [@Miller2019].

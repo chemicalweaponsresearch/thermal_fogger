@@ -1,6 +1,3 @@
----
-title: Racial Justice
----
 
 # Racial Justice {-}
 

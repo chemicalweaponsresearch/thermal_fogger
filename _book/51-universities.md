@@ -1,6 +1,3 @@
----
-title: University Cities
----
 
 # University Cities {-}
 

@@ -1,6 +1,4 @@
----
-title: Labor
----
+
 # Labor {-}
 
 Another common target of police force are labor activists, and so it is not suprising to see the fogger being deployed against strikers at least once in US history.

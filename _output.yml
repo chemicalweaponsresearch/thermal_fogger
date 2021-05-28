@@ -15,7 +15,5 @@ bookdown::gitbook:
       link: https://github.com/chemicalweaponsresearch/thermal_fogger/edit/main/%s
       text: "Edit"
     sharing: null
-  includes:
-    after_body: html/after-body.html
 
 bookdown::pdf_book: default

@@ -1,3 +1,6 @@
+---
+title: Celebrations
+---
 # Celebrations {-}
 
 On occassion, police forces have used foggers against protests or riots that are more of a celebratory nature but still do not respond to their commands to disperse.
@@ -8,14 +11,14 @@ New Year's Eve 1975 was apparently quite raucous in Florida, as many cities expe
 In Ft. Lauderdale, party-goers pulled down a traffic light and police deployed multiple foggers on a crowd of 2,500 on the beach [@TheTampaTribune1976_01_02].
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/ft_lauderdale_1975_12_31.png" alt="B/W image: Two people in foreground wearing helmets and face shields with gas masks and uniforms with short sleeves walking towards the camera, carrying boxy looking tools with nozzles pointing forward, with both hands. Person behind, also in short sleeve uniform, helmet, and gas mask carrying slim sabre or rod across the body. Behind these people seem to be more people but there are no clear details.    " width="500"  style="margin: 0 1em 0 1em" />
-     <figcaption> 
-       Police carrying pepper foggers towards the beach [@UPIphoto1975].
-     </figcaption>
-  </figure>
+
+(ref:imgftlauderdale19751231) Police carrying pepper foggers towards the beach [@UPIphoto1975].
+
+<div class="figure" style="text-align: center">
+<img src="img/ft_lauderdale_1975_12_31.png" alt="B/W image: Two people in foreground wearing helmets and face shields with gas masks and uniforms with short sleeves walking towards the camera, carrying boxy looking tools with nozzles pointing forward, with both hands. Person behind, also in short sleeve uniform, helmet, and gas mask carrying slim sabre or rod across the body. Behind these people seem to be more people but there are no clear details." width="500" />
+<p class="caption">(\#fig:imgftlauderdale19751231)(ref:imgftlauderdale19751231)</p>
 </div>
+
 <br>
 
 

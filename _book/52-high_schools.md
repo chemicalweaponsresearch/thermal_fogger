@@ -1,20 +1,28 @@
+---
+title: High Schools
+---
+
 # High Schools {-}
 
 Almost immediately, law enforcement extended use of foggers from [universities]{#Universities} to high schools, specifically using the weapons against Black youth protesters.
+
+I will stop to repeat that again so that we can all (myself included).
+
+Law enforcement agencies used chemical weapons against Black junior and high school students during the Civil Rights Era, including a weapon (the thermal fogger) developed not even five years prior to [gas Vietnamese soldiers and civilians from tunnels](#Vietnam).
 
 ## San Gordonio {- #SanGordonio}
 
 Although undated, this photograph printed in The Delta Democrat-Times (Greenville, Mississippi Thursday) [@TheDeltaDemocratTimes1969_11_20] on November 20, 1969 references a "recent" use of the fogger on students. 
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/san_bernardino_1969_xx_xx.jpg" alt="B/W faded image: To the left is a person wearing a uniform with a patch on the shoulder and a helmet. In their right hand is the nozzle to a fogger and it appears to be emitting fog. There is a white fog cloud covering most of the rest of the image." width="500"  style="margin: 0 1em 0 1em" />
-     <figcaption> 
-       Police use a pepper fogger on students at San Gordonio High School [@UPIphoto1969].  
-     </figcaption>
-  </figure>
-</div> 
+
+(ref:imgsanbernardino1969xxxx) Police use a pepper fogger on students at San Gordonio High School [@UPIphoto1969].  
+
+<div class="figure" style="text-align: center">
+<img src="img/san_bernardino_1969_xx_xx.jpg" alt="B/W faded image: To the left is a person wearing a uniform with a patch on the shoulder and a helmet. In their right hand is the nozzle to a fogger and it appears to be emitting fog. There is a white fog cloud covering most of the rest of the image." width="500" />
+<p class="caption">(\#fig:imgsanbernardino1969xxxx)(ref:)</p>
+</div>
+ 
 <br>
 
 This event appears credible, given the much more documented deployment on December 3, 1971.
@@ -34,12 +42,12 @@ The night of April 20th, the school board held a meeting where they barred suspe
 The next day, police were ready with heavy chemical weaponry, including the [GOEC Pepper Fog](#GOEC) fogger: 
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/lawrence_1970_04_21.jpg" alt="yellowed B/W faded image of police officers standing on a T of a sidewalk blocking the space from a group of predominately Black young people, who are standing behind them on the grass and facing the camera. Behind them are some cars and houses across a stree. The officer in the front left of the frame is carrying a Pepper Fog GOEC fogger." width="500"  style="margin: 0 1em 0 1em" />
-     <figcaption> 
-       Police bring a [GOEC](#GOEC) pepper fogger to gas Black high school and junior high students at Lawrence High School [@UKA1970].  
-     </figcaption>
-  </figure>
-</div> 
+
+(ref:imglawrence19700421) Police bring a [GOEC](#GOEC) pepper fogger to gas Black high school and junior high students at Lawrence High School [@UKA1970].
+
+<div class="figure" style="text-align: center">
+<img src="img/lawrence_1970_04_21.jpg" alt="yellowed B/W faded image of police officers standing on a T of a sidewalk blocking the space from a group of predominately Black young people, who are standing behind them on the grass and facing the camera. Behind them are some cars and houses across a stree. The officer in the front left of the frame is carrying a Pepper Fog GOEC fogger." width="500" />
+<p class="caption">(\#fig:imglawrence19700421)(ref:imglawrence19700421)</p>
+</div>
+ 
 <br>

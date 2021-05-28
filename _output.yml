@@ -19,5 +19,3 @@ bookdown::gitbook:
     after_body: html/after-body.html
 
 bookdown::pdf_book: default
-
-bookdown::epub_book: default

@@ -1,3 +1,7 @@
+---
+title: The 1968 Conventions
+---
+
 # The 1968 Conventions {-}
 
 Deployment of chemical weapons on United States civilians by domestic law enforcement began in earnest in the late 1960s during the height of anti-war and civil rights protests, kicked off in particular by the 1968 Republican (Miami, Florida) and Democratic (Chicago, IL) National Conventions [@McArdle2018; @TaylorandMorris2018].
@@ -43,15 +47,13 @@ A demonstration in Berkeley, California was called by the Young Socialist Allian
 In response, police brutalized the protesters, and in the process brought out a hand-held pepper fogger, a "new police weapon... which produced a gas that caused sneezing" [@PatersonEveningNews1968_08_31].
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/berkeley_1968_08_31.png" alt="B/W newspaper clipping. To left is an officer wearing long pants, long sleeved shirt, and a helmet walking forward carrying a fogger in the right hand. The fogger is blowing fog through a tube and a cloud is forming. Background is a storefront window and door. To the right 2 people are moving away from the fog, leaning on one another, and covering their faces with their hands.    " width="500"  style="margin: 0 1em 0 1em" />
-    <figcaption> 
-      Deployment of a thermal fogger by police in Berkeley, CA [@UPIphoto1968].
-    </figcaption>
-  </figure>
+
+(ref:imgberkeley19680831) Deployment of a thermal fogger by police in Berkeley, CA [@UPIphoto1968].
+
+<div class="figure" style="text-align: center">
+<img src="img/berkeley_1968_08_31.png" alt="B/W newspaper clipping. To left is an officer wearing long pants, long sleeved shirt, and a helmet walking forward carrying a fogger in the right hand. The fogger is blowing fog through a tube and a cloud is forming. Background is a storefront window and door. To the right 2 people are moving away from the fog, leaning on one another, and covering their faces with their hands." width="500" />
+<p class="caption">(\#fig:imgberkeley19680831)(ref:imgberkeley19680831)</p>
 </div>
-<br>
 
 
 Deployment of the thermal fogger was covered in newspapers around the country including Paterson, New Jersey [@PatersonEveningNews1968_08_31]; Hanford, California [@TheHanfordSentinel1968_08_31]; Honolulu, Hawaii [@TheHonoluluAdvertiser1968_09_01]; St. Louis, Missouri [@StLouisPostDispatch1968_08_31]; Franklin, Pennsylvania [@TheNewsHerald1968_08_31]; Madison, Wisconsin [@TheCapitalTimes1968_08_31]; and El Paso, Texas [@ElPasoHeraldPost1968_08_31], a city whose significance was already budding.
@@ -60,12 +62,12 @@ It is clear from the photograph shared with the United Press International (UPI)
 The GOEC thermal fogger was so new, it would not have a trademarked name ("Pepper Fog") for another year [@USTPO2018].
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/goec_pf.png" width="500" alt="Yellowed black and white photo of a stationary pepper fog thermal fogger pointed to the left sitting by itself. The main body is a square box that's dark with a tag in the middle that's lighter and has dark writing on it that says pepper fog g o e c. The nozzle points to the left and is a longer thinner tube about twice as long as the main body. It is also dark and has a metal cage around it that is sparse and shiny. There's also a handle and some knobs on the top of the item and something that's a little bit difficult to make out off the back of the main body." style="margin: 0 1em 0 1em" />
-   <figcaption>
-     Product image for thermal fogger [@GOECphoto].
-   </figcaption>
-  </figure>
-</div> 
+
+(ref:imggoecpf) Product image for thermal fogger [@GOECphoto].
+
+<div class="figure" style="text-align: center">
+<img src="img/goec_pf.png" alt="Yellowed black and white photo of a stationary pepper fog thermal fogger pointed to the left sitting by itself. The main body is a square box that's dark with a tag in the middle that's lighter and has dark writing on it that says pepper fog g o e c. The nozzle points to the left and is a longer thinner tube about twice as long as the main body. It is also dark and has a metal cage around it that is sparse and shiny. There's also a handle and some knobs on the top of the item and something that's a little bit difficult to make out off the back of the main body." width="500" />
+<p class="caption">(\#fig:imggoecpf)(ref:imggoecpf)</p>
+</div>
+
 <br>

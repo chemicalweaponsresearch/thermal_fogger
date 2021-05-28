@@ -1,3 +1,7 @@
+---
+title: Racial Justice
+---
+
 # Racial Justice {-}
 
 Police are generally more apt to use heavy responses including chemical weapons against Black protesters in general [@DSPDX2020].
@@ -26,19 +30,16 @@ At the beginning of July 2020, then-president Trump deployed Department of Homel
 During the final days of the visible presence and response of federal agents in Summer 2020, Customs and Border Protection (CBP) unveiled their thermal fogger [@Recompiler2020_07_29], which has been identified through photos as an [IGEBA TF35](https://www.nixalite.com/product/igeba-tf-35) thermal fogger from Nixalite of America Inc.
 This machine is designed and marketed for bird control, and while "_training tool for military/law enforcement_" is listed among its uses [@Nixalite2009a], its safety requirements explicitly state: 
 
-> "_**19. Do not fog directly against persons...During operation keep distance of minimum [10 ft].**_"
-
-[@Nixalite2009b].
+> "_**19. Do not fog directly against persons...During operation keep distance of minimum [10 ft].**_"  - [@Nixalite2009b].
 
 <br>
-<div style="text-align: center;">
-  <figure>
-  <img src="img/portland_2020_07_29.jpg" alt="Fully riot-geared and for some reason in green camo US Homeland Security agents (to the middle and the left of the photo) behind a row of two-foot tall, one-foot radius metal posts, behind a metal grate wall over 7 feet tall with metal support beams and concrete pylon buttressing. In the front of the left side is an agent holding a plastic clear riot shield, through which you can see a patch that say 'Border Patrol Federal Agent' in yellow and some insignia patches as well. In the middle are the agents in camo, one with a hand on the shoulder of another who is operating a thermal fogger machine shooting gas through the fence. The machine is maybe four or five feet long and has a body not unlike a bush whacker with a two-cycle engine, but fueling a vaporizer instead of a rotor. The agent is holding the machine with their right hand visibly and there is a black strap across their shoulder holding it up. The machine is mostly shiny metal, although the tip is showing signs of corrosion (no surprise based on the compounds and heat) and the supports of the body are a bright green. source: https://twitter.com/dougbrown8/status/1288727075197657088/photo/1    " width="500"  style="margin: 0 1em 0 1em" />
-  <figcaption>
-    CBP agent deploying chemical agent via thermal fogger in front of the federal courthouse [@Brown2020].
-  </figcaption>
-  </figure>
-</div>
+
+(ref:imgportland202007292) CBP agent deploying chemical agent via thermal fogger in front of the federal courthouse [@Brown2020].
+
+```{r imgportland202007292, echo=FALSE, out.width = 500, fig.cap="(ref:imgportland202007292)", fig.align = "center", fig.alt = "Fully riot-geared and for some reason in green camo US Homeland Security agents (to the middle and the left of the photo) behind a row of two-foot tall, one-foot radius metal posts, behind a metal grate wall over 7 feet tall with metal support beams and concrete pylon buttressing. In the front of the left side is an agent holding a plastic clear riot shield, through which you can see a patch that say 'Border Patrol Federal Agent' in yellow and some insignia patches as well. In the middle are the agents in camo, one with a hand on the shoulder of another who is operating a thermal fogger machine shooting gas through the fence. The machine is maybe four or five feet long and has a body not unlike a bush whacker with a two-cycle engine, but fueling a vaporizer instead of a rotor. The agent is holding the machine with their right hand visibly and there is a black strap across their shoulder holding it up. The machine is mostly shiny metal, although the tip is showing signs of corrosion (no surprise based on the compounds and heat) and the supports of the body are a bright green."}
+knitr::include_graphics("img/portland_2020_07_29.jpg") 
+```
+
 <br>
 
 
@@ -54,14 +55,13 @@ In the evening, there was a gathering at Willamette Park in the Southwest part o
 After marching to the ICE rental property, individuals tied the balloons to the gate to the parking garage, and Department of Homeland Security (DHS) agents including Customs and Border Protection (CBP) officers deployed massive amounts of chemical weapons, including via a thermal fogger, throughout the neighborhood [@Recompiler2020_10_17].
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/portland_2020_10_17.png" alt="One person in green protective gear, wearing a bulletproof vest with weapons strapped to the body and wearing a helmet and gas mask is walking to the left carrying a fogger in the right hand arm extended down, nozzle pointing forward. A cloud of gas is coming from the nozzle. Next to them is someone dressed all in black with a bullet proof vest with the word POLICE across the back, also wearing a helmet and gas mask. It is night and there are additional clouds of gas and the shapes of people in the background. source: https://twitter.com/MasonLakePhoto/status/1317869903345414144    " width="500"  style="margin: 0 1em 0 1em" />
-    <figcaption>   
-      CBP agent fogging a South Waterfront neighborhood [@Lake2020].
-    </figcaption>
-  </figure>
-</div> 
+
+(ref:imgportland20201017) CBP agent fogging a South Waterfront neighborhood [@Lake2020].
+
+```{r imgportland20201017, echo = FALSE, out.width = 500, fig.cap = "(ref:imgportland20201017)", fig.align = "center", fig.alt = "One person in green protective gear, wearing a bulletproof vest with weapons strapped to the body and wearing a helmet and gas mask is walking to the left carrying a fogger in the right hand arm extended down, nozzle pointing forward. A cloud of gas is coming from the nozzle. Next to them is someone dressed all in black with a bullet proof vest with the word POLICE across the back, also wearing a helmet and gas mask. It is night and there are additional clouds of gas and the shapes of people in the background. source: https://twitter.com/MasonLakePhoto/status/1317869903345414144"}
+knitr::include_graphics("img/portland_2020_10_17.png") 
+```
+ 
 <br>
 
 #### Inaugration 2021 {- #J20}
@@ -70,41 +70,38 @@ The same fogger (or at least the same model) was again brought out at the ICE re
 The fogged up and down multiple blocks, with visible plumes entering units in the adjacent apartment complexes and covering the playground of an adjacent public school [@Recompiler2021_01_20; @Simonis2021].
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/portland_2021_01_20.png" alt="Night in a city, building lights in the background. One person standing alone in the center of a road, shown from the waist to the ankles. The person is wearing work pants with covered pockets at the thighs and calves, long sleeve shirt, and a glove on the right hand. In the left hand they are gripping the handle of a neon green fogger tool. The long black nozzle, covered with a wire cage, projects backwards and the motor is towards the front. It is being held at hip height; the arm holding it is relaxed down. source: https://twitter.com/MaranieRae/status/1352394871080816641/photo/1    " width="500"  style="margin: 0 1em 0 1em" />
-    <figcaption> 
-      CBP officer holding thermal fogger [@Staab2021].
-    </figcaption>
-  </figure>
-</div> 
+
+(ref:imgportland20210120) CBP officer holding thermal fogger [@Staab2021].
+
+```{r imgportland20210120, echo = FALSE, out.width = 500, fig.cap = "(ref:imgportland20210120)", fig.align = "center", fig.alt = "Night in a city, building lights in the background. One person standing alone in the center of a road, shown from the waist to the ankles. The person is wearing work pants with covered pockets at the thighs and calves, long sleeve shirt, and a glove on the right hand. In the left hand they are gripping the handle of a neon green fogger tool. The long black nozzle, covered with a wire cage, projects backwards and the motor is towards the front. It is being held at hip height; the arm holding it is relaxed down."} 
+knitr::include_graphics("img/portland_2021_01_20.png") 
+```
+ 
 <br>
 
 That weekend, CBP deployed the fogger again during Abolish ICE protests, this time gassing even more of the neighborhood, including the local public school and veterans-preference housing [@Recompiler2021_01_23; @Simonis2021].
 
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/portland_2021_01_23_1.png" alt="Night time with the light from a street light visible in the background. Two officers dressed in full protective gear with bulletproof vests holding supplies on, with the word POLICE stenciled in yellow. They are both wearing helmets and gas masks. The nearer one is holding a gas fogger in the right hand. Thefogger looks like a long tube between 3 and 4 feet long with a handle and motor parts near the back. The tube is covered with a wire cage until about the last half foot, which is a plain and narrower tube. Behind these two officers are some dimly lit buildings and one or two other officers but they are not clear. source: https://twitter.com/MathieuLRolland/status/1353427314348986373/photo/1     " width="500"  style="margin: 0 1em 0 1em" />
-    <figcaption> 
-      CBP agent holding thermal fogger [@Lewis-Rolland2021a].
-    </figcaption>
-  </figure>
-</div>
-<br>
 
+(ref:imgportland202101231) CBP agent holding thermal fogger [@Lewis-Rolland2021a].
 
+```{r imgportland202101231, echo = FALSE, out.width = 500, fig.cap = "(ref:imgportland202101231)", fig.align = "center", fig.alt = "Night time with the light from a street light visible in the background. Two officers dressed in full protective gear with bulletproof vests holding supplies on, with the word POLICE stenciled in yellow. They are both wearing helmets and gas masks. The nearer one is holding a gas fogger in the right hand. Thefogger looks like a long tube between 3 and 4 feet long with a handle and motor parts near the back. The tube is covered with a wire cage until about the last half foot, which is a plain and narrower tube. Behind these two officers are some dimly lit buildings and one or two other officers but they are not clear."}
+knitr::include_graphics("img/portland_2021_01_23_1.png") 
+```
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/portland_2021_01_23_2.png" alt="Nine people wearing full protective gear including helmets and gas masks standing spread out across a street at night. One is holding a gas fogger in one hand and gas is spewing and a cloud is forming in front of them. There is also some gas cloud behind the group. All of them seem to be wearing weapons on their gear but details are not clear. It is night. There is a grey building in the background with a red door and red trim. A white stripe on the roadway has the words MELT ICE spray painted on it. source: https://twitter.com/MathieuLRolland/status/1353427325405126656/photo/3    " width="500"  style="margin: 0 1em 0 1em" /> 
-    <figcaption>
-      CBP agent fogging an intersection in the South Waterfront neighborhood [@Lewis-Rolland2021b].
-    </figcaption>
-  </figure>
-  </div>
+
+
+
+<br>
+
+(ref:imgportland202101232) CBP agent fogging an intersection in the South Waterfront neighborhood [@Lewis-Rolland2021b].
+
+```{r imgportland202101232, echo = FALSE, out.width = 500, fig.cap = "(ref:imgportland202101232)", fig.align = "center", fig.alt = "Nine people wearing full protective gear including helmets and gas masks standing spread out across a street at night. One is holding a gas fogger in one hand and gas is spewing and a cloud is forming in front of them. There is also some gas cloud behind the group. All of them seem to be wearing weapons on their gear but details are not clear. It is night. There is a grey building in the background with a red door and red trim. A white stripe on the roadway has the words MELT ICE spray painted on it."}   
+knitr::include_graphics("img/portland_2021_01_23_2.png") 
+```
+  
 <br>
 
 

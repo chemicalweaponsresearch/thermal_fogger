@@ -1,3 +1,6 @@
+---
+title: The Carceral System
+---
 # The Carceral System {- #CarceralSystem}
 
 Like many chemical weapons devices, thermal foggers are used in local, state, and federal carceral systems. 

@@ -1,3 +1,6 @@
+---
+title: Labor
+---
 # Labor {-}
 
 Another common target of police force are labor activists, and so it is not suprising to see the fogger being deployed against strikers at least once in US history.
@@ -9,14 +12,14 @@ A North Kingstown officer named TJ Varone deployed tear gas via a pepper fogger 
 The picketers braved the gas for a considerable amount of time, requiring close-range fogging to finally disperse them [@Carbone2017].
 
 <br>
-<div style="text-align: center;">
-  <figure>
-    <img src="img/north_Kingstown_1982_3_22.png" alt="B/W newspaper clipping: To the left there are several people crouched on the ground with their heads down and covered. Behind them is a small crowd of people turning and moving away. To the right are three officials in helmets and masks facing the people on the ground and holding a fogger in front that is spraying a cloud of fog right over those on the ground." width="500"  style="margin: 0 1em 0 1em" />
-     <figcaption> 
-       Police fog striking workers and their families [@APphoto1982].  
-     </figcaption>
-  </figure>
-</div> 
+
+(ref:imgnorthKingstown1982322) Police fog striking workers and their families [@APphoto1982].  
+
+<div class="figure" style="text-align: center">
+<img src="img/north_Kingstown_1982_3_22.png" alt="B/W newspaper clipping: To the left there are several people crouched on the ground with their heads down and covered. Behind them is a small crowd of people turning and moving away. To the right are three officials in helmets and masks facing the people on the ground and holding a fogger in front that is spraying a cloud of fog right over those on the ground." width="500" />
+<p class="caption">(\#fig:imgnorthKingstown1982322)(ref:imgnorthKingstown1982322)</p>
+</div>
+ 
 <br>
 
 The fogging did not, however, break the strike [@Carbone2017].

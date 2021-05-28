@@ -37,7 +37,7 @@ As such, I consider this a very likely deployment.
 I am continuing to search for evidence.
 
 
-## Berkeley, August 31 {-}
+## Berkeley, August 31 {- #BerkeleyCA1968_08_31}
 
 A demonstration in Berkeley, California was called by the Young Socialist Alliance, Independent Socialist Club, and the Black Panther Party in solidarity with anti-war protesters in Chicago who the police had recently brutalized [@PatersonEveningNews1968_08_31; @TheCapitalTimes1968_08_31], including [use of a pepper fogger](#ChicagoIL1968_08_26) [@TheDailyTribune1969_02_21].
 In response, police brutalized the protesters, and in the process brought out a hand-held pepper fogger, a "new police weapon... which produced a gas that caused sneezing" [@PatersonEveningNews1968_08_31].

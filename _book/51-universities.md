@@ -1,7 +1,8 @@
 # University Cities {-}
 
-Perhaps instigated by the willingness of the California Highway Patrol to use chemical weapons (including thermal foggers) in Berkeley on and around the University of California campus, many law enforcement agencies escalated anti-war and racial just protests in University towns during the 1960s and 1970s via chemical weapons.
-The willingness of police to fog literally any place where undergraduates standing up for racial justice and against imperialism were gathering was highlighted in May of 1970 when Maryland State Police deployed chemical weapons via tear gas into the University of Maryland Chapel.
+Perhaps instigated by the willingness of the California Highway Patrol to use chemical weapons (including thermal foggers) in [Berkeley on and around the University of California campus during the 1968 Convention protests](#BerkeleyCA1968_08_31), many law enforcement agencies escalated anti-war and racial just protests in University towns during the 1960s and 1970s via chemical weapons.
+
+The willingness of police to fog literally any place where undergraduates standing up for racial justice and against imperialism were gathering was highlighted in May of 1970 when [Maryland State Police deployed chemical weapons via thermal fogger into the University of Maryland Chapel](#CollegeParkMD1970_05_04) [@Cabe1970].
 
 
 ## Durham {-}
@@ -109,7 +110,7 @@ Witnesses recounted that the machine was "highly effective", filling "2-3 blocks
 
 
 
-## College Park {- #CollegeParkMD1970_05_}
+## College Park {- #CollegeParkMD1970_05_04}
 
 On May 4th 1970, students gathered at campuses around the country to protest President Nixon's expansion of war into Cambodia, inlcuding in at the University of MAryland (UMD) campus in College Park [@WAS2013].
 Police responded with chemical weapons that did not deter the protest, but rather moved it around the campus [@Cabe1970].

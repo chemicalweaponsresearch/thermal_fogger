@@ -45,6 +45,8 @@ By the end of August 1969, GOEC had received the trademark on "Pepper Fog", whic
 </div>
 <br>
 
+They immediately began a heavy marketing campaign taking out full-page ads in police magazines that year [@GOECad1969; @GOECadLNS1970; @GOECadObserver1970].
+
 ### Federal Laboratories & Defense Technology {- #DefenseTechnology}
 
 Indeed, to this day, the current owner of the legacy branding ([Safariland](https://www.safariland.com) subsidiary [Defense Technology](https://www.defense-technology.com)) continues to sell items under a ["Pepper Fog" line](https://www.defense-technology.com/product-category/pepper-foggers/), including a ["pepper fog generator"](https://www.defense-technology.com/product/pepper-fog-generator/) that utilizes the same pulse-jet generation technique [@DTPFG]:
@@ -87,8 +89,63 @@ Indeed, Rex published what can only be described as a long-form written sales pi
 
 
 Alongside the more overtly pro-police-use-of-chemical-weapons propaganda of Rex Applegate were other, perhaps more subtle forms of pro-fogger propaganda [@Macomber1970].
-Newspapers around the country were more than happy to print "articles" that promoted the new arsenals police departments were building, complete with product demo photos:
+Newspapers around the country were more than happy to print "articles" that promoted the new arsenals police departments were building [@LaPrade1970], complete with product demo photos.
 
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/Vance1970.jpg" width="500" alt="Black and white newspaper clipping of an officer standing in front of a open garage door, next to a police car that is partially in frame on the left and front areas. A GOEC-style thermal fogger sits on the hood of the car in front of the officer, pointing towards and to the left of the camera. The officer is wearing beat clothing and a cop hat and also has a shotgun." style="margin: 0 1em 0 1em" />
+    <figcaption>
+      Amarillo Texas Police Sergent Jerry Austin with a thermal fogger and shotgun [@Vance1970].  
+      Amarillo's 1970 population was 127,010 [@USCB1970].
+    </figcaption>
+  </figure>
+</div>
+<br>
+
+
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/Amanphoto1970.jpg" width="500" alt="Black and white newspaper clipping of an officer standing in a field just front a forest/brush line, fogging out into the open area as part of a demonstration. The officer is wearing a riot helmet and coveralls and has the fogger slug over their right arm with a strap they are also holding with their left hand. The officer stands in the left part of the frame, fogging to the right, using a GOEC-style fogger with the nozzle tip right in the middle of the photo." style="margin: 0 1em 0 1em" />
+    <figcaption>
+      Richland County (Ohio) Sheriff's Captain Robert Dysart demonstrating a thermal fogger to a crowd of >200 people [@Amanphoto1970].  
+      Richland County's 1970 population was 129,997 [@USCB1970].
+    </figcaption>
+  </figure>
+</div>
+<br>
+<br>
+
+[General Ordnance Equipment Corporation](#GOEC)'s Pepper Fog model seems to have been the favorite, at least amongst the departments showing off their new cool toys for photographs.
+
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/Gaylord1971.jpg" width="500" alt="Black and white photo of an individual standing in a grass field with wood horse fence and trees and barns in the background. The individual is in light clothes and a black cap and is using both hands to hold a pepper fogger, which they are using to fog some grass on the right side of the photo. they are facing the camera, so the classic GOEC label is visible." style="margin: 0 1em 0 1em" />
+    <figcaption>
+      A McHenry County (Illinois) Sheriff's officer fogs some grass in a rural landscape during a training and press demo day [@Gaylord1971; @PlainDealer1971].  
+      McHenry County's 1970 population was 111,555 [@USCB1970].
+    </figcaption>
+  </figure>
+</div>
+<br>
+<br>
+
+
+
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/Winter1970.jpg" width="500" alt="Black and white newspaper clipping of two officers standing in front of a large brick wall. Scott County deputy sheriff Jim Lewis, left, holds a new grenade launcher and a riot gun. he is donning a standard beat uniform with a bucket hat. Sheriff William Strout is on the right in street clothes and is holding a GOEC pepper fogger in his right hand and gas mask in his left. The officers are making an X with the barrells of the grenade launcher and fogger." style="margin: 0 1em 0 1em" />
+    <figcaption>
+      Scott County (Iowa) deputy sheriff Jim Lewis, left, holds a new grenade launcher and a riot gun while Sheriff William Strout displays a pepper fogger and gas mask [@Winter1970].  
+      Scott County's 1970 population was 142,687 [@USCB1970].
+    </figcaption>
+  </figure>
+</div>
+<br>
+<br>
 
 
 ### Gary Wills {-}
@@ -103,7 +160,7 @@ He concludes his piece by calling tear gas "humane in ... foreign wars [and] dom
 
 ## Coming to Your Town Soon! {-}
 
-It seems like US domestic police have a hard time containing their glee when purchasing and testing thermal foggers for use on domestic civilians, as a general media blitz played out accross the country through the late 1960s and early 1970s.
+It seems like US domestic police have a hard time containing their glee when purchasing and testing thermal foggers for use on domestic civilians, as a general media blitz played out accross the country through the late 1960s and early 1970s [@PlainDealer1971].
 
 ### Illinois {-}
 
@@ -179,6 +236,20 @@ For example, Oakland County in Michigan (1970 pop. 907,871; @USCB1970) purchased
 Oneota New York (1970 pop. 16,030; @USCB1970) purchased a fogger in 1969 during the anti-war demonstrations, although the department bungled its response to protests [@Griffin1973].
 As came to light during a public probe, Oneota Police Chief Joseph F. DeSalvatore requested a limited amount of training in the budget, and officers were therefore unable to deploy the fogger or other chemical weapons [@Griffin1973].
 
+Gaston County North Caolina (1970 pop. 47,322; @USCB1970) Sheriffs purchased a fogger, which they turned on but not used to dispense agents multiple times by 1970 in their jail system "when there's been trouble brewing" [@Balloch1970].
+
+<br>
+<div style="text-align: center;">
+  <figure>
+    <img src="img/TheGastoniaGazetteSun1970_10_04.jpg" alt="B/W newspaper clipping. A single officer is behind a fogger and other objects. The officer is wearing a beat uniform and has curly light hair. the officer is only visible from the mid waist upwards, and the photo is very washed out so it is hard to distinguish items or details. " width="500"  style="margin: 0 1em 0 1em" />
+    <figcaption> 
+      Gaston County Sheriff's Deputy Anne Huffsteller poses with a thermal fogger [@TheGastoniaGazetteSun1970_10_04].
+    </figcaption>
+  </figure>
+</div>
+<br>
+
+Apparently the threat of [death by chemical weapons fog](#BigMac) is sufficient to scare detained individuals into compliance.
 
 
 Within a few years, however, departments began to realize they had no need for the machines, and began selling them with no use aside from testing [@DesMoinesTribune1975_05_06].
@@ -194,7 +265,7 @@ A convention of US and Canadian police chiefs held in Halifax, Nova Scotia in 19
 <br>
 <div style="text-align: center;">
   <figure>
-    <img src="img/MacKenzie1976.png" alt="B/W newspaper clipping from the middle panel of a trip-tych. A single officer stands in front of a brick building, wearing a riot helmet that's light with a police logo on it and the chinstrap is undone. The officer is wearing a flak jacket loosely and holding a GOEC-style pepper fogger aimed at the front right of the photo to where the opening of the barrel is just in frame. The darkness of the fogger body and the officer's pants and jacket make the bottom left of the photo a bit of a black mush. " width="500"  style="margin: 0 1em 0 1em" />
+    <img src="img/MacKenzie1976.jpg" alt="B/W newspaper clipping from the middle panel of a trip-tych. A single officer stands in front of a brick building, wearing a riot helmet that's light with a police logo on it and the chinstrap is undone. The officer is wearing a flak jacket loosely and holding a GOEC-style pepper fogger aimed at the front right of the photo to where the opening of the barrel is just in frame. The darkness of the fogger body and the officer's pants and jacket make the bottom left of the photo a bit of a black mush. " width="500"  style="margin: 0 1em 0 1em" />
     <figcaption> 
       Sergeant Al Oakley shows off a pepper fogger [@MacKenzie1976].
     </figcaption>

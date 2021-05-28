@@ -5,7 +5,7 @@ Unfortunately most deployments go undocumented or such documents never see the l
 It seems that the only time we find out about prisoners being fogged is when a serious incident occurs triggering outside investigations and the judicial system.
 
 
-## Big Mac {-}
+## Big Mac {- #BigMac}
 
 In the 1970s, the McAlester ("Big Mac") Oklahoma State Penitentiary was the site of considerable resistance and rioting by inmates [@TheRag1975; @WinterSoldier1975].
 A major tool used by the guards in retaliation was tear gas, which they deployed via shot shells, grenades, and pepper foggers [@Allen1974a; @Allen1975a; @Allen1975b; @Coffey1975b].

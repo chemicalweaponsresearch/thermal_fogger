@@ -1,4 +1,4 @@
-# Training {-}
+# Accidents {-}
 
 ### Bullitt Volunteer Fire Deptartment {-}
 

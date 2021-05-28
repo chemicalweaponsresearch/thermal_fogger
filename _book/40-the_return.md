@@ -9,6 +9,8 @@ In alignment with the general "Imperial Circuit of Tear Gas" [@Schrader2019] bet
 
 ## Manufacturers {-}
 
+American companies quickly jumped at the opportunity to sell thermal foggers to police departments.
+
 ### Sears Roebuck {-}
 
 The original Mighty Mite that established the fogger as a method of chemical dispersal was manufactured by a domestic company (Sears Roebuck) for insecticide application [@Applegate1969].
@@ -114,6 +116,7 @@ Newspapers around the country were more than happy to print "articles" that prom
 [General Ordnance Equipment Corporation](#GOEC)'s Pepper Fog model seems to have been the favorite, at least amongst the departments showing off their new cool toys for photographs.
 
 <br>
+
 (ref:imgGaylord1971) A McHenry County (Illinois) Sheriff's officer fogs some grass in a rural landscape during a training and press demo day [@Gaylord1971; @PlainDealer1971]. McHenry County's 1970 population was 111,555 [@USCB1970].
 
 <div class="figure" style="text-align: center">
@@ -169,7 +172,7 @@ In news reports, the foggers were described as
 ### Florida {-}
 
 Similarly, following the [1968 Republican National Convention](#MiamiFL1968_08_08), Florida law enforcement took to the fogger [@Cain1968].
-In Sanford (1970 pop. 17,93; @USCB1970), the local police department purchased a fogger for use with [CN gas](https://en.wikipedia.org/wiki/Phenacyl_chloride), noting that it could shoot fog 20 ft for up to a 15 minute stretch, and so would be effective for controlling large masses [@Cain1968].
+In Sanford (1970 pop. 17,393; @USCB1970), the local police department purchased a fogger for use with [CN gas](https://en.wikipedia.org/wiki/Phenacyl_chloride), noting that it could shoot fog 20 ft for up to a 15 minute stretch, and so would be effective for controlling large masses [@Cain1968].
 They had, however, only used it in training and for demoing to the media [@Cain1968].
 
 <br>

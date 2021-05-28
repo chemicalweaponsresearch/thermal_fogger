@@ -17,48 +17,48 @@
 \contentsline {subsection}{Manufacturers}{13}{section*.18}%
 \contentsline {subsubsection}{Sears Roebuck}{13}{section*.19}%
 \contentsline {subsubsection}{General Ordnance Equipment Corporation}{13}{section*.20}%
-\contentsline {subsubsection}{Federal Laboratories \& Defense Technology}{13}{section*.21}%
+\contentsline {subsubsection}{Federal Laboratories \& Defense Technology}{15}{section*.21}%
 \contentsline {subsection}{Rex Applegate}{15}{section*.22}%
-\contentsline {subsection}{News Media Propaganda}{15}{section*.23}%
-\contentsline {subsubsection}{Gary Wills}{20}{section*.24}%
-\contentsline {subsection}{Coming to Your Town Soon!}{20}{section*.25}%
-\contentsline {subsubsection}{Illinois}{20}{section*.26}%
-\contentsline {subsubsection}{Florida}{20}{section*.27}%
+\contentsline {subsection}{News Media Propaganda}{16}{section*.23}%
+\contentsline {subsubsection}{Gary Wills}{16}{section*.24}%
+\contentsline {subsection}{Coming to Your Town Soon!}{17}{section*.25}%
+\contentsline {subsubsection}{Illinois}{17}{section*.26}%
+\contentsline {subsubsection}{Florida}{21}{section*.27}%
 \contentsline {subsubsection}{California}{21}{section*.28}%
 \contentsline {subsubsection}{National Guard}{21}{section*.29}%
 \contentsline {subsubsection}{Small Town USA}{21}{section*.30}%
-\contentsline {subsection}{Crossing to Canada}{24}{section*.31}%
-\contentsline {section}{The 1968 Conventions}{24}{section*.32}%
-\contentsline {subsection}{Miami, August 8}{24}{section*.33}%
+\contentsline {subsection}{Crossing to Canada}{23}{section*.31}%
+\contentsline {section}{The 1968 Conventions}{23}{section*.32}%
+\contentsline {subsection}{Miami, August 8}{23}{section*.33}%
 \contentsline {subsection}{Chicago, August 26 - 29}{26}{section*.34}%
 \contentsline {subsection}{Berkeley, August 31}{26}{section*.35}%
-\contentsline {section}{University Cities}{26}{section*.36}%
+\contentsline {section}{University Cities}{28}{section*.36}%
 \contentsline {subsection}{Durham}{28}{section*.37}%
 \contentsline {subsection}{Berkeley}{28}{section*.38}%
 \contentsline {paragraph}{February 21 1969}{28}{paragraph.0.0.0.1}%
 \contentsline {paragraph}{\numberline {0.0.0.1}February 21 1969}{28}{paragraph.0.0.0.1}%
-\contentsline {paragraph}{February 28 1969}{28}{paragraph.0.0.0.2}%
-\contentsline {paragraph}{\numberline {0.0.0.2}February 28 1969}{28}{paragraph.0.0.0.2}%
-\contentsline {paragraph}{May 15 1969}{32}{paragraph.0.0.0.3}%
-\contentsline {paragraph}{\numberline {0.0.0.3}May 15 1969}{32}{paragraph.0.0.0.3}%
+\contentsline {paragraph}{February 28 1969}{31}{paragraph.0.0.0.2}%
+\contentsline {paragraph}{\numberline {0.0.0.2}February 28 1969}{31}{paragraph.0.0.0.2}%
+\contentsline {paragraph}{May 15 1969}{31}{paragraph.0.0.0.3}%
+\contentsline {paragraph}{\numberline {0.0.0.3}May 15 1969}{31}{paragraph.0.0.0.3}%
 \contentsline {subsection}{Seattle}{32}{section*.39}%
 \contentsline {subsection}{College Park}{32}{section*.40}%
-\contentsline {subsection}{Iowa City}{35}{section*.41}%
+\contentsline {subsection}{Iowa City}{32}{section*.41}%
 \contentsline {subsection}{Minneapolis}{35}{section*.42}%
 \contentsline {subsection}{Gainesville}{35}{section*.43}%
-\contentsline {section}{High Schools}{37}{section*.44}%
+\contentsline {section}{High Schools}{35}{section*.44}%
 \contentsline {subsection}{San Gordonio}{37}{section*.45}%
-\contentsline {subsection}{Lawrence}{38}{section*.46}%
+\contentsline {subsection}{Lawrence}{37}{section*.46}%
 \contentsline {section}{Racial Justice}{38}{section*.47}%
 \contentsline {subsection}{Danville IL}{39}{section*.48}%
 \contentsline {subsection}{Portland OR}{39}{section*.49}%
 \contentsline {subsubsection}{July 29 2020}{39}{section*.50}%
 \contentsline {subsubsection}{Abolish ICE: Immigration and Customs Enforcement Rental Property}{39}{section*.51}%
-\contentsline {subsubsection}{Inaugration 2021}{42}{section*.52}%
+\contentsline {subsubsection}{Inaugration 2021}{39}{section*.52}%
 \contentsline {section}{Labor}{42}{section*.53}%
 \contentsline {subsubsection}{North Kingstown RI, March 22 1982}{42}{section*.54}%
-\contentsline {section}{Celebrations}{45}{section*.55}%
-\contentsline {subsubsection}{1975 New Years Eve}{45}{section*.56}%
+\contentsline {section}{Celebrations}{46}{section*.55}%
+\contentsline {subsubsection}{1975 New Years Eve}{46}{section*.56}%
 \contentsline {subsubsection}{1974 NHRA Nationals}{47}{section*.57}%
 \contentsline {section}{The Carceral System}{47}{section*.58}%
 \contentsline {subsection}{Big Mac}{47}{section*.59}%

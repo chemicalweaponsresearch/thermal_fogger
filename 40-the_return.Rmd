@@ -110,6 +110,7 @@ knitr::include_graphics("img/Amanphoto1970.jpg")
 [General Ordnance Equipment Corporation](#GOEC)'s Pepper Fog model seems to have been the favorite, at least amongst the departments showing off their new cool toys for photographs.
 
 <br>
+
 (ref:imgGaylord1971) A McHenry County (Illinois) Sheriff's officer fogs some grass in a rural landscape during a training and press demo day [@Gaylord1971; @PlainDealer1971]. McHenry County's 1970 population was 111,555 [@USCB1970].
 
 ```{r imgGaylord1971,  out.width = 500, fig.alt = "Black and white photo of an individual standing in a grass field with wood horse fence and trees and barns in the background. The individual is in light clothes and a black cap and is using both hands to hold a pepper fogger, which they are using to fog some grass on the right side of the photo. they are facing the camera, so the classic GOEC label is visible." , echo = FALSE, fig.cap = "(ref:imgGaylord1971)", fig.align = "center"}
@@ -163,7 +164,7 @@ In news reports, the foggers were described as
 ### Florida {-}
 
 Similarly, following the [1968 Republican National Convention](#MiamiFL1968_08_08), Florida law enforcement took to the fogger [@Cain1968].
-In Sanford (1970 pop. 17,93; @USCB1970), the local police department purchased a fogger for use with [CN gas](https://en.wikipedia.org/wiki/Phenacyl_chloride), noting that it could shoot fog 20 ft for up to a 15 minute stretch, and so would be effective for controlling large masses [@Cain1968].
+In Sanford (1970 pop. 17,393; @USCB1970), the local police department purchased a fogger for use with [CN gas](https://en.wikipedia.org/wiki/Phenacyl_chloride), noting that it could shoot fog 20 ft for up to a 15 minute stretch, and so would be effective for controlling large masses [@Cain1968].
 They had, however, only used it in training and for demoing to the media [@Cain1968].
 
 <br>

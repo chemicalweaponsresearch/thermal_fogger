@@ -38,7 +38,7 @@ knitr::include_graphics("img/cover.png")
 
 ```{asis index-3, echo=is_html}
 
-[An archived version of this book is available on Zenodo](https://doi.org/10.5281/zenodo.4668002).
+[An archived version of this book is available on Zenodo](https://doi.org/10.5281/zenodo.4850406).
 
 ```
 

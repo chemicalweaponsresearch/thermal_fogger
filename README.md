@@ -1,5 +1,7 @@
 ## Thermal Fogger: An Imperial Tetherball
 
+Dr Juniper L. Simonis _(they/them/theirs)_
+
 v0.3.1 2021-05-30
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cd448b0d-77d6-4b85-8908-25b58342c825/deploy-status)](https://app.netlify.com/sites/objective-wing-29d45d/deploys)

@@ -1,4 +1,4 @@
-# Thermal Fogger: An Imperial Tetherball
+## Thermal Fogger: An Imperial Tetherball
 
 v0.3.1 2021-05-30
 

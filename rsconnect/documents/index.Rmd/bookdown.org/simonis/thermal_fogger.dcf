@@ -5,7 +5,7 @@ account: simonis
 server: bookdown.org
 hostUrl: https://bookdown.org/__api__
 appId: 7702
-bundleId: 42293
+bundleId: 42405
 url: https://bookdown.org/simonis/thermal_fogger/
-when: 1622249527.33685
-lastSyncTime: 1622249527.33685
+when: 1622421867.24224
+lastSyncTime: 1622421867.24224

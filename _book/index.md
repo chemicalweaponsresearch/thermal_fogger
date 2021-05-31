@@ -2,7 +2,7 @@
 title: "The Thermal Fogger"
 subtitle: "An Imperial Tetherball"
 author: "Dr. Juniper L. Simonis (they/them/theirs)"
-date: "2021-05-28"
+date: "2021-05-30"
 description: "The history of use of thermal fogging in chemical warfare."
 github-repo: "chemicalweaponsresearch/thermal_fogger"
 cover-image: "img/cover.png"
@@ -30,7 +30,7 @@ site: bookdown::bookdown_site
 <br> 
 
 
-[An archived version of this book is available on Zenodo](https://doi.org/10.5281/zenodo.4668002).
+[An archived version of this book is available on Zenodo](https://doi.org/10.5281/zenodo.4850406).
 
 
 

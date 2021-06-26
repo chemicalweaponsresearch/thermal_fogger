@@ -1,4 +1,7 @@
 
+
+
+
 # Racial Justice {-}
 
 Police are generally more apt to use heavy responses including chemical weapons against Black protesters in general [@DSPDX2020].
@@ -33,10 +36,14 @@ This machine is designed and marketed for bird control, and while "_training too
 
 (ref:imgportland202007292) CBP agent deploying chemical agent via thermal fogger in front of the federal courthouse [@Brown2020].
 
-<div class="figure" style="text-align: center">
-<img src="img/portland_2020_07_29.jpg" alt="Fully riot-geared and for some reason in green camo US Homeland Security agents (to the middle and the left of the photo) behind a row of two-foot tall, one-foot radius metal posts, behind a metal grate wall over 7 feet tall with metal support beams and concrete pylon buttressing. In the front of the left side is an agent holding a plastic clear riot shield, through which you can see a patch that say 'Border Patrol Federal Agent' in yellow and some insignia patches as well. In the middle are the agents in camo, one with a hand on the shoulder of another who is operating a thermal fogger machine shooting gas through the fence. The machine is maybe four or five feet long and has a body not unlike a bush whacker with a two-cycle engine, but fueling a vaporizer instead of a rotor. The agent is holding the machine with their right hand visibly and there is a black strap across their shoulder holding it up. The machine is mostly shiny metal, although the tip is showing signs of corrosion (no surprise based on the compounds and heat) and the supports of the body are a bright green." width="500" />
-<p class="caption">(\#fig:imgportland202007292)(ref:imgportland202007292)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2020_07_29} 
+
+}
+
+\caption{(ref:imgportland202007292)}(\#fig:imgportland202007292)
+\end{figure}
 
 <br>
 
@@ -56,10 +63,14 @@ After marching to the ICE rental property, individuals tied the balloons to the 
 
 (ref:imgportland20201017) CBP agent fogging a South Waterfront neighborhood [@Lake2020].
 
-<div class="figure" style="text-align: center">
-<img src="img/portland_2020_10_17.png" alt="One person in green protective gear, wearing a bulletproof vest with weapons strapped to the body and wearing a helmet and gas mask is walking to the left carrying a fogger in the right hand arm extended down, nozzle pointing forward. A cloud of gas is coming from the nozzle. Next to them is someone dressed all in black with a bullet proof vest with the word POLICE across the back, also wearing a helmet and gas mask. It is night and there are additional clouds of gas and the shapes of people in the background. source: https://twitter.com/MasonLakePhoto/status/1317869903345414144" width="500" />
-<p class="caption">(\#fig:imgportland20201017)(ref:imgportland20201017)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2020_10_17} 
+
+}
+
+\caption{(ref:imgportland20201017)}(\#fig:imgportland20201017)
+\end{figure}
  
 <br>
 
@@ -72,10 +83,14 @@ The fogged up and down multiple blocks, with visible plumes entering units in th
 
 (ref:imgportland20210120) CBP officer holding thermal fogger [@Staab2021].
 
-<div class="figure" style="text-align: center">
-<img src="img/portland_2021_01_20.png" alt="Night in a city, building lights in the background. One person standing alone in the center of a road, shown from the waist to the ankles. The person is wearing work pants with covered pockets at the thighs and calves, long sleeve shirt, and a glove on the right hand. In the left hand they are gripping the handle of a neon green fogger tool. The long black nozzle, covered with a wire cage, projects backwards and the motor is towards the front. It is being held at hip height; the arm holding it is relaxed down." width="500" />
-<p class="caption">(\#fig:imgportland20210120)(ref:imgportland20210120)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2021_01_20} 
+
+}
+
+\caption{(ref:imgportland20210120)}(\#fig:imgportland20210120)
+\end{figure}
  
 <br>
 
@@ -86,10 +101,14 @@ That weekend, CBP deployed the fogger again during Abolish ICE protests, this ti
 
 (ref:imgportland202101231) CBP agent holding thermal fogger [@Lewis-Rolland2021a].
 
-<div class="figure" style="text-align: center">
-<img src="img/portland_2021_01_23_1.png" alt="Night time with the light from a street light visible in the background. Two officers dressed in full protective gear with bulletproof vests holding supplies on, with the word POLICE stenciled in yellow. They are both wearing helmets and gas masks. The nearer one is holding a gas fogger in the right hand. Thefogger looks like a long tube between 3 and 4 feet long with a handle and motor parts near the back. The tube is covered with a wire cage until about the last half foot, which is a plain and narrower tube. Behind these two officers are some dimly lit buildings and one or two other officers but they are not clear." width="500" />
-<p class="caption">(\#fig:imgportland202101231)(ref:imgportland202101231)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2021_01_23_1} 
+
+}
+
+\caption{(ref:imgportland202101231)}(\#fig:imgportland202101231)
+\end{figure}
 
 <br>
 
@@ -99,10 +118,14 @@ That weekend, CBP deployed the fogger again during Abolish ICE protests, this ti
 
 (ref:imgportland202101232) CBP agent fogging an intersection in the South Waterfront neighborhood [@Lewis-Rolland2021b].
 
-<div class="figure" style="text-align: center">
-<img src="img/portland_2021_01_23_2.png" alt="Nine people wearing full protective gear including helmets and gas masks standing spread out across a street at night. One is holding a gas fogger in one hand and gas is spewing and a cloud is forming in front of them. There is also some gas cloud behind the group. All of them seem to be wearing weapons on their gear but details are not clear. It is night. There is a grey building in the background with a red door and red trim. A white stripe on the roadway has the words MELT ICE spray painted on it." width="500" />
-<p class="caption">(\#fig:imgportland202101232)(ref:imgportland202101232)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2021_01_23_2} 
+
+}
+
+\caption{(ref:imgportland202101232)}(\#fig:imgportland202101232)
+\end{figure}
   
 <br>
 

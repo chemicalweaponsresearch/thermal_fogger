@@ -1,4 +1,17 @@
 
+```{r index-1, echo=FALSE}
+is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
+is_online <- curl::has_internet()
+is_html <- knitr::is_html_output()
+is_latex <- knitr::is_latex_output()
+if (is_html) {
+  out_width <- 500
+} else if (is_latex) {
+  out_width <-"100%"
+}
+
+```
+
 # High Schools {-}
 
 Almost immediately, law enforcement extended use of foggers from [universities]{#Universities} to high schools, specifically using the weapons against Black youth protesters.
@@ -15,7 +28,7 @@ Although undated, this photograph printed in The Delta Democrat-Times (Greenvill
 
 (ref:imgsanbernardino1969xxxx) Police use a pepper fogger on students at San Gordonio High School [@UPIphoto1969].  
 
-```{r imgsanbernardino1969xxxx, echo = FALSE, out.width = 500, fig.cap = "(ref:imgsanbernardino1969xxxx)", fig.align = "center", fig.alt = "B/W faded image: To the left is a person wearing a uniform with a patch on the shoulder and a helmet. In their right hand is the nozzle to a fogger and it appears to be emitting fog. There is a white fog cloud covering most of the rest of the image."}  
+```{r imgsanbernardino1969xxxx, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgsanbernardino1969xxxx)", fig.align = "center", fig.alt = "B/W faded image: To the left is a person wearing a uniform with a patch on the shoulder and a helmet. In their right hand is the nozzle to a fogger and it appears to be emitting fog. There is a white fog cloud covering most of the rest of the image."}  
 knitr::include_graphics("img/san_bernardino_1969_xx_xx.jpg") 
 ```
  
@@ -41,7 +54,7 @@ The next day, police were ready with heavy chemical weaponry, including the [GOE
 
 (ref:imglawrence19700421) Police bring a [GOEC](#GOEC) pepper fogger to gas Black high school and junior high students at Lawrence High School [@UKA1970].
 
-```{r imglawrence19700421, echo = FALSE, out.width = 500, fig.cap = "(ref:imglawrence19700421)", fig.align = "center", fig.alt = "yellowed B/W faded image of police officers standing on a T of a sidewalk blocking the space from a group of predominately Black young people, who are standing behind them on the grass and facing the camera. Behind them are some cars and houses across a stree. The officer in the front left of the frame is carrying a Pepper Fog GOEC fogger."}
+```{r imglawrence19700421, echo = FALSE, out.width = out_width, fig.cap = "(ref:imglawrence19700421)", fig.align = "center", fig.alt = "yellowed B/W faded image of police officers standing on a T of a sidewalk blocking the space from a group of predominately Black young people, who are standing behind them on the grass and facing the camera. Behind them are some cars and houses across a stree. The officer in the front left of the frame is carrying a Pepper Fog GOEC fogger."}
 knitr::include_graphics("img/lawrence_1970_04_21.jpg") 
 ```
  

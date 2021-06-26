@@ -1,4 +1,19 @@
 
+```{r index-1, echo=FALSE}
+is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
+is_online <- curl::has_internet()
+is_html <- knitr::is_html_output()
+is_latex <- knitr::is_latex_output()
+if (is_html) {
+  out_width <- 500
+  out_width2 <- 400
+} else if (is_latex) {
+  out_width <-"100%"
+  out_width2 <-"100%"
+}
+
+```
+
 
 # Vietnam {- #Vietnam}
 
@@ -16,7 +31,7 @@ The specialized forces designated for the work were dubbed "Tunnel Rats" and tea
 
 (ref:imgratmask) Tunnel rat in a gas mask, undated [@Hemmings2019]
   
-```{r imgratmask, out.width = 500, fig.cap="(ref:imgratmask)", fig.alt = "B/W image. Open trench at bottom, center. Pipe runs across trench and into the dirt on either side. Person in gas mask crouched below pipe looking up and forward. Leg in pants and lace up boot stretched over trench leaning against right edge. Other leg and boot partially visible on left. Hand holding lit cigarette resting on foot on left.", echo = FALSE, fig.align = "center"}
+```{r imgratmask, out.width = out_width2, fig.cap="(ref:imgratmask)", fig.alt = "B/W image. Open trench at bottom, center. Pipe runs across trench and into the dirt on either side. Person in gas mask crouched below pipe looking up and forward. Leg in pants and lace up boot stretched over trench leaning against right edge. Other leg and boot partially visible on left. Hand holding lit cigarette resting on foot on left.", echo = FALSE, fig.align = "center"}
 knitr::include_graphics("img/rat_mask.png")
 ```
 
@@ -33,7 +48,7 @@ And although (highly toxic; @Simonis2020) munitions smoke was used in this appli
   
 (ref:imgmitymite) Technical drawing of a backpack fogger [@USMACV1965]
 
-```{r imgmitymite, out.width = 500, fig.cap="(ref:imgmitymite)", fig.alt = "Technical rendering sketch of a tank with the words Mity Mite on the side. Funnel on bottom of tank leads to exhaust hose below and pipe on bottom of tank has small flexible hose attaching to exhaust hose as well. Exhaust hose comes from below and curves upward to the right. Below the tanks and attached by a frame is a small motor.", echo = FALSE, fig.align = "center"}
+```{r imgmitymite, out.width = out_width, fig.cap="(ref:imgmitymite)", fig.alt = "Technical rendering sketch of a tank with the words Mity Mite on the side. Funnel on bottom of tank leads to exhaust hose below and pipe on bottom of tank has small flexible hose attaching to exhaust hose as well. Exhaust hose comes from below and curves upward to the right. Below the tanks and attached by a frame is a small motor.", echo = FALSE, fig.align = "center"}
     
 knitr::include_graphics("img/mity_mite.jpg")
 ```  
@@ -50,7 +65,7 @@ The United States military was publishing on the utility of the fogger in offici
   
 (ref:imgmightymite) A soldier uses a backpack Mity Mite to fog a tunnel [@USArmy1966]
 
-```{r imgmightymite, out.width = 500, fig.cap="(ref:imgmightymite)", fig.alt = "B/W image in a dirt field. Helmeted soldier on one knee with tank strapped on back. Lifting a board with left hand and holding an exhaust tube from the tank under the board with right hand.", echo = FALSE, fig.align = "center"}
+```{r imgmightymite, out.width = out_width, fig.cap="(ref:imgmightymite)", fig.alt = "B/W image in a dirt field. Helmeted soldier on one knee with tank strapped on back. Lifting a board with left hand and holding an exhaust tube from the tank under the board with right hand.", echo = FALSE, fig.align = "center"}
        
 knitr::include_graphics("img/mighty_mite.png")
 ``` 
@@ -65,7 +80,7 @@ And by 1968's Battle of Khe Sanh, it was standard practice to use foggers for tu
   
 (ref:imgunpacktest) Engineers unpack and test a Mitey-Mite blower [@USAES].
 
-```{r imgunpacktest, out.width = 500, fig.cap="(ref:imgunpacktest)", fig.alt = "B/W image. In a clearing in a densely vegetated area, a small tank with an exhaust pipe blowing fog to the right. The cloud of fog covers much of the right side. Towards the back, 2 people wearing helmets and fatigues with sleeves rolled up stand with hands on hips on either side of the fogger, watching it.", echo = FALSE, fig.align = "center"}
+```{r imgunpacktest, out.width = out_width, fig.cap="(ref:imgunpacktest)", fig.alt = "B/W image. In a clearing in a densely vegetated area, a small tank with an exhaust pipe blowing fog to the right. The cloud of fog covers much of the right side. Towards the back, 2 people wearing helmets and fatigues with sleeves rolled up stand with hands on hips on either side of the fogger, watching it.", echo = FALSE, fig.align = "center"}
    
 
 knitr::include_graphics("img/unpack_test.jpg")
@@ -87,7 +102,7 @@ For example, by 1966 the Australian Tunnel Rats were particularly fond of foggin
   
 (ref:vietnamaus1) Double Acetylene Generator and a Mighty Mite Air Blower Used to Blow Fumes into Viet Cong Tunnels [@vietnam_aus1]
 
-```{r vietnamaus1, out.width = 500, fig.cap="(ref:vietnamaus1)", fig.alt = "Black and white photo of a Mighty Mite blower on the left and two containers of acetylene in the middle, both containers are metal boxes with labeling in small white text and then some bladder bag on top. There are large vaccum size hozes coming off the blower and going off frame to the right. The scene is the ground of a jungle that has been cleared a little, there are trees and foliage in the background and dense but matted down grass in the fore.", echo = FALSE, fig.align = "center"}
+```{r vietnamaus1, out.width = out_width, fig.cap="(ref:vietnamaus1)", fig.alt = "Black and white photo of a Mighty Mite blower on the left and two containers of acetylene in the middle, both containers are metal boxes with labeling in small white text and then some bladder bag on top. There are large vaccum size hozes coming off the blower and going off frame to the right. The scene is the ground of a jungle that has been cleared a little, there are trees and foliage in the background and dense but matted down grass in the fore.", echo = FALSE, fig.align = "center"}
     
 knitr::include_graphics("img/vietnam_aus1.jpg")
 ```     
@@ -99,7 +114,7 @@ knitr::include_graphics("img/vietnam_aus1.jpg")
   
 (ref:imgvietnamaus2) Mighty Mite Machine Used to Contaminate Viet Cong Tunnel Systems with Acetylene [@vietnam_aus2]
 
-```{r imgvietnamaus2, out.width = 500, fig.cap="(ref:imgvietnamaus2)", fig.alt = "An individual crouches on the ground next to a blower, facing off to the right, with his left hand slightly resting on it. The photo is aimed down at this person, so the two people looking at the fogger while standing are partially visible from the feet upwards. The photo is an old black and white image and there are items around the sides that are difficult to make out, including potentially a cache of chemical weapons grenades on the right side and some sandbacks in the back.", echo = FALSE, fig.align = "center"}
+```{r imgvietnamaus2, out.width = out_width, fig.cap="(ref:imgvietnamaus2)", fig.alt = "An individual crouches on the ground next to a blower, facing off to the right, with his left hand slightly resting on it. The photo is aimed down at this person, so the two people looking at the fogger while standing are partially visible from the feet upwards. The photo is an old black and white image and there are items around the sides that are difficult to make out, including potentially a cache of chemical weapons grenades on the right side and some sandbacks in the back.", echo = FALSE, fig.align = "center"}
     
 knitr::include_graphics("img/vietnam_aus2.jpg")
 ```     

@@ -1,3 +1,17 @@
+
+```{r index-1, echo=FALSE}
+is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
+is_online <- curl::has_internet()
+is_html <- knitr::is_html_output()
+is_latex <- knitr::is_latex_output()
+if (is_html) {
+  out_width <- 500
+} else if (is_latex) {
+  out_width <-"100%"
+}
+
+```
+
 # The Science of Thermal Fogging {-}
 
 The concept behind using a thermal fogger to disperse chemical weapons is known as [pulsejet technology](https://en.wikipedia.org/wiki/Pulsejet), which is indeed a jet propulsion method.
@@ -7,7 +21,7 @@ For the purposes of thermal fogging, the chemicals are heated to ~1400 degrees C
 
 (ref:imgCrockett1969) Concept drawing from the International Association of Chiefs of Police chemical agents manual [@Crockett1969].
 
-```{r imgCrockett1969, echo = FALSE, out.width = 500, fig.cap = "(ref:imgCrockett1969)", fig.align = "center", fig.alt = "B/W image drawing with text from an old white paper book. The text says FOG DISSEMINATION at the top then a paragraph with `Fog dissemination devices operate by rapidly vaporizing a high boiling point liquid agent formulation. This is accomplished by injecting the liquid agent into a hot gas flow and allowing the vaporized agent to contact the cooler ambient air where the agent condenses into a fog and ultimately into extremely small agent particles.` In the middle is the drawing with a square on the left with a long rectangle coming out of it to the right with a cloud out the further end of the rectangle. There are bits of text around it, pointing to the box it says `FUEL`, `SPARK`, and `COMBUSTION CHAMBER`. in the middle of the rectange it says `HOT GASES` in the middle of arrows pointing out towards the cloud. Along the rectangle another injection area is noted for `Liquid Agent Injection` Text on the bottom says `FIGURE 4. FOG DISSEMINATION. A liquid chemical agent is vaporized by a hot gas flow and released as a fog cloud`."}
+```{r imgCrockett1969, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgCrockett1969)", fig.align = "center", fig.alt = "B/W image drawing with text from an old white paper book. The text says FOG DISSEMINATION at the top then a paragraph with `Fog dissemination devices operate by rapidly vaporizing a high boiling point liquid agent formulation. This is accomplished by injecting the liquid agent into a hot gas flow and allowing the vaporized agent to contact the cooler ambient air where the agent condenses into a fog and ultimately into extremely small agent particles.` In the middle is the drawing with a square on the left with a long rectangle coming out of it to the right with a cloud out the further end of the rectangle. There are bits of text around it, pointing to the box it says `FUEL`, `SPARK`, and `COMBUSTION CHAMBER`. in the middle of the rectange it says `HOT GASES` in the middle of arrows pointing out towards the cloud. Along the rectangle another injection area is noted for `Liquid Agent Injection` Text on the bottom says `FIGURE 4. FOG DISSEMINATION. A liquid chemical agent is vaporized by a hot gas flow and released as a fog cloud`."}
 knitr::include_graphics("img/Crockett1969.png") 
 ```
 

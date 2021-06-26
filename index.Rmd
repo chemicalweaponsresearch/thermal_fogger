@@ -1,12 +1,12 @@
 --- 
 title: "The Thermal Fogger"
 subtitle: "An Imperial Tetherball"
-author: "Dr. Juniper L. Simonis (they/them/theirs)"
+author: "Dr. Juniper L. Simonis"
 date: "`r Sys.Date()`"
 description: "The history of use of thermal fogging in chemical warfare."
 github-repo: "chemicalweaponsresearch/thermal_fogger"
 cover-image: "img/cover.png"
-url: "chemicalweaponsresearch.com/thermal_fogger"
+url: "thermalfogger.chemicalweaponsresearch.com"
 colorlinks: yes
 graphics: yes
 bibliography: [packages.bib, references.bib]
@@ -14,12 +14,18 @@ biblio-style: apalike
 link-citations: yes
 knit: bookdown::render_book
 site: bookdown::bookdown_site
+documentclass: krantz
+lot: yes
+lof: yes
+fontsize: 12pt
+monofontoptions: "Scale=0.7"
 ---
 
 ```{r index-1, echo=FALSE}
-is_on_ghactions = identical(Sys.getenv("GITHUB_ACTIONS"), "true")
-is_online = curl::has_internet()
-is_html = knitr::is_html_output()
+is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
+is_online <- curl::has_internet()
+is_html <- knitr::is_html_output()
+is_latex <- knitr::is_latex_output()
 ```
 
 ```{asis index-2, echo=is_html}
@@ -29,7 +35,7 @@ is_html = knitr::is_html_output()
 
 (ref:imgcover) Deployment of a thermal fogger by police in Berkeley CA, 8/31/1968 [@UPIphoto1968]
 
-```{r imgcover, out.width = 500, fig.cap="(ref:imgcover)", fig.alt = "Black and white newspaper clipping. To left is an officer wearing long pants, long sleeved shirt, and a helmet walking forward carrying a fogger in the right hand. The fogger is blowing fog through a tube and a cloud is forming. Background is a storefront window and door. To the right 2 people are moving away from the fog, leaning on one another, and covering their faces with their hands.", echo = FALSE, fig.align = "center"}
+```{r imgcover, fig.cap="(ref:imgcover)", fig.alt = "Black and white newspaper clipping. To left is an officer wearing long pants, long sleeved shirt, and a helmet walking forward carrying a fogger in the right hand. The fogger is blowing fog through a tube and a cloud is forming. Background is a storefront window and door. To the right 2 people are moving away from the fog, leaning on one another, and covering their faces with their hands.", out.width = "100%", echo = FALSE, include = is_html, fig.align = "center"}
     
 knitr::include_graphics("img/cover.png")
 ```  

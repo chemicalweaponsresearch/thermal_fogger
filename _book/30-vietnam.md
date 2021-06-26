@@ -1,5 +1,7 @@
 
 
+
+
 # Vietnam {- #Vietnam}
 
 The modern day use of thermal foggers for chemical weapons deployment was born from the American colonization of Vietnam in the mid-to-late-20th Century [@Bunker1996]. 
@@ -16,10 +18,14 @@ The specialized forces designated for the work were dubbed "Tunnel Rats" and tea
 
 (ref:imgratmask) Tunnel rat in a gas mask, undated [@Hemmings2019]
   
-<div class="figure" style="text-align: center">
-<img src="img/rat_mask.png" alt="B/W image. Open trench at bottom, center. Pipe runs across trench and into the dirt on either side. Person in gas mask crouched below pipe looking up and forward. Leg in pants and lace up boot stretched over trench leaning against right edge. Other leg and boot partially visible on left. Hand holding lit cigarette resting on foot on left." width="500" />
-<p class="caption">(\#fig:imgratmask)(ref:imgratmask)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/rat_mask} 
+
+}
+
+\caption{(ref:imgratmask)}(\#fig:imgratmask)
+\end{figure}
 
 <br>
 
@@ -34,10 +40,14 @@ And although (highly toxic; @Simonis2020) munitions smoke was used in this appli
   
 (ref:imgmitymite) Technical drawing of a backpack fogger [@USMACV1965]
 
-<div class="figure" style="text-align: center">
-<img src="img/mity_mite.jpg" alt="Technical rendering sketch of a tank with the words Mity Mite on the side. Funnel on bottom of tank leads to exhaust hose below and pipe on bottom of tank has small flexible hose attaching to exhaust hose as well. Exhaust hose comes from below and curves upward to the right. Below the tanks and attached by a frame is a small motor." width="500" />
-<p class="caption">(\#fig:imgmitymite)(ref:imgmitymite)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/mity_mite} 
+
+}
+
+\caption{(ref:imgmitymite)}(\#fig:imgmitymite)
+\end{figure}
 
 <br>
 
@@ -51,10 +61,14 @@ The United States military was publishing on the utility of the fogger in offici
   
 (ref:imgmightymite) A soldier uses a backpack Mity Mite to fog a tunnel [@USArmy1966]
 
-<div class="figure" style="text-align: center">
-<img src="img/mighty_mite.png" alt="B/W image in a dirt field. Helmeted soldier on one knee with tank strapped on back. Lifting a board with left hand and holding an exhaust tube from the tank under the board with right hand." width="500" />
-<p class="caption">(\#fig:imgmightymite)(ref:imgmightymite)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/mighty_mite} 
+
+}
+
+\caption{(ref:imgmightymite)}(\#fig:imgmightymite)
+\end{figure}
   
 
 <br>
@@ -66,10 +80,14 @@ And by 1968's Battle of Khe Sanh, it was standard practice to use foggers for tu
   
 (ref:imgunpacktest) Engineers unpack and test a Mitey-Mite blower [@USAES].
 
-<div class="figure" style="text-align: center">
-<img src="img/unpack_test.jpg" alt="B/W image. In a clearing in a densely vegetated area, a small tank with an exhaust pipe blowing fog to the right. The cloud of fog covers much of the right side. Towards the back, 2 people wearing helmets and fatigues with sleeves rolled up stand with hands on hips on either side of the fogger, watching it." width="500" />
-<p class="caption">(\#fig:imgunpacktest)(ref:imgunpacktest)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/unpack_test} 
+
+}
+
+\caption{(ref:imgunpacktest)}(\#fig:imgunpacktest)
+\end{figure}
   
 
 <br>
@@ -87,10 +105,14 @@ For example, by 1966 the Australian Tunnel Rats were particularly fond of foggin
   
 (ref:vietnamaus1) Double Acetylene Generator and a Mighty Mite Air Blower Used to Blow Fumes into Viet Cong Tunnels [@vietnam_aus1]
 
-<div class="figure" style="text-align: center">
-<img src="img/vietnam_aus1.jpg" alt="Black and white photo of a Mighty Mite blower on the left and two containers of acetylene in the middle, both containers are metal boxes with labeling in small white text and then some bladder bag on top. There are large vaccum size hozes coming off the blower and going off frame to the right. The scene is the ground of a jungle that has been cleared a little, there are trees and foliage in the background and dense but matted down grass in the fore." width="500" />
-<p class="caption">(\#fig:vietnamaus1)(ref:vietnamaus1)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/vietnam_aus1} 
+
+}
+
+\caption{(ref:vietnamaus1)}(\#fig:vietnamaus1)
+\end{figure}
   
 
 <br>
@@ -99,10 +121,14 @@ For example, by 1966 the Australian Tunnel Rats were particularly fond of foggin
   
 (ref:imgvietnamaus2) Mighty Mite Machine Used to Contaminate Viet Cong Tunnel Systems with Acetylene [@vietnam_aus2]
 
-<div class="figure" style="text-align: center">
-<img src="img/vietnam_aus2.jpg" alt="An individual crouches on the ground next to a blower, facing off to the right, with his left hand slightly resting on it. The photo is aimed down at this person, so the two people looking at the fogger while standing are partially visible from the feet upwards. The photo is an old black and white image and there are items around the sides that are difficult to make out, including potentially a cache of chemical weapons grenades on the right side and some sandbacks in the back." width="500" />
-<p class="caption">(\#fig:imgvietnamaus2)(ref:imgvietnamaus2)</p>
-</div>
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/vietnam_aus2} 
+
+}
+
+\caption{(ref:imgvietnamaus2)}(\#fig:imgvietnamaus2)
+\end{figure}
   
 
 <br>

@@ -1,3 +1,17 @@
+
+```{r index-1, echo=FALSE}
+is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
+is_online <- curl::has_internet()
+is_html <- knitr::is_html_output()
+is_latex <- knitr::is_latex_output()
+if (is_html) {
+  out_width <- 500
+} else if (is_latex) {
+  out_width <-"100%"
+}
+
+```
+
 # Accidents {-}
 
 ### Bullitt Volunteer Fire Deptartment {-}

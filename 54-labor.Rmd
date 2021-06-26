@@ -1,4 +1,17 @@
 
+```{r index-1, echo=FALSE}
+is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
+is_online <- curl::has_internet()
+is_html <- knitr::is_html_output()
+is_latex <- knitr::is_latex_output()
+if (is_html) {
+  out_width <- 500
+} else if (is_latex) {
+  out_width <-"100%"
+}
+
+```
+
 # Labor {-}
 
 Another common target of police force are labor activists, and so it is not suprising to see the fogger being deployed against strikers at least once in US history.
@@ -13,7 +26,7 @@ The picketers braved the gas for a considerable amount of time, requiring close-
 
 (ref:imgnorthKingstown1982322) Police fog striking workers and their families [@APphoto1982].  
 
-```{r imgnorthKingstown1982322, echo = FALSE, out.width = 500, fig.cap = "(ref:imgnorthKingstown1982322)", fig.align = "center", fig.alt = "B/W newspaper clipping: To the left there are several people crouched on the ground with their heads down and covered. Behind them is a small crowd of people turning and moving away. To the right are three officials in helmets and masks facing the people on the ground and holding a fogger in front that is spraying a cloud of fog right over those on the ground."}   
+```{r imgnorthKingstown1982322, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgnorthKingstown1982322)", fig.align = "center", fig.alt = "B/W newspaper clipping: To the left there are several people crouched on the ground with their heads down and covered. Behind them is a small crowd of people turning and moving away. To the right are three officials in helmets and masks facing the people on the ground and holding a fogger in front that is spraying a cloud of fog right over those on the ground."}   
 knitr::include_graphics("img/north_Kingstown_1982_3_22.png") 
 ```
  

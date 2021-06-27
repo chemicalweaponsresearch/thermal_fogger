@@ -17,14 +17,10 @@ Although undated, this photograph printed in The Delta Democrat-Times (Greenvill
 
 (ref:imgsanbernardino1969xxxx) Police use a pepper fogger on students at San Gordonio High School [@UPIphoto1969].  
 
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{img/san_bernardino_1969_xx_xx} 
-
-}
-
-\caption{(ref:imgsanbernardino1969xxxx)}(\#fig:imgsanbernardino1969xxxx)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/san_bernardino_1969_xx_xx.jpg" alt="B/W faded image: To the left is a person wearing a uniform with a patch on the shoulder and a helmet. In their right hand is the nozzle to a fogger and it appears to be emitting fog. There is a white fog cloud covering most of the rest of the image." width="500" />
+<p class="caption">(\#fig:imgsanbernardino1969xxxx)(ref:imgsanbernardino1969xxxx)</p>
+</div>
  
 <br>
 
@@ -48,13 +44,9 @@ The next day, police were ready with heavy chemical weaponry, including the [GOE
 
 (ref:imglawrence19700421) Police bring a [GOEC](#GOEC) pepper fogger to gas Black high school and junior high students at Lawrence High School [@UKA1970].
 
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{img/lawrence_1970_04_21} 
-
-}
-
-\caption{(ref:imglawrence19700421)}(\#fig:imglawrence19700421)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/lawrence_1970_04_21.jpg" alt="yellowed B/W faded image of police officers standing on a T of a sidewalk blocking the space from a group of predominately Black young people, who are standing behind them on the grass and facing the camera. Behind them are some cars and houses across a stree. The officer in the front left of the frame is carrying a Pepper Fog GOEC fogger." width="500" />
+<p class="caption">(\#fig:imglawrence19700421)(ref:imglawrence19700421)</p>
+</div>
  
 <br>

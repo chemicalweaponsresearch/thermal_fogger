@@ -59,6 +59,7 @@ h1.title {
   font-weight: 700;
 }
 
+
 .smallcaps {
   font-variant: small-caps;
 }
@@ -71,7 +72,7 @@ h1.title {
 }
 
 .book .book-body .page-wrapper .page-inner section.normal h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   
 }
 

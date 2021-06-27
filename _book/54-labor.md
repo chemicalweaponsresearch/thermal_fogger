@@ -15,14 +15,10 @@ The picketers braved the gas for a considerable amount of time, requiring close-
 
 (ref:imgnorthKingstown1982322) Police fog striking workers and their families [@APphoto1982].  
 
-\begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{img/north_Kingstown_1982_3_22} 
-
-}
-
-\caption{(ref:imgnorthKingstown1982322)}(\#fig:imgnorthKingstown1982322)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="img/north_Kingstown_1982_3_22.png" alt="B/W newspaper clipping: To the left there are several people crouched on the ground with their heads down and covered. Behind them is a small crowd of people turning and moving away. To the right are three officials in helmets and masks facing the people on the ground and holding a fogger in front that is spraying a cloud of fog right over those on the ground." width="500" />
+<p class="caption">(\#fig:imgnorthKingstown1982322)(ref:imgnorthKingstown1982322)</p>
+</div>
  
 <br>
 

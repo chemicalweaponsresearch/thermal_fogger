@@ -4,7 +4,7 @@
 
 This book deals with police and corrections violence in frank terminology.
 Pictures of chemical weapons being deployed on individuals, including those passively resisting, are included, but no injuries, blood, gore, etc. are shown.
-Casualties, including fatalities, are discussed with discussion of an individual being killed by corrections officers.
+Casualties, including fatalities, are discussed, including an individual being killed by corrections officers.
 
 
 ### Land Acknowledgment {-}
@@ -12,16 +12,16 @@ Casualties, including fatalities, are discussed with discussion of an individual
 This work's impetus comes from present-day Portland, Oregon, United States of America -- the Indigenous land of the Chinook people, who were colonized and spread across multiple federally recognized tribes in Oregon, Washington and Idaho including Cowlitz, Siletz, Wasco, and Yakima.
 
 Chemical weapons are a common tool among imperialist regimes.
-The events cataloged in this book occur at many locations across the present-day United States and internationally, with specifc references to Canada, Mexico and Vietnam, where colonizing forces of (prodominately Northwestern) Europe have used forced labor from enslaved Black people to impose significant force on Indigenous cultures and individuals.
+The events cataloged in this book occur at many locations across the present-day United States and internationally, with specific references to Canada, Mexico, and Vietnam, where colonizing forces of (predominately Northwestern) Europe have used forced labor from enslaved Black people to impose significant force on Indigenous cultures and individuals.
 
-No words can fully encompass the importance of acknowledging the place in which each of the stories told in this book occur.
-I will work to add important contextual information and acknowledgements, but please remember that each use of a thermal fogger or other brutal police force described here impacted many, many lives.
+No words can fully encompass the place in which each of the stories told in this book occur.
+I will work to add important contextual information and acknowledgments, and please remember that each use of a thermal fogger or other brutal police force described here impacted many, many lives.
 
 I ask you to take time to reflect on the countless individuals from communities, tribes, peoples, and cultures around the world that have been fogged with some chemical agent whose names we will never know, whose stories we will never hear.
 
 ### Inherent Bias {-}
 
-This book has been produced by collating historical documentation and records, which are inherently biased, as will be plainly evident in the documents.
+This book has been produced by collating historical documentation and records, which are inherently biased towards the views of white, male colonizers, as will be plainly evident in the documents.
 As such, it is important to recognize that there are almost certainly records that I have not yet found or which have been lost to time.
 Even more critical, however, is that many uses of thermal foggers have likely never been recorded at all (even if "legally required"), as will be made clear through the documents that have been recovered.
 
@@ -37,6 +37,10 @@ From this need to share historical information came this book, a way for me to p
 
 I am an abolitionist in multiple senses: I believe that the use of chemical weapons, police, and the carceral system should all be abolished, full-stop.
 
+Through this work, I have discovered an extensive history that makes me feel a deep connection to my protest elders who experienced thermal foggers decades ago.
+I hope that my work will bring light to their stories.
+We are but the most recent chapter in a long history of United States Law Enforcement using chemical weapons against its own people.
+
 ### Financial Statement {-}
 
 All work for this product was conducted by Dr. Juniper L. Simonis via internal time at DAPPER Stats.
@@ -45,7 +49,7 @@ No external funding was provided.
 ### Licenses {-}
 
 This book it created under a [dual license](https://github.com/chemicalweaponsresearch/thermal_fogger/blob/main/LICENSE.md) that recognizes a separation between the software and non-software components.
-All underlying documents (photos, etc.) are cited in the [References](#References) amd do not indicate the original licensor endorses this book or its authors.
+All underlying documents (photos, etc.) are cited in the [References](#References) and references do not indicate the original licensor endorses this book or its authors.
 
 ### Acknowledgments {-}
 

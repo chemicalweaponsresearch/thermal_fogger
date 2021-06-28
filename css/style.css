@@ -68,11 +68,16 @@ h1.title {
 }
 
 .book .book-body .page-wrapper .page-inner section.normal h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal h2 {
-  font-size: 2em;
+  font-size: 1.5em;
+  
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h3 {
+  font-size: 1.25em;
   
 }
 

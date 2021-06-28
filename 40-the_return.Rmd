@@ -25,15 +25,16 @@ In alignment with the general "Imperial Circuit of Tear Gas" [@Schrader2019] bet
 ## Manufacturers {-}
 
 American companies quickly jumped at the opportunity to refine the bulky, complicated Mitey Mite and sell thermal foggers to the military and domestic police departments.
-As early as 1969, The International Association of Chiefs of Police thermal foggers in their Chemical Agents Manual [@Crockett1969], providing prime trade-focused marketing.
+As early as 1969, The International Association of Chiefs of Police included a detailed section on thermal fogging and available models in their Chemical Agents Manual [@Crockett1969], providing prime trade-focused marketing.
+Indeed, both [Federal Laboratories](#FederalLaboratories) and [General Ordnance Equipment Corporation](#GOEC) models were included.
 
 ### Sears Roebuck {-}
 
-The original Mighty Mite that established the fogger as a method of chemical dispersal was manufactured by a domestic company (Sears Roebuck) for insecticide application [@Applegate1969].
+The original Mighty Mite that [established](#FirstUse) the fogger as a method of chemical dispersal was manufactured by Sears, Roebuck, and Co. for insecticide application [@Applegate1969].
 
 <br>
 
-(ref:imgM106) M-106 Mighty Mite Thermal Fogger, as promoted to law enforcement in @Applegate1969.
+(ref:imgM106) M-106 Mity Mite Thermal Fogger, as promoted to law enforcement in @Applegate1969.
 
 ```{r imgM106, out.width = out_width, fig.alt = "Yellowed black and white photo of a stationary Mighty Mite thermal fogger. It's a backpack fogger, so there's a giant hose that's like a vacuum hose wrapped around in the middle and then another one coming off of the actual backpack, which is upright in the middle back right. there is a metal frame and a large reservoir tank sitting on top of the engine and other aspects of the machinery. There is a tube running out to the end of the hose nose from the back pack. On the right side of the image is a scale bar that makes it seem like the backpack is 24 inches tall." , echo = FALSE, fig.cap = "(ref:imgM106)", fig.align = "center"}
 knitr::include_graphics("img/M106.png") 
@@ -41,7 +42,7 @@ knitr::include_graphics("img/M106.png")
 
 <br>
 
-The bulkiness of the Mity Mite proved to be a hindrance in mobile application, however, and while chemical weapons corporations began their fogger lines with hand-held models using 2-cycle engines, there was a push to produce a more streamlined and specialized tool for fogging chemical weapons at civilians [@Applegate1969; @Applegate1970].
+The bulkiness of the Mity Mite backpack proved to be a hindrance in mobile application, however, and while chemical weapons corporations began their fogger lines with hand-held models using 2-cycle engines, there was a push to produce a more streamlined and specialized tool for fogging chemical weapons at civilians [@Applegate1969; @Applegate1970].
 
 <br>
 
@@ -53,12 +54,36 @@ knitr::include_graphics("img/jetfogger.jpg")
 
 <br>
 
+Sears does not appear to have entered The Mity Mite into the law enforcement market, perhaps due to the company's existing legacy branding, and the model never established itself in the domestic market.
+
+
+### Federal Laboratories {- #FederalLaboratories}
+
+Federal Laboratories, one of the major US manufacturers of chemical weapons starting after World War I, developed a hand-held 2-cycle thermal fogger that did not need a backpack or hoses:
+
+(ref:img298) The Federal Laboratories "Federal Fogger 298" [@FedLabs298].
+
+```{r img298,  out.width = out_width2, fig.alt = "Black and white photo of a thermal fogger that is basically a 2-cycle weed-wacker engine on top of a chemical agent metal drum with a nozzle sticking out to the right that is about a yard long, it's dark and has some hardware on it. The drum says Federal Fogger and then other things that are illegible. The drum is a dark color and the main engine is light, with a dark handle and strap." , echo = FALSE, fig.cap = "(ref:img298)", fig.align = "center"}
+knitr::include_graphics("img/federal_fogger_crop.jpg") 
+```
+
+(ref:fedlabimg) Officer demonstrating the Federal Laboratories 298 [@Applegate1992].
+
+```{r fedlabimg,  out.width = out_width2, fig.alt = "Black and white photo of police officer in a gas mask and riot helmet with the shield flipped up and full uniform, but not riot gear. The officer is holding a hand-held fogger that has a white top on the part, some shiny metal in the middle and then dark on the bottom with a dark nozzle that is spewing some fog. The officer is standing in a field in front of a forest." , echo = FALSE, fig.cap = "(ref:fedlabimg)", fig.align = "center"}
+knitr::include_graphics("img/federal_labs.jpg") 
+```
+
 
 ### General Ordnance Equipment Corporation {- #GOEC}
 
-The General Ordnance Equipment Corporation (GOEC), who had just trademarked Chemical Mace the year prior, began marketing a hand-held thermal fogger using the phrase "Pepper Fog" in July 1968, a nod to the ability of the fogger to "pepper" the recipient with more concentrated bursts of fog if desired [@Applegate1969].
-They applied for a trademark on the phrase in October of the same year [@USTPO2018].
-By the end of August 1969, GOEC and its corporate owners Smith and Wesson had received the trademark on "Pepper Fog", which they (and subsequent owners) retained until it expired in 1991 [@USTPO2018].
+The General Ordnance Equipment Corporation (GOEC), who invented and trademarked Chemical Mace earlier in the decade, had been bought-out by Smith and Wesson by the late 1960s when the fogger market opened up [@Gross2014].
+
+Alan Litman, the brains behind GOEC, retained leadership of chemical weapons development after the buy-out, however [@Gross2014], and he must have seen an opportunity, as GOEC began selling hand-held thermal foggers in July 1968 [@Applegate1969].
+
+They named their units "Pepper Fog" generators, a nod to their apparent ability to "pepper" the recipient with more concentrated bursts of fog if desired, compared to the steady stream output from the Mity Mite [@Applegate1969], and applied for a trademark on the phrase in October of the same year [@USTPO2018].
+By the end of August 1969, GOEC (and thus Smith and Wesson) had received the trademark on "Pepper Fog", which they (and subsequent owners) retained until it expired in 1991 [@USTPO2018].
+
+While GOEC did develop and sell a stationary 2-cycle model for vehicle mounting, it was their hand-held pulse-jet model that took the market by storm [@Crockett1969].
 
 <br>
 
@@ -70,21 +95,22 @@ knitr::include_graphics("img/goec_pf.png")
 
 <br>
 
-They immediately began a heavy marketing campaign taking out full-page ads in police magazines that year [@GOECad1969; @GOECadLNS1970; @GOECadObserver1970].
 
+They immediately began a heavy marketing campaign for their new invention, taking out full-page ads in police magazines [@GOECad1969; @GOECadLNS1970; @GOECadObserver1970]:
 
+<br>
 
+(ref:imggoecad1969) GOEC advertisement [@GOECad1969].
 
-### Federal Laboratories {- #FederalLaboratories}
-
-Federal Laboratories, one of the major US manufacturers of chemical weapons starting after World War I, marketed a light-weight hand-held fogger, the 298:
-
-
-(ref:fedlabimg) Federal Laboratories 298 [@Applegate1992]
-
-```{r fedlabimg,  out.width = out_width2, fig.alt = "Black and white photo of police officer in a gas mask and riot helmet with the shield flipped up and full uniform, but not riot gear. The officer is holding a hand-held fogger that has a white top on the part, some shiny metal in the middle and then dark on the bottom with a dark nozzle that is spewing some fog. The officer is standing in a field in front of a forest." , echo = FALSE, fig.cap = "(ref:fedlabimg)", fig.align = "center"}
-knitr::include_graphics("img/federal_labs.jpg") 
+```{r imggoecad1969, out.width = out_width, fig.alt = "Photocopied, blurried black and white magazine spread advertisement for General Ordnance Equipment Company (GOEC). The ad shows both their chemical mace and their fogger, although the fogger takes up 3/4 of the page. The left side has two main panels, one for each weapon, the top is a mace one showing an officer spraying mace into someone's face and the bottom part is the picture of the person fogging the railroad. The right side is an explainer on the pepper fogger that has three photos (including a repeat of the railroad one) at the top, the item image in the middle, and then a whole bunch of specs that are too blury to read" , echo = FALSE, fig.cap = "(ref:imggoecad1969)", fig.align = "center"}
+knitr::include_graphics("img/GOECad1969.png") 
 ```
+
+<br>
+
+They also leveraged the connection between local law enforcement and the press to generate [free marketing](#Propa) with an [international reach](#Canada).
+
+It is perhaps no surprise then that virtually all of the foggers photographed being used in the US prior to 2020 are GOEC models.
 
 
 ### Defense Technology {- #DefenseTechnology}
@@ -122,7 +148,7 @@ knitr::include_graphics("img/demo.png")
 
 <br>
 
-## News Media Propaganda {-}
+## News Media Propaganda {- #Propa}
 
 
 Alongside the more overtly pro-police-use-of-chemical-weapons propaganda of Rex Applegate were other, perhaps more subtle forms of pro-fogger propaganda [@Macomber1970].
@@ -178,14 +204,14 @@ knitr::include_graphics("img/Winter1970.jpg")
 Pulitzer Prize-winning [Garry Wills](https://en.wikipedia.org/wiki/Garry_Wills) (who at the time was considerably more conservative than he came to be later) penned an op-ed that ran in (at least) The Herald Statesman (Yonkers, New York) [@Wills1971a], The Daily Item (Port Chester, New York) [@Wills1971b], The Charlotte News (Charlotte, North Carolina) [@Wills1971c], and The Philadelphia Inquirer [@Wills1971d] in April 1971 in which he basically tells all the cry babies (pun intended) to suck it up because he "would not be afraid to undergo such experiences [as being pepper fogged] again" [@Wills1971a].
 
 Notably, he touts the leading belief at the time that somehow thermal fogging is a "safe immobilizer of individuals" [@Wills1971a], despite the weapon not being demonstrably safer than gas grenades and not only not "immobilizing" but explicitly designed to mobilize immobile resisters.
-Interesting, Wills compares indiscriminate and uncontrollable chemical weapons as "safer than dogs, which get out of control, bit bystanders (and even other cops) as well as 'the bad guys'" [@Wills1971a].
+Wills interestingly deems chemical weapons as "safer than dogs, which get out of control, bite bystanders (and even other cops) as well as 'the bad guys'" [@Wills1971a], despite their being indiscriminate to the point of impacting bystanders, police officers, etc..
 
-He concludes his piece by calling tear gas "humane in ... foreign wars [and] domestic encounters" [@Wills1971a], speaking clearly to the return, classically defining an Imperial Boomerang [@Cesaire1950; @Arendt1951; @Foucault1976]. 
+He concludes his piece by calling tear gas "humane in ... foreign wars [and] domestic encounters" [@Wills1971a], speaking clearly to the return of the trip of the classically defined Imperial Boomerang [@Cesaire1950; @Arendt1951; @Foucault1976]. 
 
 
-## Coming to Your Town Soon! {-}
+## Coming Soon To A Town Near You! {-}
 
-It seems like US domestic police have a hard time containing their glee when purchasing and testing thermal foggers for use on domestic civilians, as a general media blitz played out accross the country through the late 1960s and early 1970s [@PlainDealer1971].
+US police had a hard time containing their glee when purchasing and testing thermal foggers for use on domestic civilians, as a general media blitz played out accross the country through the late 1960s and early 1970s [@PlainDealer1971].
 
 ### Illinois {-}
 
@@ -195,12 +221,16 @@ The volume of fog emitted was also said to be able to fill [Soldier Field (capac
 Regardless, the Chicago-area Sheriff decided they needed three of them [@DailyDispatch1969_04_09].
 The Sheriff's Major in charge of chemical arsensal Anthony Yucevicius noted the fogger's psychological effect on recipients, as well saying
 
-> They make a terrifying noise and probably will have a scare effect on crowds. - @TheTerreHauteTribune1969_04_08.
+> They make a terrifying noise and probably will have a scare effect on crowds. 
+>
+> --- @TheTerreHauteTribune1969_04_08.
 
 Use expanded among and within states, as by 1972 the Illinois State Police also purchased three foggers, which they trained with in Springfield [@Robinson1972].
 In news reports, the foggers were described as
 
-> a cross between a machine gun, a power lawn mower, and a sun lamp. - @Robinson1972.
+> a cross between a machine gun, a power lawn mower, and a sun lamp. 
+>
+> --- @Robinson1972.
 
 ### Florida {-}
 
@@ -244,7 +274,9 @@ The Brigham City (Utah; 1970 pop. 14,007; @USCB1970) Police Department leveraged
 
 Police Chief Jay Christensen noted that the fogger provides a longer shelf-life than grenades and reportage noted that it 
 
-> emits a continuous stream of smoke, chemical irritants, or **whatever solution** is fed into it. [emphasis added] - @Robinson1972
+> emits a continuous stream of smoke, chemical irritants, or **whatever solution** is fed into it. [emphasis added] 
+>
+> --- @Robinson1972
 
 Use of federal funds to purchase chemical weapons, and specifically foggers, was not limited to one department.
 Cities, counties, and states across the country used Omnibus Crime Bill money to up their chemical weapons caches, including foggers [@Conheim1972].
@@ -273,7 +305,7 @@ The Storm Lake Iowa (1970 pop. 8,591; @USCB1970) purchased a fogger in 1971 in a
 The article/ad mentions that officers have used foggers "on occasion" in Des Moines (Iowa's capital; 1970 pop. 201,404; @USCB1970) in addition to [one instance on the University of Iowa's campus](#IowaCity) [@DesMoinesTribune1975_05_06], although I have not located contemporaneous mentions.
 
 
-## Crossing to Canada {-}
+## Crossing to Canada {- #Canada}
 
 Canadian law enforcement was also quick to jump on the fogger train and the media were just as happy to propagandize their use [@Patterson1976].
 A convention of US and Canadian police chiefs held in Halifax, Nova Scotia in 1976 provided a glimpse into the state of affairs by mid-decade, at which point a supply chain had clearly been developed, although weapons salesmen refused to be named or have their statements linked to employers [@Patterson1976].

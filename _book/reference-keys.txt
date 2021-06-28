@@ -12,6 +12,7 @@ fig:imgvietnamaus2
 fig:imgM106
 fig:imgjetfogger
 fig:goecpf
+fig:imggoecad1969
 fig:fedlabimg
 fig:imgdefensetechgepf
 fig:imgdemo

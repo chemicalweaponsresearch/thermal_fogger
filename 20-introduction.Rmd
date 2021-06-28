@@ -27,6 +27,7 @@ Late in the night on July 29th, during the height of the 2020 Uprising in Portla
 knitr::include_graphics("img/portland_2020_07_29.jpg")
 ```
 
+<br>
 
 With this seemingly novel usage, DHS made a large swath of the populace aware of an insidious weapon that is actually not new, but -- in fact -- was [birthed](#Genesis) in the American occupation of Vietnam, [perfected](#The1968Convensions) for use against domestic protesters in the 1960s and '70s, and [sent abroad](#CBP) via CBP in the years since. 
 The subsequent [return](#PortlandOR2020_2021) of the thermal fogger to use against civilians domestically by the same domestic law enforcement agency (CBP) that sent it abroad after its initial domestic use is an extension of the classical Imperialist Boomerang [@Cesaire1950; @Arendt1951; @Foucault1976; @Graham2013] that can be more aptly described as a tetherball.

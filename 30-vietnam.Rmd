@@ -5,6 +5,7 @@ is_online <- curl::has_internet()
 is_html <- knitr::is_html_output()
 is_latex <- knitr::is_latex_output()
 if (is_html) {
+  out_width0 <- 650
   out_width <- 500
   out_width2 <- 400
 } else if (is_latex) {
@@ -19,11 +20,15 @@ if (is_html) {
 
 The modern day use of thermal foggers for chemical weapons deployment was born from the American colonization of Vietnam in the mid-to-late-20th Century [@USMACV1965; @Bunker1996]. 
 
+<br>
+
 (ref:imgvcmm) US Military deploying a thermal fogger into a Vietnamese tunnel [@Delf2012].
   
 ```{r imgvcmm, out.width = out_width, fig.cap="(ref:imgvcmm)", fig.alt = "Book illustration (colorful, hand-rendered style) of green-clad US military service members in helmets flak vests, boots, etc, standing around a thermal fogger in the foreground. The fogger is a non-portable Mity Mite style fogger with a big reservoir and giant vacuum style hose running through a green tarp that's lying on the ground and covering the tunnel entrance. They are in a clearing with huts and the jungle in the background.", echo = FALSE, fig.align = "center"}
 knitr::include_graphics("img/vcmm.jpg")
 ```
+<br>
+
 
 ## Context {-}
 
@@ -42,11 +47,14 @@ Given widespread mosquito concerns and the preponderance on diesel drums, the tr
 
 As the occupation continued, underground bunkers and tunnels dug by the Viet Cong (VC) and People's Army of Vietnam (PAV)  became a dominant presence on the both the literal and figurative battlefields [@Rottman2006; @Rottman2012].
 
+<br>
+
 (ref:imgtunnels) Hypothetical Vietnamese village with a two-level bunker tunnel system [@Hanesalo1996].
   
 ```{r imgtunnels, out.width = out_width, fig.cap="(ref:imgtunnels)", fig.alt = "Book illustration (blank and greys, hand-rendered style) of a two-level village tunnel system, connecting most of the structures with defensive trenches and bunkers. There are eight houses surrounding a community building and the nearest ones are cut-away so you can see into them and the ground beneath them, which shows the tunnels and bunkers. Each house has a shelter and they are connected via tunnels. There is a puji-stake moat with a sharpened bamboo fence around it surrounding the village and there's one road in, with a gate at the fence. There is a river or open water of some kind on the other side of the fence and then some fields and jungle. The community building is two stories and is next to a single flag on a pole in the center of the village. The flag is blank, and so functionally white.", echo = FALSE, fig.align = "center"}
 knitr::include_graphics("img/tunnels.jpg")
 ```
+<br>
 
 Soldiers from the US, Australian, New Zealand, and other armies were tasked with clearing the tunnels and "rooting out" inhabitants [@Hemmings2019].
 The specialized forces designated for the work were dubbed "Tunnel Rats" and tear gas was part of their arsenal to "flush" individuals from caves, which they regularly deployed via pyrotechnic grenades and powdered explosives [@NewYorkTimes1977; @Rottman2006].
@@ -160,7 +168,7 @@ In 1969, the US Army Limited War Laboratory published a report on chemical weapo
   
 (ref:imgtablea212) Existing and proposed fogging devices [@Samuelsetal1969].
 
-```{r imgtablea212, out.width = out_width, fig.cap="(ref:imgtablea212)", fig.alt = "Screen cap of a photo copy of an old report, it's black and white and in bad shape, but legible for the most part. It's Table A.2.1.2, Chemical Sprays and Foggers. There are columns: Device/Model, Manufacturer, Description, Estimated Cost (for development or for purchase), and Status (available already or needing development). There are 6 rows, one for each Device/Model: MK17 Pepper Fog CS-Tear Smoke Generator, MK XII, Turb A Fog Tear Gas Dispenser, Federal Dust Projector 271, Dynafog 70, and a propsed vehicle based fogger based on the mosquito fogging approach.", echo = FALSE, fig.align = "center"}
+```{r imgtablea212, out.width = out_width0, fig.cap="(ref:imgtablea212)", fig.alt = "Screen cap of a photo copy of an old report, it's black and white and in bad shape, but legible for the most part. It's Table A.2.1.2, Chemical Sprays and Foggers. There are columns: Device/Model, Manufacturer, Description, Estimated Cost (for development or for purchase), and Status (available already or needing development). There are 6 rows, one for each Device/Model: MK17 Pepper Fog CS-Tear Smoke Generator, MK XII, Turb A Fog Tear Gas Dispenser, Federal Dust Projector 271, Dynafog 70, and a propsed vehicle based fogger based on the mosquito fogging approach.", echo = FALSE, fig.align = "center"}
    
 
 knitr::include_graphics("img/tablea212.jpg")

@@ -33,7 +33,7 @@ The bulkiness of the Mity Mite proved to be a hindrance in mobile application, h
 
 <br>
 
-(ref:imgjetfogger) Hand-held [@Crockett1969].
+(ref:imgjetfogger) Hand-held two-cycle thermal fogger [@Crockett1969].
 
 <div class="figure" style="text-align: center">
 <img src="img/jetfogger.jpg" alt="Black and white technical drawing of a hand-held 2-cycle thermal fogger. The drawing is pretty minimal, but shows enough detail, in particular around the engine and fan, to get a sense of how it operates. There are also a few labels pointing out via arrows what the Recould Rope Starter, Fuel Tank, Carrying Handle, Creifugal Blower Assemble, and Air/Agent Exit Ports are, and to the where the Vaporized Agent is injected into the air stream." width="500" />
@@ -45,9 +45,9 @@ The bulkiness of the Mity Mite proved to be a hindrance in mobile application, h
 
 ### General Ordnance Equipment Corporation {- #GOEC}
 
-The General Ordnance Equipment Corporation (GOEC), who had just trademarked Chemical Mace the year prior, began marketing a hand-held thermal fogger using the phrase "Pepper Fog" in July 1968 [@Applegate1969].
+The General Ordnance Equipment Corporation (GOEC), who had just trademarked Chemical Mace the year prior, began marketing a hand-held thermal fogger using the phrase "Pepper Fog" in July 1968, a nod to the ability of the fogger to "pepper" the recipient with more concentrated bursts of fog if desired [@Applegate1969].
 They applied for a trademark on the phrase in October of the same year [@USTPO2018].
-By the end of August 1969, GOEC had received the trademark on "Pepper Fog", which they (and their subsequent owners including Smith and Wesson, Federal Laboratories, and Safariland) retained until it expired in 1991 [@USTPO2018].
+By the end of August 1969, GOEC and its corporate owners Smith and Wesson had received the trademark on "Pepper Fog", which they (and subsequent owners) retained until it expired in 1991 [@USTPO2018].
 
 <br>
 
@@ -63,6 +63,16 @@ By the end of August 1969, GOEC had received the trademark on "Pepper Fog", whic
 They immediately began a heavy marketing campaign taking out full-page ads in police magazines that year [@GOECad1969; @GOECadLNS1970; @GOECadObserver1970].
 
 
+<br>
+
+(ref:imggoecad1969) GOEC advertisment [@GOECad1969].
+
+<div class="figure" style="text-align: center">
+<img src="img/GOECad1969.png" alt="Photocopied, blurried black and white magazine spread advertisement for General Ordnance Equipment Company (GOEC). The ad shows both their chemical mace and their fogger, although the fogger takes up 3/4 of the page. The left side has two main panels, one for each weapon, the top is a mace one showing an officer spraying mace into someone's face and the bottom part is the picture of the person fogging the railroad. The right side is an explainer on the pepper fogger that has three photos (including a repeat of the railroad one) at the top, the item image in the middle, and then a whole bunch of specs that are too blury to read" width="500" />
+<p class="caption">(\#fig:imggoecad1969)(ref:imggoecad1969)</p>
+</div>
+
+<br>
 
 
 ### Federal Laboratories {- #FederalLaboratories}

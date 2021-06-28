@@ -68,6 +68,8 @@ Sandra Simonis provided significant help with writing alt-text for images.
 
 Twitter users NewNameJeanette and WillHickox notified me of the [Lawrence High School](#Lawrence1970_04_21) protest and use of the thermal fogger, for which I am very thankful.
 
+The cover image is based on @Lewis-Rolland2021a.
+
 ### Contribute Information {-} 
 
 If you are aware of incidents where a pepper fogger was used to deploy chemical weapons that we have not included, please reach out [via the Chem Weapons Research Website](https://chemicalweaponsresearch.com/contact/) or submit an [issue](https://github.com/chemicalweaponsresearch/thermal_fogger/issues/new/choose) or [pull request](https://github.com/chemicalweaponsresearch/thermal_fogger/compare) on our [GitHub repository for the book](https://github.com/chemicalweaponsresearch/thermal_fogger).

@@ -27,3 +27,37 @@ Despite repeated use of thermal foggers to deploy chemical weapons over the last
 Although not all of the weapon's history is documented, enough is that we can quickly dispel the myth that this deployment was _new_ in any notable sense other than being recent.
 
 
+## The Science of Thermal Fogging {- #Science}
+
+Broadly speaking, a fog is a visible aerosol that hangs in the air near the ground, and while it occurs on its own accord, humans have devised a variety of methods to generate fog.
+And many, if not all, of those methods have been used to deploy chemical weapons on people.
+The focus of this book is on __thermal__ fogging.
+The idea behind thermal fogging is the same whether you're targeting mosquitoes in a marsh or protesters on a street: flash-vaporize a liquid being forced into a stream of cooler air, causing a fog to form as it condenses; move to increase the size of the cloud. 
+
+The original chemical weapons thermal foggers employed the exhaust lines of diesel trucks or manifolds of 2-cycle engines to heat the formulation, which worked but were bulky and difficult to control in open areas [@Crockett1969].
+These models were quickly supplanted by foggers leveraging resonant [pulsejet technology](https://en.wikipedia.org/wiki/Pulsejet) that were streamlined, lighter, and gave control of the stream to the operator [@Applegate1969]
+
+<br>
+
+(ref:imgCrockett1969) Concept drawing from the International Association of Chiefs of Police chemical agents manual [@Crockett1969].
+
+<div class="figure" style="text-align: center">
+<img src="img/Crockett1969.png" alt="B/W image drawing with text from an old white paper book. The text says FOG DISSEMINATION at the top then a paragraph with `Fog dissemination devices operate by rapidly vaporizing a high boiling point liquid agent formulation. This is accomplished by injecting the liquid agent into a hot gas flow and allowing the vaporized agent to contact the cooler ambient air where the agent condenses into a fog and ultimately into extremely small agent particles.` In the middle is the drawing with a square on the left with a long rectangle coming out of it to the right with a cloud out the further end of the rectangle. There are bits of text around it, pointing to the box it says `FUEL`, `SPARK`, and `COMBUSTION CHAMBER`. in the middle of the rectange it says `HOT GASES` in the middle of arrows pointing out towards the cloud. Along the rectangle another injection area is noted for `Liquid Agent Injection` Text on the bottom says `FIGURE 4. FOG DISSEMINATION. A liquid chemical agent is vaporized by a hot gas flow and released as a fog cloud`." width="500" />
+<p class="caption">(\#fig:imgCrockett1969)(ref:imgCrockett1969)</p>
+</div>
+
+<br>
+
+Regardless of the heating method specifics, the machine creates a visible fog from the mixture of gasoline exhaust, chemical weapons, and ambient air moisture, as desired. 
+
+Although the mixture does cool considerably from its peak temperature before being released, the chemicals are heated to such high temperatures that they thermally decompose, creating a much more toxic mixture of gases that condense to form the fog.
+Indeed, the thermal cracking temperatures of common chemical contemporary chemical weapons are well below the temperatures achieved in a thermal fogger:
+
+- Phenacyl chloride (CN): 248 C [@Compton1987]
+- 2-chlorobenzalmalononitrile (CS): 450 - 550 C [@Xueetal2015]
+- Oleoresin Capsicum (OC): < 200 C [@HendersonandHenderson1992]
+- Hexachloroethane (HC): 185 C [@IARC1979]
+- Terephthalic Acid (TPA): 445 C [@KimyonokandUluturk2016]
+
+As a result, it is impossible for anyone to definitively know what chemicals they are fogging someone with, but it is fair to say the mixtures are likely to have considerably higher toxicities than product labels and safety sheets indicate, which are already concerning [@defteccs].
+

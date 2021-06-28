@@ -27,7 +27,7 @@ Even more critical, however, is that many uses of thermal foggers have likely ne
 
 ### Author Position {-}
 
-I, Dr. Juniper L. Simonis (_they/them/theirs_), am a 36-year-old middle-class, white, non-binary, queer, physically and psychologically disabled person. 
+I, [Dr. Juniper L. Simonis](https://juniperlsimonis.com) (_they/them/theirs_), am a 36-year-old middle-class, white, non-binary, queer, physically and psychologically disabled person. 
 I come to the study of the history of chemical weapons use in America via my personal experience being the recipient of law enforcement's chemical weapons and my ensuing scientific research into its impacts on the environment.
 
 I have a PhD in Ecology and Evolutionary Biology from Cornell, where I studied aquatic ecology and biogeochemistry -- disciplines I have put to use to studying the impact of chemical weapons.

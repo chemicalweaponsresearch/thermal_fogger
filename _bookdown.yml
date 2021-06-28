@@ -14,7 +14,6 @@ rmd_files:
     - "12-the_carceral_system.Rmd"
     - "13-accidents.Rmd"
     - "14-cbp.Rmd"
-    - "15-science.Rmd"
     - "99-references.Rmd"
 new_session: yes
 delete_merged_file: true

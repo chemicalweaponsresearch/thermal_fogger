@@ -1,0 +1,121 @@
+
+
+
+# Coming Soon To A Town Near You! {-}
+
+Following the conventions, the fogger quickly became a part of the law enforcement arsenal. 
+US police had a hard time containing their glee when purchasing and testing thermal foggers for use on domestic civilians, as a general media blitz played out across the country through the late 1960s and early 1970s [@PlainDealer1971].
+
+## From the Conventions Outward {-}
+
+### Illinois {-}
+
+In the wake of the [1968 Democratic National Convention](#ChicagoIL1968_08_26), Chicago-area police played an outsized role in promoting the propaganda line.
+The pepper fogger was touted as being able to "empty a house fast" by Cook County Illinois Sheriff Joseph Woods [@MtVernonRegisterNews1969_04_09; @DailyDispatch1969_04_09], a definitely off-spec and dangerous use [@Nixalite2009b].
+The volume of fog emitted was also said to be able to fill [Soldier Field (capacity 61,500 fans)](https://en.wikipedia.org/wiki/Soldier_Field) in under a minute [@DailyDispatch1969_04_09].
+Regardless, the Chicago-area Sheriff decided they needed three of them [@DailyDispatch1969_04_09].
+The Sheriff's Major in charge of chemical arsenal Anthony Yucevicius noted the fogger's psychological effect on recipients, as well saying
+
+> They make a terrifying noise and probably will have a scare effect on crowds. 
+>
+> --- @TheTerreHauteTribune1969_04_08.
+
+Use expanded among and within states, as by 1972 the Illinois State Police also purchased three foggers, which they trained with in Springfield [@Robinson1972].
+In news reports, the foggers were described as
+
+> a cross between a machine gun, a power lawn mower, and a sun lamp. 
+>
+> --- @Robinson1972.
+
+### Florida {-}
+
+Similarly, following the [1968 Republican National Convention](#MiamiFL1968_08_08), Florida law enforcement took to the fogger [@Cain1968].
+In Sanford (1970 pop. 17,393; @USCB1970), the local police department purchased a fogger for use with [CN gas](https://en.wikipedia.org/wiki/Phenacyl_chloride), noting that it could shoot fog 20 ft for up to a 15 minute stretch, and so would be effective for controlling large masses [@Cain1968].
+They had, however, only used it in training and for demoing to the media [@Cain1968].
+
+<br>
+
+(ref:imgOrlandoEveningStar1968) Sanford Police Officer Roy Williams shows off a fogger [@OrlandoEveningStar1968].
+
+<div class="figure" style="text-align: center">
+<img src="img/OrlandoEveningStar1968.jpg" alt="(ref:imgOrlandoEveningStar1968)" width="500" />
+<p class="caption">(\#fig:imgOrlandoEveningStar1968)(ref:imgOrlandoEveningStar1968)</p>
+</div>
+
+<br>
+
+### California {-}
+
+Eager to not be shown up by the police in Berkeley, by 1970, the Los Angeles Sheriff's Department had already purchased their own fogger for their "big artillery" to use "when other forms of persuasion have failed" and started a media campaign [@Michals1970].
+The department and new state regulations required officers to be trained in chemical weapons use, which was set up through Officer Robert Hawkins [@Michals1970].
+
+<br>
+
+(ref:imgCopleyNewsService1970) Los Angeles Sheriff's Department Officer demonstrating a fogger [@CopleyNewsService1970].
+
+<div class="figure" style="text-align: center">
+<img src="img/CopleyNewsService1970.jpg" alt="(ref:imgCopleyNewsService1970)" width="500" />
+<p class="caption">(\#fig:imgCopleyNewsService1970)(ref:imgCopleyNewsService1970)</p>
+</div>
+
+<br>
+
+## National Guard {-}
+
+Following the Kent State Massacre, the Ohio National Guard, as well as others around the country began equipping their forces with thermal foggers, using the death of those students as justification for massive purchaing of "less lethal" options [@Bandy1970].
+
+## Small Town USA {-}
+
+No matter the size of the town, by the early 70s, police wanted in on that sweet sweet fogger action.
+The Brigham City (Utah; 1970 pop. 14,007; @USCB1970) Police Department leveraged federal Omnibus Crime Act money to purchase a variety of weapons to use against protesters in 1971 [@BoxElderAgencies1971].
+
+Police Chief Jay Christensen noted that the fogger provides a longer shelf-life than grenades and reportage noted that it 
+
+> emits a continuous stream of smoke, chemical irritants, or **whatever solution** is fed into it. [emphasis added] 
+>
+> --- @Robinson1972
+
+Use of federal funds to purchase chemical weapons, and specifically foggers, was not limited to one department.
+Cities, counties, and states across the country used Omnibus Crime Bill money to up their chemical weapons caches, including foggers [@Conheim1972].
+For example, Oakland County in Michigan (1970 pop. 907,871; @USCB1970) purchased two pepper foggers for their South County Tactical Mobile Unit with part of their $21,066 in 1970 [@Conheim1972].
+
+Oneota New York (1970 pop. 16,030; @USCB1970) purchased a fogger in 1969 during the anti-war demonstrations, although the department bungled its response to protests [@Griffin1973].
+As came to light during a public probe, Oneota Police Chief Joseph F. DeSalvatore requested a limited amount of training in the budget, and officers were therefore unable to deploy the fogger or other chemical weapons [@Griffin1973].
+
+Gaston County North Caolina (1970 pop. 47,322; @USCB1970) Sheriffs purchased a fogger, which they turned on but not used to dispense agents multiple times by 1970 in their jail system "when there's been trouble brewing" [@Balloch1970].
+
+<br>
+
+(ref:imgTheGastoniaGazetteSun19701004) Gaston County Sheriff's Deputy Anne Huffsteller poses with a thermal fogger [@TheGastoniaGazetteSun1970_10_04].
+
+<div class="figure" style="text-align: center">
+<img src="img/TheGastoniaGazetteSun1970_10_04.jpg" alt="(ref:imgTheGastoniaGazetteSun19701004)" width="500" />
+<p class="caption">(\#fig:imgTheGastoniaGazetteSun19701004)(ref:imgTheGastoniaGazetteSun19701004)</p>
+</div>
+
+<br>
+
+Apparently the threat of [death by chemical weapons fog](#BigMac) is sufficient to scare detained individuals into compliance.
+
+
+Within a few years, however, departments began to realize they had no need for the machines, and began selling them with no use aside from testing [@DesMoinesTribune1975_05_06].
+The Storm Lake Iowa (1970 pop. 8,591; @USCB1970) purchased a fogger in 1971 in advance of a motorcycle rally that never happened, and used free advertising in local media in attempts to pawn it [@DesMoinesTribune1975_05_06].
+The article/ad mentions that officers have used foggers "on occasion" in Des Moines (Iowa's capital; 1970 pop. 201,404; @USCB1970) in addition to [one instance on the University of Iowa's campus](#IowaCity) [@DesMoinesTribune1975_05_06], although I have not located contemporaneous mentions.
+
+
+## Crossing to Canada {- #Canada}
+
+Canadian law enforcement was also quick to jump on the fogger train and the media were just as happy to propagandize their use [@Patterson1976].
+A convention of US and Canadian police chiefs held in Halifax, Nova Scotia in 1976 provided a glimpse into the state of affairs by mid-decade, at which point a supply chain had clearly been developed, although weapons salesmen refused to be named or have their statements linked to employers [@Patterson1976].
+
+<br>
+
+(ref:imgMacKenzie1976) Sergeant Al Oakley shows off a pepper fogger [@MacKenzie1976].
+
+<div class="figure" style="text-align: center">
+<img src="img/MacKenzie1976.jpg" alt="(ref:imgMacKenzie1976)" width="300" />
+<p class="caption">(\#fig:imgMacKenzie1976)(ref:imgMacKenzie1976)</p>
+</div>
+
+<br>
+

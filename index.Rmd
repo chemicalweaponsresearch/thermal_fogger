@@ -33,7 +33,7 @@ is_latex <- knitr::is_latex_output()
 ```
 
 
-```{r cover, out.width = 500, fig.alt = "Cover for the book, which has fogger clouds as background and says The Thermal Fogger An Imperial Thetherball at the top and Dr Juniper L Simonis they/them/theirs in the bottom right. The focal image is a blurred, sketched over, re-rendered, and otherwise edited photo of a US Customs and Border Protection agent in all green and tan camo riot gear holding a thermal fogger in their right hand.", echo = FALSE, fig.align = "center"}
+```{r cover, out.width = 500, fig.alt = "Cover for the book, which has fogger clouds as background and says The Thermal Fogger An Imperial Thetherball at the top and Dr Juniper L Simonis they/them/theirs in the bottom right. The focal image is a blurred, sketched over, re-rendered, and otherwise edited photo of a US Customs and Border Protection agent in all green and tan camo riot gear holding a thermal fogger in their right hand.", echo = FALSE, include = is_html, fig.align = "center"}
     
 knitr::include_graphics("img/cover.png")
 ```  

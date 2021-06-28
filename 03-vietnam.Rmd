@@ -9,6 +9,7 @@ if (is_html) {
   out_width <- 500
   out_width2 <- 400
 } else if (is_latex) {
+  out_width0 <-"100%"
   out_width <-"100%"
   out_width2 <-"100%"
 }

@@ -15,10 +15,11 @@ if (is_html) {
 # The 1968 Conventions {- #The1968Conventions}
 
 Deployment of chemical weapons on United States civilians by domestic law enforcement began in earnest in the late 1960s during the height of anti-war and civil rights protests, kicked off in particular by the 1968 Republican (Miami, Florida) and Democratic (Chicago, IL) National Conventions [@McArdle2018; @TaylorandMorris2018].
-As a result of a [heavy propaganda and branding campaign](#TheReturn), the thermal fogger was becoming a mainstay of early police chemical weapons arsenals.
+As a result of a [heavy propaganda and branding campaign](#TheReturn), the thermal fogger was just becoming a mainstay of early police chemical weapons arsenals.
 Importantly, by the summer of 1968, the Florida Highway Patrol, Chicago Police Department, and California State Police all had purchased foggers.
 
-The lingering impact of the 1968 Conventions was felt for years to come, as the Kansas City (Missouri) Police Department armed up their chemical weapons cache in advance of the 1976 Republican National Convention, including purchase of fogger fluids [@Hudson1976].
+Beyond their legacy as the first domestic fogger deployments, the lingering impact of the 1968 Conventions was felt for years to come.
+The Kansas City (Missouri) Police Department armed up their chemical weapons cache in advance of the 1976 Republican National Convention, including purchase of fogger fluids [@Hudson1976].
 
 ## Miami, August 8 {- #MiamiFL1968_08_08}
 

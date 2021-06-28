@@ -3,8 +3,7 @@
 #
 # J L Simonis
 #
-# v0.3.3 2021-05-30
-#
+
 
 
 bookdown::render_book(input = "index.Rmd", output_format = "bookdown::pdf_book")

@@ -2,7 +2,7 @@
 title: "The Thermal Fogger"
 subtitle: "An Imperial Tetherball"
 author: "Dr. Juniper L. Simonis"
-date: "2021-06-27"
+date: "2021-07-05"
 description: "The history of use of thermal fogging in chemical warfare."
 github-repo: "chemicalweaponsresearch/thermal_fogger"
 cover-image: "img/cover.png"
@@ -18,19 +18,15 @@ documentclass: krantz
 lof: yes
 monofontoptions: "Scale=0.7"
 fontsize: 11pt
+classoption: titlepage
+favicon: "img/icon.png"
 ---
 
 
 
 #  {-}
 
-
 <img src="img/cover.png" title="Cover for the book, which has fogger clouds as background and says The Thermal Fogger An Imperial Thetherball at the top and Dr Juniper L Simonis they/them/theirs in the bottom right. The focal image is a blurred, sketched over, re-rendered, and otherwise edited photo of a US Customs and Border Protection agent in all green and tan camo riot gear holding a thermal fogger in their right hand." alt="Cover for the book, which has fogger clouds as background and says The Thermal Fogger An Imperial Thetherball at the top and Dr Juniper L Simonis they/them/theirs in the bottom right. The focal image is a blurred, sketched over, re-rendered, and otherwise edited photo of a US Customs and Border Protection agent in all green and tan camo riot gear holding a thermal fogger in their right hand." width="500" style="display: block; margin: auto;" />
-
-<br> 
-
-
-[An archived version of this book is available on Zenodo](https://doi.org/10.5281/zenodo.4850406).
 
 
 

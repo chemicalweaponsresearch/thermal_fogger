@@ -1,0 +1,209 @@
+
+
+
+# Domestic Applications {- #TheReturn}
+
+As to be expected following the basic trajectory of an Imperial Boomerang [@Cesaire1950; @Arendt1951; @Foucault1976], the repressive technique (thermal fogging) developed by an imperialist country (USA) to control colonial territories (Vietnam) was brought home by the imperialist nation to use on its own people [@Graham2013].
+
+Indeed, it took just _three years_ from initial deployment [in Vietnam on October 8 1965](#FirstUse) to first application in the United States to gas Black racial justice protesters in [Miami, Florida on August 8th, 1968](#MiamiFL1968_08_08) during the Liberty City Riots [@Tschenschlok1995; @Lorentzen2018]. 
+
+In alignment with the general "Imperial Circuit of Tear Gas" [@Schrader2019] between the US and Vietnam, the return of the fogger was aided significantly by the weapons industry, militarization of US police forces, transition of veterans to law enforcement upon returning home, and substantial propaganda in specialized and generalized outlets.
+
+## Manufacturers {-}
+
+American companies quickly jumped at the opportunity to refine the bulky, complicated Mitey Mite and sell thermal foggers to the military and domestic police departments.
+As early as 1969, The International Association of Chiefs of Police included a detailed section on thermal fogging and available models in their Chemical Agents Manual [@Crockett1969], providing prime trade-focused marketing.
+Indeed, both [Federal Laboratories](#FederalLaboratories) and [General Ordnance Equipment Corporation](#GOEC) models were included.
+
+### Sears Roebuck {-}
+
+The original Mighty Mite that [established](#FirstUse) the fogger as a method of chemical dispersal was manufactured by Sears, Roebuck, and Co. for insecticide application [@Applegate1969].
+
+<br>
+
+(ref:imgM106) M-106 Mity Mite Thermal Fogger, as promoted to law enforcement in @Applegate1969.
+
+<div class="figure" style="text-align: center">
+<img src="img/M106.png" alt="Yellowed black and white photo of a stationary Mighty Mite thermal fogger. It's a backpack fogger, so there's a giant hose that's like a vacuum hose wrapped around in the middle and then another one coming off of the actual backpack, which is upright in the middle back right. there is a metal frame and a large reservoir tank sitting on top of the engine and other aspects of the machinery. There is a tube running out to the end of the hose nose from the back pack. On the right side of the image is a scale bar that makes it seem like the backpack is 24 inches tall." width="500" />
+<p class="caption">(\#fig:imgM106)(ref:imgM106)</p>
+</div>
+
+<br>
+
+The bulkiness of the Mity Mite backpack proved to be a hindrance in mobile application, however, and while chemical weapons corporations began their fogger lines with hand-held models using 2-cycle engines, there was a push to produce a more streamlined and specialized tool for fogging chemical weapons at civilians [@Applegate1969; @Applegate1970].
+
+<br>
+
+(ref:imgjetfogger) Hand-held two-cycle thermal fogger [@Crockett1969].
+
+<div class="figure" style="text-align: center">
+<img src="img/jetfogger.jpg" alt="Black and white technical drawing of a hand-held 2-cycle thermal fogger. The drawing is pretty minimal, but shows enough detail, in particular around the engine and fan, to get a sense of how it operates. There are also a few labels pointing out via arrows what the Recould Rope Starter, Fuel Tank, Carrying Handle, Creifugal Blower Assemble, and Air/Agent Exit Ports are, and to the where the Vaporized Agent is injected into the air stream." width="500" />
+<p class="caption">(\#fig:imgjetfogger)(ref:imgjetfogger)</p>
+</div>
+
+<br>
+
+Sears does not appear to have entered The Mity Mite into the law enforcement market, perhaps due to the company's existing legacy branding, and the model never established itself in the domestic market.
+
+
+### Federal Laboratories {- #FederalLaboratories}
+
+Federal Laboratories, one of the major US manufacturers of chemical weapons starting after World War I, developed a hand-held 2-cycle thermal fogger that did not need a backpack or hoses:
+
+(ref:img298) The Federal Laboratories "Federal Fogger 298" [@FedLabs298].
+
+<div class="figure" style="text-align: center">
+<img src="img/federal_fogger_crop.jpg" alt="Black and white photo of a thermal fogger that is basically a 2-cycle weed-wacker engine on top of a chemical agent metal drum with a nozzle sticking out to the right that is about a yard long, it's dark and has some hardware on it. The drum says Federal Fogger and then other things that are illegible. The drum is a dark color and the main engine is light, with a dark handle and strap." width="300" />
+<p class="caption">(\#fig:img298)(ref:img298)</p>
+</div>
+
+(ref:fedlabimg) Officer demonstrating the Federal Laboratories 298 [@Applegate1992].
+
+<div class="figure" style="text-align: center">
+<img src="img/federal_labs.jpg" alt="Black and white photo of police officer in a gas mask and riot helmet with the shield flipped up and full uniform, but not riot gear. The officer is holding a hand-held fogger that has a white top on the part, some shiny metal in the middle and then dark on the bottom with a dark nozzle that is spewing some fog. The officer is standing in a field in front of a forest." width="300" />
+<p class="caption">(\#fig:fedlabimg)(ref:fedlabimg)</p>
+</div>
+
+
+### General Ordnance Equipment Corporation {- #GOEC}
+
+The General Ordnance Equipment Corporation (GOEC), who invented and trademarked Chemical Mace earlier in the decade, had been bought-out by Smith and Wesson by the late 1960s when the fogger market opened up [@Gross2014].
+
+Alan Litman, the brains behind GOEC, retained leadership of chemical weapons development after the buy-out, however [@Gross2014], and he must have seen an opportunity, as GOEC began selling hand-held thermal foggers in July 1968 [@Applegate1969].
+
+They named their units "Pepper Fog" generators, a nod to their apparent ability to "pepper" the recipient with more concentrated bursts of fog if desired, compared to the steady stream output from the Mity Mite [@Applegate1969], and applied for a trademark on the phrase in October of the same year [@USTPO2018].
+By the end of August 1969, GOEC (and thus Smith and Wesson) had received the trademark on "Pepper Fog", which they (and subsequent owners) retained until it expired in 1991 [@USTPO2018].
+
+While GOEC did develop and sell a stationary 2-cycle model for vehicle mounting, it was their hand-held pulse-jet model that took the market by storm [@Crockett1969].
+
+<br>
+
+(ref:goecpf) General Ordnance Equipment Corporation thermal fogger [@GOECphoto], as shown in @Applegate1969.
+
+<div class="figure" style="text-align: center">
+<img src="img/goec_pf.png" alt="Yellowed black and white photo of a stationary pepper fog thermal fogger pointed to the left sitting by itself. The main body is a square box that's dark with a tag in the middle that's lighter and has dark writing on it that says pepper fog g o e c. The nozzle points to the left and is a longer thinner tube about twice as long as the main body. It is also dark and has a metal cage around it that is sparse and shiny. There's also a handle and some knobs on the top of the item and something that's a little bit difficult to make out off the back of the main body." width="500" />
+<p class="caption">(\#fig:goecpf)(ref:goecpf)</p>
+</div>
+
+<br>
+
+
+They immediately began a heavy marketing campaign for their new invention, taking out full-page ads in police magazines [@GOECad1969; @GOECadLNS1970; @GOECadObserver1970]:
+
+<br>
+
+(ref:imggoecad1969) GOEC advertisement [@GOECad1969].
+
+<div class="figure" style="text-align: center">
+<img src="img/GOECad1969.png" alt="Photocopied, blurried black and white magazine spread advertisement for General Ordnance Equipment Company (GOEC). The ad shows both their chemical mace and their fogger, although the fogger takes up 3/4 of the page. The left side has two main panels, one for each weapon, the top is a mace one showing an officer spraying mace into someone's face and the bottom part is the picture of the person fogging the railroad. The right side is an explainer on the pepper fogger that has three photos (including a repeat of the railroad one) at the top, the item image in the middle, and then a whole bunch of specs that are too blury to read" width="500" />
+<p class="caption">(\#fig:imggoecad1969)(ref:imggoecad1969)</p>
+</div>
+
+<br>
+
+They also leveraged the connection between local law enforcement and the press to generate [free marketing](#Propa) with an [international reach](#Canada).
+
+It is perhaps no surprise then that virtually all of the foggers photographed being used in the US prior to 2020 are GOEC models.
+
+
+### Defense Technology {- #DefenseTechnology}
+
+The corporate descendent of both GOEC and Federal Labs and current owner of the legacy branding ([Safariland](https://www.safariland.com) subsidiary [Defense Technology](https://www.defense-technology.com)) continues to sell items under a ["Pepper Fog" line](https://www.defense-technology.com/product-category/pepper-foggers/), including a ["pepper fog generator"](https://www.defense-technology.com/product/pepper-fog-generator/) that utilizes the same pulse-jet generation technique [@DTPFG]:
+
+<br>
+
+(ref:imgdefensetechgepf) Product image for thermal fogger [@DTPFGphoto].
+
+<div class="figure" style="text-align: center">
+<img src="img/defense_tech_gepf.png" alt="Yellow-gold box shape tool with a handle on top, an image of an eagle in flight on the side, and some gauges on top.The back of the box tapers and appears to have switches and controls. Coming out of the front is a long tube that narrows at the end. The tube has a wire cage surrounding it." width="500" />
+<p class="caption">(\#fig:imgdefensetechgepf)(ref:imgdefensetechgepf)</p>
+</div>
+
+<br>
+
+This has supplanted the models produced by the corporate ancestors to Defense Technology, which were bulkier and considerably heavier [@Samuelsetal1969].
+
+## Rex Applegate {-}
+
+A major figure in the translation of military "riot suppression" tactics to domestic law enforcement in the 1960s and 1970s was a former US Army Lt. Colonel named [Rex Applegate](https://en.wikipedia.org/wiki/Rex_Applegate).
+Applegate took a commission as a second leuitenant, but had a lung ailment kept him from serving in combat in World War II and so was assigned to Military Police Company before being tapped by [Col. William Donovan](https://en.wikipedia.org/wiki/William_J._Donovan) to build and run the School for Spies and Assassins in the Office of Strategic Services [@Goldstein1998].
+Larger than life, Rex even served as bodyguard to President Franklin Roosevelt, before retiring and moving to Mexico at the end of World War II to consult with Central and South American governments on "riot control" [@Goldstein1998].
+
+Applegate returned to the US in the 1960s during the civil rights and anti-war protest era and began proselytizing the good word of the thermal fogger [@Applegate1969; @Applegate1970].
+Indeed, Rex published what can only be described as a long-form written sales pitch for the GOEC Pepper Fog thermal fogger in the highly circulated _Guns_ magazine in 1970 [@Applegate1970].
+
+<br>
+
+(ref:imgdemo) Demonstration of a pepper fogger [@Applegate1970]
+
+<div class="figure" style="text-align: center">
+<img src="img/demo.png" alt="Black and white photo of a person using a pepper fogger across some railroad tracks. The person is standing in the mid ground on the left side of the photo and fogging towards the right mid-ground where the train tracks come from. The fog obscures the origins of the tracks off to the background on the right side of the photo. Behind the person on the left side is a taller tree along short building a car and some foliage. Further behind is a ridge of some kind with trees on it. The train tracks are old and partially overgrown." width="500" />
+<p class="caption">(\#fig:imgdemo)(ref:imgdemo)</p>
+</div>
+
+<br>
+
+## News Media Propaganda {- #Propa}
+
+
+Alongside the more overtly pro-police-use-of-chemical-weapons propaganda of Rex Applegate were other, perhaps more subtle forms of pro-fogger propaganda [@Macomber1970].
+Newspapers around the country were more than happy to print "articles" that promoted the new arsenals police departments were building [@LaPrade1970], complete with product demo photos.
+
+<br>
+
+(ref:imgVance1970) Amarillo Texas Police Sergent Jerry Austin with a thermal fogger and shotgun [@Vance1970]. Amarillo's 1970 population was 127,010 [@USCB1970].
+
+<div class="figure" style="text-align: center">
+<img src="img/Vance1970.jpg" alt="Black and white newspaper clipping of an officer standing in front of a open garage door, next to a police car that is partially in frame on the left and front areas. A GOEC-style thermal fogger sits on the hood of the car in front of the officer, pointing towards and to the left of the camera. The officer is wearing beat clothing and a cop hat and also has a shotgun." width="500" />
+<p class="caption">(\#fig:imgVance1970)(ref:imgVance1970)</p>
+</div>
+
+<br>
+
+<br>
+
+(ref:imgAmanphoto1970) Richland County (Ohio) Sheriff's Captain Robert Dysart demonstrating a thermal fogger to a crowd of >200 people [@Amanphoto1970]. Richland County's 1970 population was 129,997 [@USCB1970].
+
+<div class="figure" style="text-align: center">
+<img src="img/Amanphoto1970.jpg" alt="Black and white newspaper clipping of an officer standing in a field just front a forest/brush line, fogging out into the open area as part of a demonstration. The officer is wearing a riot helmet and coveralls and has the fogger slug over their right arm with a strap they are also holding with their left hand. The officer stands in the left part of the frame, fogging to the right, using a GOEC-style fogger with the nozzle tip right in the middle of the photo." width="500" />
+<p class="caption">(\#fig:imgAmanphoto1970)(ref:imgAmanphoto1970)</p>
+</div>
+
+<br>
+
+[General Ordnance Equipment Corporation](#GOEC)'s Pepper Fog model seems to have been the favorite, at least amongst the departments showing off their new cool toys for photographs.
+
+<br>
+
+(ref:imgGaylord1971) A McHenry County (Illinois) Sheriff's officer fogs some grass in a rural landscape during a training and press demo day [@Gaylord1971; @PlainDealer1971]. McHenry County's 1970 population was 111,555 [@USCB1970].
+
+<div class="figure" style="text-align: center">
+<img src="img/Gaylord1971.jpg" alt="Black and white photo of an individual standing in a grass field with wood horse fence and trees and barns in the background. The individual is in light clothes and a black cap and is using both hands to hold a pepper fogger, which they are using to fog some grass on the right side of the photo. they are facing the camera, so the classic GOEC label is visible." width="500" />
+<p class="caption">(\#fig:imgGaylord1971)(ref:imgGaylord1971)</p>
+</div>
+
+<br>
+
+
+
+<br>
+
+(ref:imgWinter1970) Scott County (Iowa) deputy sheriff Jim Lewis, left, holds a new grenade launcher and a riot gun while Sheriff William Strout displays a pepper fogger and gas mask [@Winter1970]. Scott County's 1970 population was 142,687 [@USCB1970].
+
+<div class="figure" style="text-align: center">
+<img src="img/Winter1970.jpg" alt="Black and white newspaper clipping of two officers standing in front of a large brick wall. Scott County deputy sheriff Jim Lewis, left, holds a new grenade launcher and a riot gun. he is donning a standard beat uniform with a bucket hat. Sheriff William Strout is on the right in street clothes and is holding a GOEC pepper fogger in his right hand and gas mask in his left. The officers are making an X with the barrells of the grenade launcher and fogger." width="500" />
+<p class="caption">(\#fig:imgWinter1970)(ref:imgWinter1970)</p>
+</div>
+
+<br>
+
+
+### Gary Wills {-}
+
+Pulitzer Prize-winning [Garry Wills](https://en.wikipedia.org/wiki/Garry_Wills) (who at the time was considerably more conservative than he came to be later) penned an op-ed that ran in (at least) The Herald Statesman (Yonkers, New York) [@Wills1971a], The Daily Item (Port Chester, New York) [@Wills1971b], The Charlotte News (Charlotte, North Carolina) [@Wills1971c], and The Philadelphia Inquirer [@Wills1971d] in April 1971 in which he basically tells all the cry babies (pun intended) to suck it up because he "would not be afraid to undergo such experiences [as being pepper fogged] again" [@Wills1971a].
+
+Notably, he touts the leading belief at the time that somehow thermal fogging is a "safe immobilizer of individuals" [@Wills1971a], despite the weapon not being demonstrably safer than gas grenades and not only not "immobilizing" but explicitly designed to mobilize immobile resisters.
+Wills interestingly deems chemical weapons as "safer than dogs, which get out of control, bite bystanders (and even other cops) as well as 'the bad guys'" [@Wills1971a], despite their being indiscriminate to the point of impacting bystanders, police officers, etc..
+
+He concludes his piece by calling tear gas "humane in ... foreign wars [and] domestic encounters" [@Wills1971a], speaking clearly to the return of the trip of the classically defined Imperial Boomerang [@Cesaire1950; @Arendt1951; @Foucault1976]. 
+

@@ -18,39 +18,28 @@ documentclass: krantz
 lof: yes
 monofontoptions: "Scale=0.7"
 fontsize: 11pt
+classoption: titlepage
+favicon: "img/icon.png"
 ---
 
 ```{r index-1, echo=FALSE}
 is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
 is_online <- curl::has_internet()
-is_html <- knitr::is_html_output()
+is_html <- knitr::is_html_output(excludes = c("epub"))
 is_latex <- knitr::is_latex_output()
 ```
 
-```{asis index-2, echo=is_html}
+```{asis include = is_html}
 #  {-}
-
 ```
 
-
 ```{r cover, out.width = 500, fig.alt = "Cover for the book, which has fogger clouds as background and says The Thermal Fogger An Imperial Thetherball at the top and Dr Juniper L Simonis they/them/theirs in the bottom right. The focal image is a blurred, sketched over, re-rendered, and otherwise edited photo of a US Customs and Border Protection agent in all green and tan camo riot gear holding a thermal fogger in their right hand.", echo = FALSE, include = is_html, fig.align = "center"}
-    
 knitr::include_graphics("img/cover.png")
 ```  
 
-<br> 
 
-```{asis index-3, echo=is_html}
+```{r include = FALSE}
 
-[An archived version of this book is available on Zenodo](https://doi.org/10.5281/zenodo.4850406).
-
-```
-
-
-```{r include=FALSE}
-
-  # automatically create a bib database for R packages
-
-  knitr::write_bib(c(.packages(), 'bookdown', 'knitr', 'rmarkdown'), 'packages.bib')
+knitr::write_bib(c(.packages(), 'bookdown', 'knitr', 'rmarkdown'), 'packages.bib')
 
 ```

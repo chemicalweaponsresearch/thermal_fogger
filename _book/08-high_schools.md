@@ -13,9 +13,8 @@ Law enforcement agents used chemical weapons against Black junior and high schoo
 
 Although undated, this photograph printed in The Delta Democrat-Times (Greenville, Mississippi Thursday) [@TheDeltaDemocratTimes1969_11_20] on November 20, 1969 references a "recent" use of the fogger on students. 
 
-<br>
 
-(ref:imgsanbernardino1969xxxx) Police use a pepper fogger on students at San Gordonio High School [@UPIphoto1969].  
+(ref:imgsanbernardino1969xxxx) Police use a pepper fogger on students at San Gordonio High School [@UPIphoto1969].
 
 <div class="figure" style="text-align: center">
 <img src="img/san_bernardino_1969_xx_xx.jpg" alt="B/W faded image: To the left is a person wearing a uniform with a patch on the shoulder and a helmet. In their right hand is the nozzle to a fogger and it appears to be emitting fog. There is a white fog cloud covering most of the rest of the image." width="500" />

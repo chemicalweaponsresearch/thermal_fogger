@@ -1,19 +1,14 @@
 rmd_files: 
     - "index.Rmd"
-    - "01-foreword.Rmd"
-    - "02-introduction.Rmd"
-    - "03-vietnam.Rmd"
-    - "04-the_return.Rmd"
-    - "05-the_conventions.Rmd"
-    - "06-the_spread.Rmd"
-    - "07-universities.Rmd"
-    - "08-high_schools.Rmd"
-    - "09-racial_justice.Rmd"
-    - "10-labor.Rmd"
-    - "11-celebrations.Rmd"
-    - "12-the_carceral_system.Rmd"
-    - "13-accidents.Rmd"
-    - "14-cbp.Rmd"
+    - "00-preface.Rmd"
+    - "01-introduction.Rmd"
+    - "02-vietnam.Rmd"
+    - "03-return.Rmd"
+    - "04-conventions.Rmd"
+    - "05-scholastic_endeavors.Rmd"
+    - "06-broaden.Rmd"
+    - "07-the_carceral_system.Rmd"
+    - "08-cbp.Rmd"
     - "99-references.Rmd"
 new_session: yes
 delete_merged_file: true
@@ -24,3 +19,6 @@ language:
   ui:
     chapter_name: "Chapter "
     edit: "Edit"
+book_filename: fogger_book
+repo: https://github.com/chemicalweaponsresearch/thermal_fogger
+output_dir: _book

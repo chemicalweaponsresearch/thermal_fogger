@@ -1,0 +1,1558 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+  titlepage]{krantz}
+\title{The Thermal Fogger}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{An Imperial Tetherball}
+\author{Dr.~Juniper L. Simonis}
+\date{2021-07-04}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={The Thermal Fogger},
+  pdfauthor={Dr.~Juniper L. Simonis},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage[bf,singlelinecheck=off]{caption}
+
+\usepackage{Alegreya}
+\usepackage[scale=.7]{sourcecodepro}
+
+\usepackage{framed,color}
+\definecolor{shadecolor}{RGB}{248,248,248}
+
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\topfraction}{0.8}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\floatpagefraction}{0.75}
+
+\renewenvironment{quote}{\begin{VF}}{\end{VF}}
+\let\oldhref\href
+\renewcommand{\href}[2]{#2\footnote{\url{#1}}}
+
+\ifxetex
+  \usepackage{letltxmacro}
+  \setlength{\XeTeXLinkMargin}{1pt}
+  \LetLtxMacro\SavedIncludeGraphics\includegraphics
+  \def\includegraphics#1#{% #1 catches optional stuff (star/opt. arg.)
+    \IncludeGraphicsAux{#1}%
+  }%
+  \newcommand*{\IncludeGraphicsAux}[2]{%
+    \XeTeXLinkBox{%
+      \SavedIncludeGraphics#1{#2}%
+    }%
+  }%
+\fi
+
+\makeatletter
+\newenvironment{kframe}{%
+\medskip{}
+\setlength{\fboxsep}{.8em}
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\makeatletter
+\@ifundefined{Shaded}{
+}{\renewenvironment{Shaded}{\begin{kframe}}{\end{kframe}}}
+\makeatother
+
+\newenvironment{rmdblock}[1]
+  {
+  \begin{itemize}
+  \renewcommand{\labelitemi}{
+    \raisebox{-.7\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=3em,keepaspectratio}\includegraphics{images/#1}}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{kframe}
+  \item
+  }
+  {
+  \end{kframe}
+  \end{itemize}
+  }
+\newenvironment{rmdnote}
+  {\begin{rmdblock}{note}}
+  {\end{rmdblock}}
+\newenvironment{rmdcaution}
+  {\begin{rmdblock}{caution}}
+  {\end{rmdblock}}
+\newenvironment{rmdimportant}
+  {\begin{rmdblock}{important}}
+  {\end{rmdblock}}
+\newenvironment{rmdtip}
+  {\begin{rmdblock}{tip}}
+  {\end{rmdblock}}
+\newenvironment{rmdwarning}
+  {\begin{rmdblock}{warning}}
+  {\end{rmdblock}}
+
+\usepackage{makeidx}
+\makeindex
+
+\urlstyle{tt}
+
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\usepackage{pdfpages}
+
+\frontmatter
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\begin{document}
+\maketitle
+
+
+%\cleardoublepage\newpage\thispagestyle{empty}\null
+%\cleardoublepage\newpage\thispagestyle{empty}\null
+
+\setlength{\abovedisplayskip}{-5pt}
+\setlength{\abovedisplayshortskip}{-5pt}
+
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\listoffigures
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+
+
+\href{https://doi.org/10.5281/zenodo.4850406}{An archived version of this book is available on Zenodo}.
+
+\hypertarget{content-warning}{%
+\section*{Content Warning}\label{content-warning}}
+
+
+This book deals with police and corrections violence in frank terminology.
+Pictures of chemical weapons being deployed on individuals, including those passively resisting, are included, but no injuries, blood, gore, etc. are shown.
+Casualties, including fatalities, are discussed, including an individual being killed by corrections officers.
+
+\hypertarget{land-acknowledgment}{%
+\section*{Land Acknowledgment}\label{land-acknowledgment}}
+
+
+This work's impetus comes from present-day Portland, Oregon, United States of America -- the Indigenous land of the Chinook people, who were colonized and spread across multiple federally recognized tribes in Oregon, Washington and Idaho including Cowlitz, Siletz, Wasco, and Yakima.
+
+Chemical weapons are a common tool among imperialist regimes.
+The events cataloged in this book occur at many locations across the present-day United States and internationally, with specific references to Canada, Mexico, and Vietnam, where colonizing forces of (predominately Northwestern) Europe have used forced labor from enslaved Black people to impose significant force on Indigenous cultures and individuals.
+
+No words can fully encompass the place in which each of the stories told in this book occur.
+I will work to add important contextual information and acknowledgments, and please remember that each use of a thermal fogger or other brutal police force described here impacted many, many lives.
+
+I ask you to take time to reflect on the countless individuals from communities, tribes, peoples, and cultures around the world that have been fogged with some chemical agent whose names we will never know, whose stories we will never hear.
+
+\hypertarget{inherent-bias}{%
+\section*{Inherent Bias}\label{inherent-bias}}
+
+
+This book has been produced by collating historical documentation and records, which are inherently biased towards the views of white, male colonizers, as will be plainly evident in the documents.
+As such, it is important to recognize that there are almost certainly records that I have not yet found or which have been lost to time.
+Even more critical, however, is that many uses of thermal foggers have likely never been recorded at all (even if ``legally required''), as will be made clear through the documents that have been recovered.
+
+\hypertarget{author-position}{%
+\section*{Author Position}\label{author-position}}
+
+
+I, \href{https://juniperlsimonis.com}{Dr.~Juniper L. Simonis} (\emph{they/them/theirs}), am a 36-year-old middle-class, white, non-binary, queer, physically and psychologically disabled person.
+I come to the study of the history of chemical weapons use in America via my personal experience being the recipient of law enforcement's chemical weapons and my ensuing scientific research into its impacts on the environment.
+
+I have a PhD in Ecology and Evolutionary Biology from Cornell, where I studied aquatic ecology and biogeochemistry -- disciplines I have put to use to studying the impact of chemical weapons.
+Through my ecological research, I have uncovered historical and current information into the impacts of chemical weapons that I was not seeing being represented in the present day broad cultural discourse.
+
+From this need to share historical information came this book, a way for me to pass along a window into the racist, classist, capitalistic, and colonialistic throughline of the thermal fogger.
+
+I am an abolitionist in multiple senses: I believe that the use of chemical weapons, police, and the carceral system should all be abolished, full-stop.
+
+Through this work, I have discovered an extensive history that makes me feel a deep connection to my protest elders who experienced thermal foggers decades ago.
+I hope that my work will bring light to their stories.
+We are but the most recent chapter in a long history of United States Law Enforcement using chemical weapons against its own people.
+
+\hypertarget{financial-statement}{%
+\section*{Financial Statement}\label{financial-statement}}
+
+
+All work for this product was conducted by Dr.~Juniper L. Simonis via internal time at DAPPER Stats.
+No external funding was provided.
+
+\hypertarget{licenses}{%
+\section*{Licenses}\label{licenses}}
+
+
+This book it created under a \href{https://github.com/chemicalweaponsresearch/thermal_fogger/blob/main/LICENSE.md}{dual license} that recognizes a separation between the software and non-software components.
+All underlying documents (photos, etc.) are cited in the \protect\hyperlink{References}{References} and references do not indicate the original licensor endorses this book or its authors.
+
+\hypertarget{acknowledgments}{%
+\section*{Acknowledgments}\label{acknowledgments}}
+
+
+My deepest heartfelt condolences to the family of Robert Forsythe.
+I cannot even begin to imagine the impact Bobby's murder and the subsequent trial and media presence had on you and your community.
+I hope that by shining a light on his story now, more people will come to understand just how horrendous the prison system is and fight for its abolition.
+
+The story of Robert Forsythe is almost certainly not unique, and only public knowledge because of the trial against the corrections officers.
+I recognize that many others have been killed by thermal foggers, yet we will never know their names.
+
+This booklet is based on a variety of sources past and present, and to the journalists and photographers: thank you for sharing your work with the world.
+
+I have no idea how many people have been involved in digitizing historical newspapers, as their names are never on anything, but y'all are fantastic and I appreciate you so much.
+
+Sandra Simonis provided significant help with writing alt-text for images.
+
+Twitter users NewNameJeanette and WillHickox notified me of the \protect\hyperlink{Lawrence1970_04_21}{Lawrence High School} protest and use of the thermal fogger, for which I am very thankful.
+
+Christophe Dervieux provided an example of how to render figure alt-text in an appendix: \url{https://cderv.rbind.io/2021/06/29/fig-alt-appendix/}.
+
+The cover image is based on \citet{Lewis-Rolland2021a}.
+
+\hypertarget{contribute-information}{%
+\section*{Contribute Information}\label{contribute-information}}
+
+
+If you are aware of incidents where a pepper fogger was used to deploy chemical weapons that we have not included, please reach out \href{https://chemicalweaponsresearch.com/contact/}{via the Chem Weapons Research Website} or submit an \href{https://github.com/chemicalweaponsresearch/thermal_fogger/issues/new/choose}{issue} or \href{https://github.com/chemicalweaponsresearch/thermal_fogger/compare}{pull request} on our \href{https://github.com/chemicalweaponsresearch/thermal_fogger}{GitHub repository for the book}.
+
+\mainmatter
+
+\hypertarget{introduction}{%
+\chapter*{Introduction}\label{introduction}}
+
+
+Late in the night on July 29th, during the height of the 2020 Uprising in Portland (OR), as protesters gathered outside the Hatfield Federal Courthouse to fight for racial justice, the Department of Homeland Security (DHS)'s Customs and Border Protection (CBP) used a thermal fogger to deploy unknown chemical agents on the crowd:
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2020_07_29} 
+
+}
+
+\caption{CBP agent using a thermal fogger in front of the federal courthouse, Portland OR \citep{Brown2020}.}\label{fig:imgportland20200729}
+\end{figure}
+
+With this seemingly novel usage, DHS made a large swath of the populace aware of an insidious weapon that is actually not new, but -- in fact -- was \protect\hyperlink{Genesis}{birthed} in the American occupation of Vietnam, \protect\hyperlink{The1968Convensions}{perfected} for use against domestic protesters in the 1960s and '70s, and \protect\hyperlink{CBP}{sent abroad} via CBP in the years since.
+The subsequent \protect\hyperlink{PortlandOR2020_2021}{return} of the thermal fogger to use against civilians domestically by the same domestic law enforcement agency (CBP) that sent it abroad after its initial domestic use is an extension of the classical Imperialist Boomerang \citep{Cesaire1950, Arendt1951, Foucault1976, Graham2013} that can be more aptly described as a tetherball.
+
+Despite repeated use of thermal foggers to deploy chemical weapons over the last half century, the device appears to have slipped from the zeitgeist, only to reemerge in the city that experienced the most visible federal deployment of chemical weapons \citep{Flanigan2020} and weapons-based incidents of police brutality at racial justice protests (regardless of population size) \citep{pb20202021}, perhaps due to the noteworthy density of photographers and videographers.
+
+Although not all of the weapon's history is documented, enough is that we can quickly dispel the myth that this deployment was \emph{new} in any notable sense other than being recent.
+
+\hypertarget{Science}{%
+\section*{The Science of Thermal Fogging}\label{Science}}
+
+
+Broadly speaking, a fog is a visible aerosol that hangs in the air near the ground, and while it occurs on its own accord, humans have devised a variety of methods to generate fog.
+And many, if not all, of those methods have been used to deploy chemical weapons on people.
+The focus of this book is on \textbf{thermal} fogging.
+The idea behind thermal fogging is the same whether you're targeting mosquitoes in a marsh or protesters on a street: flash-vaporize a liquid being forced into a stream of cooler air, causing a fog to form as it condenses; move to increase the size of the cloud.
+
+The original chemical weapons thermal foggers employed the exhaust lines of diesel trucks or manifolds of 2-cycle engines to heat the formulation, which worked but were bulky and difficult to control in open areas \citep{Crockett1969}.
+These models were quickly supplanted by foggers leveraging resonant \href{https://en.wikipedia.org/wiki/Pulsejet}{pulsejet technology} that were streamlined, lighter, and gave control of the stream to the operator \citep{Applegate1969}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/Crockett1969} 
+
+}
+
+\caption{Concept drawing from the International Association of Chiefs of Police chemical agents manual \citep{Crockett1969}.}\label{fig:imgCrockett1969}
+\end{figure}
+
+Regardless of the heating method specifics, the machine creates a visible fog from the mixture of gasoline exhaust, chemical weapons, and ambient air moisture, as desired.
+
+Although the mixture does cool considerably from its peak temperature before being released, the chemicals are heated to such high temperatures that they thermally decompose, creating a much more toxic mixture of gases that condense to form the fog.
+Indeed, the thermal cracking temperatures of common chemical contemporary chemical weapons are well below the temperatures achieved in a thermal fogger:
+
+\begin{itemize}
+\tightlist
+\item
+  Phenacyl chloride (CN): 248 C \citep{Compton1987}
+\item
+  2-chlorobenzalmalononitrile (CS): 450 - 550 C \citep{Xueetal2015}
+\item
+  Oleoresin Capsicum (OC): \textless{} 200 C \citep{HendersonandHenderson1992}
+\item
+  Hexachloroethane (HC): 185 C \citep{IARC1979}
+\item
+  Terephthalic Acid (TPA): 445 C \citep{KimyonokandUluturk2016}
+\end{itemize}
+
+As a result, it is impossible for anyone to definitively know what chemicals they are fogging someone with, but it is fair to say the mixtures are likely to have considerably higher toxicities than product labels and safety sheets indicate, which are already concerning \citep{defteccs}.
+
+\hypertarget{Vietnam}{%
+\chapter*{A Colonial Tool}\label{Vietnam}}
+
+
+The modern day use of thermal foggers for chemical weapons deployment was born from the American colonization of Vietnam in the mid-to-late-20th Century \citep{USMACV1965, Bunker1996}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/vcmm} 
+
+}
+
+\caption{US Military deploying a thermal fogger into a Vietnamese tunnel \citep{Delf2012}.}\label{fig:imgvcmm}
+\end{figure}
+
+\hypertarget{context}{%
+\section*{Context}\label{context}}
+
+
+\hypertarget{mosquito-control}{%
+\subsection*{Mosquito Control}\label{mosquito-control}}
+
+
+Early in the deployment of US troops to occupy Vietnam, the need for large scale mosquito control became so great that soldiers began improvising insecticide foggers by piping insecticide into diesel truck exhaust:
+
+\begin{quote}
+An insecticide fogger, one of the most useful improvisations, was made by mounting a {[}55-gallon oil{]} drum filled with 6 to 7 percent malathion insecticide in diesel oil \ldots{} on a 3/4-ton truck and spraying the poisonous mixture out with the exhaust from the vehicle. The insecticide is drawn from the drum by the partial vacuum in a line connected to the exhaust pipe just behind the manifold, and sprayed out under pressure of the exhaust.
+
+\VA{--- \citet{Spicknall1969}}{}
+\end{quote}
+
+The hack turned out to be \textbf{\emph{4,500 times}} more effective, covering nine square miles per day compared to 50,000 square feet (0.002 square miles) per day using a conventional manually operated fogger \citep{Spicknall1969}.
+Given widespread mosquito concerns and the preponderance on diesel drums, the truck approach spread, and the concept of fogging was understood among servicemembers \citep{USMACV1965, Spicknall1969}.
+
+\hypertarget{tunnels}{%
+\subsection*{Tunnels}\label{tunnels}}
+
+
+As the occupation continued, underground bunkers and tunnels dug by the Viet Cong (VC) and People's Army of Vietnam (PAV) became a dominant presence on the both the literal and figurative battlefields \citep{Rottman2006, Rottman2012}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/tunnels} 
+
+}
+
+\caption{Hypothetical Vietnamese village with a two-level bunker tunnel system \citep{Hanesalo1996}.}\label{fig:imgtunnels}
+\end{figure}
+
+Soldiers from the US, Australian, New Zealand, and other armies were tasked with clearing the tunnels and ``rooting out'' inhabitants \citep{Hemmings2019}.
+The specialized forces designated for the work were dubbed ``Tunnel Rats'' and tear gas was part of their arsenal to ``flush'' individuals from caves, which they regularly deployed via pyrotechnic grenades and powdered explosives \citep{NewYorkTimes1977, Rottman2006}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/rat_mask} 
+
+}
+
+\caption{Tunnel rat in a gas mask, undated \citep{Hemmings2019}}\label{fig:imgratmask}
+\end{figure}
+
+\hypertarget{Genesis}{%
+\section*{Genesis}\label{Genesis}}
+
+
+\hypertarget{FirstUse}{%
+\subsection*{Implementation}\label{FirstUse}}
+
+
+In October of 1965, the USMACV (United States Military Assistance Command, Vietnam) was supporting the South Vietnamese Army's (ARVN) III Corps in a ``search and destroy'' operation in the Iron Triangle, an area known to house an elaborate Viet Cong tunnel system \citep{USMACV1965}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/iron_triangle} 
+
+}
+
+\caption{US-defined War Zones C, D, and the Iron Triangle near Saigon, Vietnam \citep{USArmy2005}}\label{fig:imgirontriangle}
+\end{figure}
+
+The US Chemical Advisor to the ARVN's Chemical Team participated in planning the operation, and suggested using a Mity Mite (a.k.a. Mitey Mite, Mighty Mite) 2-cycle thermal fogger to aid in clearing tunnels.
+A 6-member unit of ARVN Chemical Team members was organized on October 7th for implementation of the fogger \citep{USMACV1965}.
+The next day, the force located a tunnel and set into motion an elaborate scheme to fog the tunnels with \href{https://chemicalweaponsresearch.com/hc}{hexachloroethane (HC)} smoke from burning pots, marking the first known tactical use of a thermal fogger to deploy chemical weapons agents \citep{USMACV1965, Rottman2012}.
+Overall, the endeavor was dubbed a success, despite the tunnel already being empty \citep{USMACV1965}.
+
+Although (highly toxic; \citet{Simonis2020}) munitions smoke was used in this application, it was noted that tear gas would be ``very effective in flushing VC from tunnels'' should there been any present \citep{USMACV1965}.
+
+According to the \emph{Lessons Learned} report filed by the USMACV the next month,
+
+\begin{quote}
+This is believed to have been the first tactical employment of Mity Mite \emph{by ARVN}. {[}emphasis added{]}
+
+\VA{--- \citet{USMACV1965}}{}
+\end{quote}
+
+Note that there is no mention of use by USMACV prior to this deployment \citep{USMACV1965}.
+
+\hypertarget{what-about-not-in-tunnels}{%
+\subsection*{What About Not In Tunnels?}\label{what-about-not-in-tunnels}}
+
+
+Seeing the Mity Mite in action got the wheels turning in the heads of USMACV officers, and the idea of deploying the fogger outside of tunnels was on the table \citep{USMACV1965}.
+
+This is made clear in the \emph{Lessons Learned} report, where they state that the
+
+\begin{quote}
+Mity Mite portable blower can be used to \ldots{} generate an agent cloud for use against unmasked personnel \textbf{in the open} \ldots{} {[}emphasis added{]}
+
+\VA{--- \citet{USMACV1965}.}{}
+\end{quote}
+
+At the time, however, the set up used powder, pot, and grenade sources of chemical agents, which was inefficient and required extensive supplies and gasoline reserves \citep{USMACV1965}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/mity_mite} 
+
+}
+
+\caption{Technical drawing of a backpack fogger \citep{USMACV1965}}\label{fig:imgmitymite}
+\end{figure}
+
+\hypertarget{expansion}{%
+\section*{Expansion}\label{expansion}}
+
+
+The practice caught on quickly, and Mity Mites were soon issued to ARVN units \citep{USMACV1965} and became common tools for Tunnel Rats \citep{Rottman2012}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/mighty_mite} 
+
+}
+
+\caption{A soldier uses a backpack Mity Mite to fog a tunnel \citep{USArmy1966}}\label{fig:imgmightymite}
+\end{figure}
+
+The Army used foggers to pump ``air'' or ``smoke'' into tunnels in combination with ``riot control agents'' during Operation Cedar falls in 1967 \citep{Lehrer1968}.
+And by 1968's Battle of Khe Sanh, it was standard practice to use foggers for tunnel excavation as well as mosquito and fly control \citep{Rottman2006}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/unpack_test} 
+
+}
+
+\caption{Engineers unpack and test a Mitey-Mite blower \citep{USAES}.}\label{fig:imgunpacktest}
+\end{figure}
+
+In 1969, the US Army Limited War Laboratory published a report on chemical weapons that included a section on foggers and agents for use in them, naming the \protect\hyperlink{GOEC}{General Ordinance Equipment Corporation} and \protect\hyperlink{DefenseTech}{Federal Laboratories} models that were already in production and a propsed development of a formalized truck-based fogger \citep{Samuelsetal1969}:
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/tablea212} 
+
+}
+
+\caption{Existing and proposed fogging devices \citep{Samuelsetal1969}.}\label{fig:imgtablea212}
+\end{figure}
+
+\hypertarget{international-melting-pot}{%
+\section*{International Melting Pot}\label{international-melting-pot}}
+
+
+Other countries explicitly supported the US colonization in Vietnam, providing a pathway for the fogger to be rapidly picked up by the armed forces of other nations.
+
+By 1966 the Australian Tunnel Rats were particularly fond of fogging tunnels with acetylene \citep{vietnam_aus1, vietnam_aus2}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/vietnam_aus1} 
+
+}
+
+\caption{Double Acetylene Generator and a Mighty Mite Air Blower Used to Blow Fumes into Viet Cong Tunnels \citep{vietnam_aus1}}\label{fig:vietnamaus1}
+\end{figure}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/vietnam_aus2} 
+
+}
+
+\caption{Mighty Mite Machine Used to Contaminate Viet Cong Tunnel Systems with Acetylene \citep{vietnam_aus2}}\label{fig:imgvietnamaus2}
+\end{figure}
+
+\protect\hyperlink{TheReturn}{As expected}, the fogger quickly made it to Australian police departments, although with a decidedly negative response from the news media, who called it ``highly controversial'' admist a Sydney Police spending scandal \citep{Allen1972}.
+Unnamed Australian arms experts who spoke on background said there was no application for the fogger in the country \citep{Allen1972}, although that hasn't stopped its use elsewhere.
+
+\hypertarget{TheReturn}{%
+\chapter*{Domestic Applications}\label{TheReturn}}
+
+
+As to be expected following the basic trajectory of an Imperial Boomerang \citep{Cesaire1950, Arendt1951, Foucault1976}, the repressive technique (thermal fogging) developed by an imperialist country (USA) to control colonial territories (Vietnam) was brought home by the imperialist nation to use on its own people \citep{Graham2013}.
+
+Indeed, it took just \emph{three years} from initial deployment \protect\hyperlink{FirstUse}{in Vietnam on October 8 1965} to first application in the United States to gas Black racial justice protesters in \protect\hyperlink{MiamiFL1968_08_08}{Miami, Florida on August 8th, 1968} during the Liberty City Riots \citep{Tschenschlok1995, Lorentzen2018}.
+
+In alignment with the general ``Imperial Circuit of Tear Gas'' \citep{Schrader2019} between the US and Vietnam, the return of the fogger was aided significantly by the weapons industry, militarization of US police forces, transition of veterans to law enforcement upon returning home, and substantial propaganda in specialized and generalized outlets.
+
+\hypertarget{manufacturers}{%
+\section*{Manufacturers}\label{manufacturers}}
+
+
+American companies quickly jumped at the opportunity to refine the bulky, complicated Mitey Mite and sell thermal foggers to the military and domestic police departments.
+As early as 1969, The International Association of Chiefs of Police included a detailed section on thermal fogging and available models in their Chemical Agents Manual \citep{Crockett1969}, providing prime trade-focused marketing.
+Indeed, both \protect\hyperlink{FederalLaboratories}{Federal Laboratories} and \protect\hyperlink{GOEC}{General Ordnance Equipment Corporation} models were included.
+
+\hypertarget{sears-roebuck}{%
+\subsection*{Sears Roebuck}\label{sears-roebuck}}
+
+
+The original Mighty Mite that \protect\hyperlink{FirstUse}{established} the fogger as a method of chemical dispersal was manufactured by Sears, Roebuck, and Co.~for insecticide application \citep{Applegate1969}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/M106} 
+
+}
+
+\caption{M-106 Mity Mite Thermal Fogger, as promoted to law enforcement in \citet{Applegate1969}.}\label{fig:imgM106}
+\end{figure}
+
+The bulkiness of the Mity Mite backpack proved to be a hindrance in mobile application, however, and while chemical weapons corporations began their fogger lines with hand-held models using 2-cycle engines, there was a push to produce a more streamlined and specialized tool for fogging chemical weapons at civilians \citep{Applegate1969, Applegate1970}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/jetfogger} 
+
+}
+
+\caption{Hand-held two-cycle thermal fogger \citep{Crockett1969}.}\label{fig:imgjetfogger}
+\end{figure}
+
+Sears does not appear to have entered The Mity Mite into the law enforcement market, perhaps due to the company's existing legacy branding, and the model never established itself in the domestic market.
+
+\hypertarget{FederalLaboratories}{%
+\subsection*{Federal Laboratories}\label{FederalLaboratories}}
+
+
+Federal Laboratories, one of the major US manufacturers of chemical weapons starting after World War I, developed a hand-held 2-cycle thermal fogger that did not need a backpack or hoses:
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{img/federal_fogger_crop} 
+
+}
+
+\caption{The Federal Laboratories ``Federal Fogger 298'' \citep{FedLabs298}.}\label{fig:img298}
+\end{figure}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{img/federal_labs} 
+
+}
+
+\caption{Officer demonstrating the Federal Laboratories 298 \citep{Applegate1992}.}\label{fig:fedlabimg}
+\end{figure}
+
+\hypertarget{GOEC}{%
+\subsection*{General Ordnance Equipment Corporation}\label{GOEC}}
+
+
+The General Ordnance Equipment Corporation (GOEC), who invented and trademarked Chemical Mace earlier in the decade, had been bought-out by Smith and Wesson by the late 1960s when the fogger market opened up \citep{Gross2014}.
+
+Alan Litman, the brains behind GOEC, retained leadership of chemical weapons development after the buy-out, however \citep{Gross2014}, and he must have seen an opportunity, as GOEC began selling hand-held thermal foggers in July 1968 \citep{Applegate1969}.
+
+They named their units ``Pepper Fog'' generators, a nod to their apparent ability to ``pepper'' the recipient with more concentrated bursts of fog if desired, compared to the steady stream output from the Mity Mite \citep{Applegate1969}, and applied for a trademark on the phrase in October of the same year \citep{USTPO2018}.
+By the end of August 1969, GOEC (and thus Smith and Wesson) had received the trademark on ``Pepper Fog'', which they (and subsequent owners) retained until it expired in 1991 \citep{USTPO2018}.
+
+While GOEC did develop and sell a stationary 2-cycle model for vehicle mounting, it was their hand-held pulse-jet model that took the market by storm \citep{Crockett1969}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/goec_pf} 
+
+}
+
+\caption{General Ordnance Equipment Corporation thermal fogger \citep{GOECphoto}, as shown in \citet{Applegate1969}.}\label{fig:goecpf}
+\end{figure}
+
+They immediately began a heavy marketing campaign for their new invention, taking out full-page ads in police magazines \citep{GOECad1969, GOECadLNS1970, GOECadObserver1970}:
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/GOECad1969} 
+
+}
+
+\caption{GOEC advertisement \citep{GOECad1969}.}\label{fig:imggoecad1969}
+\end{figure}
+
+They also leveraged the connection between local law enforcement and the press to generate \protect\hyperlink{Propa}{free marketing} with an \protect\hyperlink{Canada}{international reach}.
+
+It is perhaps no surprise then that virtually all of the foggers photographed being used in the US prior to 2020 are GOEC models.
+
+\hypertarget{DefenseTechnology}{%
+\subsection*{Defense Technology}\label{DefenseTechnology}}
+
+
+The corporate descendent of both GOEC and Federal Labs and current owner of the legacy branding (\href{https://www.safariland.com}{Safariland} subsidiary \href{https://www.defense-technology.com}{Defense Technology}) continues to sell items under a \href{https://www.defense-technology.com/product-category/pepper-foggers/}{``Pepper Fog'' line}, including a \href{https://www.defense-technology.com/product/pepper-fog-generator/}{``pepper fog generator''} that utilizes the same pulse-jet generation technique \citep{DTPFG}:
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/defense_tech_gepf} 
+
+}
+
+\caption{Product image for thermal fogger \citep{DTPFGphoto}.}\label{fig:imgdefensetechgepf}
+\end{figure}
+
+This has supplanted the models produced by the corporate ancestors to Defense Technology, which were bulkier and considerably heavier \citep{Samuelsetal1969}.
+
+\hypertarget{rex-applegate}{%
+\section*{Rex Applegate}\label{rex-applegate}}
+
+
+A major figure in the translation of military ``riot suppression'' tactics to domestic law enforcement in the 1960s and 1970s was a former US Army Lt. Colonel named \href{https://en.wikipedia.org/wiki/Rex_Applegate}{Rex Applegate}.
+Applegate took a commission as a second leuitenant, but had a lung ailment kept him from serving in combat in World War II and so was assigned to Military Police Company before being tapped by \href{https://en.wikipedia.org/wiki/William_J._Donovan}{Col. William Donovan} to build and run the School for Spies and Assassins in the Office of Strategic Services \citep{Goldstein1998}.
+Larger than life, Rex even served as bodyguard to President Franklin Roosevelt, before retiring and moving to Mexico at the end of World War II to consult with Central and South American governments on ``riot control'' \citep{Goldstein1998}.
+
+Applegate returned to the US in the 1960s during the civil rights and anti-war protest era and began proselytizing the good word of the thermal fogger \citep{Applegate1969, Applegate1970}.
+Indeed, Rex published what can only be described as a long-form written sales pitch for the GOEC Pepper Fog thermal fogger in the highly circulated \emph{Guns} magazine in 1970 \citep{Applegate1970}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/demo} 
+
+}
+
+\caption{Demonstration of a pepper fogger \citep{Applegate1970}}\label{fig:imgdemo}
+\end{figure}
+
+\hypertarget{Propa}{%
+\section*{News Media Propaganda}\label{Propa}}
+
+
+Alongside the more overtly pro-police-use-of-chemical-weapons propaganda of Rex Applegate were other, perhaps more subtle forms of pro-fogger propaganda \citep{Macomber1970}.
+Newspapers around the country were more than happy to print ``articles'' that promoted the new arsenals police departments were building \citep{LaPrade1970}, complete with product demo photos.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/Vance1970} 
+
+}
+
+\caption{Amarillo Texas Police Sergent Jerry Austin with a thermal fogger and shotgun \citep{Vance1970}. Amarillo's 1970 population was 127,010 \citep{USCB1970}.}\label{fig:imgVance1970}
+\end{figure}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/Amanphoto1970} 
+
+}
+
+\caption{Richland County (Ohio) Sheriff's Captain Robert Dysart demonstrating a thermal fogger to a crowd of \textgreater200 people \citep{Amanphoto1970}. Richland County's 1970 population was 129,997 \citep{USCB1970}.}\label{fig:imgAmanphoto1970}
+\end{figure}
+
+\protect\hyperlink{GOEC}{General Ordnance Equipment Corporation}'s Pepper Fog model seems to have been the favorite, at least amongst the departments showing off their new cool toys for photographs.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/Gaylord1971} 
+
+}
+
+\caption{A McHenry County (Illinois) Sheriff's officer fogs some grass in a rural landscape during a training and press demo day \citep{Gaylord1971, PlainDealer1971}. McHenry County's 1970 population was 111,555 \citep{USCB1970}.}\label{fig:imgGaylord1971}
+\end{figure}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/Winter1970} 
+
+}
+
+\caption{Scott County (Iowa) deputy sheriff Jim Lewis, left, holds a new grenade launcher and a riot gun while Sheriff William Strout displays a pepper fogger and gas mask \citep{Winter1970}. Scott County's 1970 population was 142,687 \citep{USCB1970}.}\label{fig:imgWinter1970}
+\end{figure}
+
+\hypertarget{gary-wills}{%
+\subsection*{Gary Wills}\label{gary-wills}}
+
+
+Pulitzer Prize-winning \href{https://en.wikipedia.org/wiki/Garry_Wills}{Garry Wills} (who at the time was considerably more conservative than he came to be later) penned an op-ed that ran in (at least) The Herald Statesman (Yonkers, New York) \citep{Wills1971a}, The Daily Item (Port Chester, New York) \citep{Wills1971b}, The Charlotte News (Charlotte, North Carolina) \citep{Wills1971c}, and The Philadelphia Inquirer \citep{Wills1971d} in April 1971 in which he basically tells all the cry babies (pun intended) to suck it up because he ``would not be afraid to undergo such experiences {[}as being pepper fogged{]} again'' \citep{Wills1971a}.
+
+Notably, he touts the leading belief at the time that somehow thermal fogging is a ``safe immobilizer of individuals'' \citep{Wills1971a}, despite the weapon not being demonstrably safer than gas grenades and not only not ``immobilizing'' but explicitly designed to mobilize immobile resisters.
+Wills interestingly deems chemical weapons as ``safer than dogs, which get out of control, bite bystanders (and even other cops) as well as `the bad guys'\,'' \citep{Wills1971a}, despite their being indiscriminate to the point of impacting bystanders, police officers, etc..
+
+He concludes his piece by calling tear gas ``humane in \ldots{} foreign wars {[}and{]} domestic encounters'' \citep{Wills1971a}, speaking clearly to the return of the trip of the classically defined Imperial Boomerang \citep{Cesaire1950, Arendt1951, Foucault1976}.
+
+\hypertarget{The1968Conventions}{%
+\chapter*{The 1968 Conventions}\label{The1968Conventions}}
+
+
+Deployment of chemical weapons on United States civilians by domestic law enforcement began in earnest in the late 1960s during the height of anti-war and civil rights protests, kicked off in particular by the 1968 Republican (Miami, Florida) and Democratic (Chicago, IL) National Conventions \citep{McArdle2018, TaylorandMorris2018}.
+As a result of a \protect\hyperlink{TheReturn}{heavy propaganda and branding campaign}, the thermal fogger was just becoming a mainstay of early police chemical weapons arsenals.
+Importantly, by the summer of 1968, the Florida Highway Patrol, Chicago Police Department, and California State Police all had purchased foggers.
+
+Beyond their legacy as the first domestic fogger deployments, the lingering impact of the 1968 Conventions was felt for years to come.
+The Kansas City (Missouri) Police Department armed up their chemical weapons cache in advance of the 1976 Republican National Convention, including purchase of fogger fluids \citep{Hudson1976}.
+
+\hypertarget{MiamiFL1968_08_08}{%
+\section*{Miami, August 8}\label{MiamiFL1968_08_08}}
+
+
+The first use of a thermal fogger to deploy chemical weapons in the US that I have been able to uncover was during the ``\href{https://en.wikipedia.org/wiki/1968_Miami_riot}{Liberty City Riots}'', which took place in during the \href{https://en.wikipedia.org/wiki/1968_Republican_National_Convention}{1968 Republican National Convention} (RNC) in Miami, Florida \citep{Tschenschlok1995, Tschenschlok1996, McArdle2018}.
+A white reporter with the Miami Herald attempted to gain access to rally of concerned Black people that was meant to be only among Black people that was occurring in Liberty City, a Black neighborhood, on August 7th \citep{Tschenschlok1995, Tschenschlok1996}.
+When the reporter was ejected from the rally, Miami police responded with a large and heavy presence and during the standoff, a white motorist with a ``Wallace for President'' bumper sticker attempted to drive through but was met with resistance and drove into another car, and fled the scene on foot \citep{Tschenschlok1995, Lorentzen2018}.
+
+Miami police used chemical weapons the night of the 7th, but the fogger did not make an appearance until the subsequent day.
+Local, state, and federal officials met with Black organizational representatives the night of the 7th and had agreed to continue discussions the morning of the 8th, but instead sent staffers rather than appear themselves, which effectively ended discussions \citep{Tschenschlok1995, Tschenschlok1996}.
+Apparently, Miami Police Department was unable to manage the situation and Florida Highway Patrol (FHP) was called in by the city \citep{Tschenschlok1995}.
+
+FHP used a truck with multiple foggers \citep{Lorentzen2018}, described as ``essentially a modified version of an insect-control machine'' that ``spread a thick fog of tear gas throughout the riot zone'' \citep{Tschenschlok1995}.
+
+FHP used the truck-mounted thermal foggers indiscriminately and caused visible symptoms (gagging, etc.) in all present, including a 5-month old \citep{McArdle2018}.
+The fog quickly spread into neighborhood homes, forcing residents outside to seek fresh air \citep{Tschenschlok1995}.
+
+\hypertarget{ChicagoIL1968_08_26}{%
+\section*{Chicago, August 26 - 29}\label{ChicagoIL1968_08_26}}
+
+
+Later that month anti-war protests took place in Chicago, Illinois during the \href{https://en.wikipedia.org/wiki/1968_Democratic_National_Convention}{Democratic National Convention}, and a massive force of law enforcement (Chicago Police with assistance from over 6,000 National Guard members and 6,000 Army troops \citep{TaylorandMorris2018}) responded excessively, including with chemical weapons, on network news \citep{Schultz1969, Karnow1983, Farber1988, Langguth2000}.
+After four days, hundreds had been given medical assistance for exposure to chemical weapons \citep{TaylorandMorris2018}.
+
+Although I have yet to find contemporary documentation of fogger use during the convention, an AP report on fogger use in \protect\hyperlink{BerkeleyCA1969_02_21}{Berkeley the year later} states
+
+\begin{quote}
+A similar device was used during demonstrations in Chicago during the Democratic convention last summer. - \citet{TheDailyTribune1969_02_21}
+\end{quote}
+
+As such, I consider this a very likely deployment.
+I am continuing to search for evidence.
+
+\hypertarget{BerkeleyCA1968_08_31}{%
+\section*{Berkeley, August 31}\label{BerkeleyCA1968_08_31}}
+
+
+A demonstration in Berkeley, California was called by the Young Socialist Alliance, Independent Socialist Club, and the Black Panther Party in solidarity with anti-war protesters in Chicago who the police had recently brutalized \citep{PatersonEveningNews1968_08_31, TheCapitalTimes1968_08_31}, including \protect\hyperlink{ChicagoIL1968_08_26}{use of a pepper fogger} \citep{TheDailyTribune1969_02_21}.
+In response, police brutalized the protesters, and in the process brought out a hand-held pepper fogger, a ``new police weapon\ldots{} which produced a gas that caused sneezing'' \citep{PatersonEveningNews1968_08_31}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/berkeley_1968_08_31} 
+
+}
+
+\caption{Deployment of a thermal fogger by police in Berkeley, CA \citep{UPIphoto1968}.}\label{fig:imgberkeley19680831}
+\end{figure}
+
+Deployment of the thermal fogger was covered in newspapers around the country including Paterson, New Jersey \citep{PatersonEveningNews1968_08_31}; Hanford, California \citep{TheHanfordSentinel1968_08_31}; Honolulu, Hawaii \citep{TheHonoluluAdvertiser1968_09_01}; St.~Louis, Missouri \citep{StLouisPostDispatch1968_08_31}; Franklin, Pennsylvania \citep{TheNewsHerald1968_08_31}; Madison, Wisconsin \citep{TheCapitalTimes1968_08_31}; and El Paso, Texas \citep{ElPasoHeraldPost1968_08_31}, a city whose significance was already budding.
+
+It is clear from the photograph shared with the United Press International (UPI) copy that the fogger used is a \protect\hyperlink{GOEC}{GOEC} brand pepper fogger, which hit the market the month prior \citep{USTPO2018}.
+The GOEC thermal fogger was so new, it would not have a trademarked name (``Pepper Fog'') for another year \citep{USTPO2018}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/goec_pf} 
+
+}
+
+\caption{Product image for thermal fogger \citep{GOECphoto}.}\label{fig:imggoecpf}
+\end{figure}
+
+\hypertarget{coming-soon-to-a-town-near-you}{%
+\section*{Coming Soon To A Town Near You!}\label{coming-soon-to-a-town-near-you}}
+
+
+Following the conventions, the fogger quickly became a part of the law enforcement arsenal.
+US police had a hard time containing their glee when purchasing and testing thermal foggers for use on domestic civilians, as a general media blitz played out across the country through the late 1960s and early 1970s \citep{PlainDealer1971}.
+
+\hypertarget{illinois}{%
+\subsection*{Illinois}\label{illinois}}
+
+
+In the wake of the \protect\hyperlink{ChicagoIL1968_08_26}{1968 Democratic National Convention}, Chicago-area police played an outsized role in promoting the propaganda line.
+The pepper fogger was touted as being able to ``empty a house fast'' by Cook County Illinois Sheriff Joseph Woods \citep{MtVernonRegisterNews1969_04_09, DailyDispatch1969_04_09}, a definitely off-spec and dangerous use \citep{Nixalite2009b}.
+The volume of fog emitted was also said to be able to fill \href{https://en.wikipedia.org/wiki/Soldier_Field}{Soldier Field (capacity 61,500 fans)} in under a minute \citep{DailyDispatch1969_04_09}.
+Regardless, the Chicago-area Sheriff decided they needed three of them \citep{DailyDispatch1969_04_09}.
+The Sheriff's Major in charge of chemical arsenal Anthony Yucevicius noted the fogger's psychological effect on recipients, as well saying
+
+\begin{quote}
+They make a terrifying noise and probably will have a scare effect on crowds.
+
+\VA{--- \citet{TheTerreHauteTribune1969_04_08}.}{}
+\end{quote}
+
+Use expanded among and within states, as by 1972 the Illinois State Police also purchased three foggers, which they trained with in Springfield \citep{Robinson1972}.
+In news reports, the foggers were described as
+
+\begin{quote}
+a cross between a machine gun, a power lawn mower, and a sun lamp.
+
+\VA{--- \citet{Robinson1972}.}{}
+\end{quote}
+
+\hypertarget{florida}{%
+\subsection*{Florida}\label{florida}}
+
+
+Similarly, following the \protect\hyperlink{MiamiFL1968_08_08}{1968 Republican National Convention}, Florida law enforcement took to the fogger \citep{Cain1968}.
+In Sanford (1970 pop. 17,393; \citet{USCB1970}), the local police department purchased a fogger for use with \href{https://en.wikipedia.org/wiki/Phenacyl_chloride}{CN gas}, noting that it could shoot fog 20 ft for up to a 15 minute stretch, and so would be effective for controlling large masses \citep{Cain1968}.
+They had, however, only used it in training and for demoing to the media \citep{Cain1968}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/OrlandoEveningStar1968} 
+
+}
+
+\caption{Sanford Police Officer Roy Williams shows off a fogger \citep{OrlandoEveningStar1968}.}\label{fig:imgOrlandoEveningStar1968}
+\end{figure}
+
+\hypertarget{california}{%
+\subsection*{California}\label{california}}
+
+
+Eager to not be shown up by the police in Berkeley, by 1970, the Los Angeles Sheriff's Department had already purchased their own fogger for their ``big artillery'' to use ``when other forms of persuasion have failed'' and started a media campaign \citep{Michals1970}.
+The department and new state regulations required officers to be trained in chemical weapons use, which was set up through Officer Robert Hawkins \citep{Michals1970}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/CopleyNewsService1970} 
+
+}
+
+\caption{Los Angeles Sheriff's Department Officer demonstrating a fogger \citep{CopleyNewsService1970}.}\label{fig:imgCopleyNewsService1970}
+\end{figure}
+
+\hypertarget{national-guard}{%
+\subsection*{National Guard}\label{national-guard}}
+
+
+Following the Kent State Massacre, the Ohio National Guard, as well as others around the country began equipping their forces with thermal foggers, using the death of those students as justification for massive purchaing of ``less lethal'' options \citep{Bandy1970}.
+
+\hypertarget{small-town-usa}{%
+\subsection*{Small Town USA}\label{small-town-usa}}
+
+
+No matter the size of the town, by the early 70s, police wanted in on that sweet sweet fogger action.
+The Brigham City (Utah; 1970 pop. 14,007; \citet{USCB1970}) Police Department leveraged federal Omnibus Crime Act money to purchase a variety of weapons to use against protesters in 1971 \citep{BoxElderAgencies1971}.
+
+Police Chief Jay Christensen noted that the fogger provides a longer shelf-life than grenades and reportage noted that it
+
+\begin{quote}
+emits a continuous stream of smoke, chemical irritants, or \textbf{whatever solution} is fed into it. {[}emphasis added{]}
+
+\VA{--- \citet{Robinson1972}}{}
+\end{quote}
+
+Use of federal funds to purchase chemical weapons, and specifically foggers, was not limited to one department.
+Cities, counties, and states across the country used Omnibus Crime Bill money to up their chemical weapons caches, including foggers \citep{Conheim1972}.
+For example, Oakland County in Michigan (1970 pop. 907,871; \citet{USCB1970}) purchased two pepper foggers for their South County Tactical Mobile Unit with part of their \$21,066 in 1970 \citep{Conheim1972}.
+
+Oneota New York (1970 pop. 16,030; \citet{USCB1970}) purchased a fogger in 1969 during the anti-war demonstrations, although the department bungled its response to protests \citep{Griffin1973}.
+As came to light during a public probe, Oneota Police Chief Joseph F. DeSalvatore requested a limited amount of training in the budget, and officers were therefore unable to deploy the fogger or other chemical weapons \citep{Griffin1973}.
+
+Gaston County North Caolina (1970 pop. 47,322; \citet{USCB1970}) Sheriffs purchased a fogger, which they turned on but not used to dispense agents multiple times by 1970 in their jail system ``when there's been trouble brewing'' \citep{Balloch1970}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/TheGastoniaGazetteSun1970_10_04} 
+
+}
+
+\caption{Gaston County Sheriff's Deputy Anne Huffsteller poses with a thermal fogger \citep{TheGastoniaGazetteSun1970_10_04}.}\label{fig:imgTheGastoniaGazetteSun19701004}
+\end{figure}
+
+Apparently the threat of \protect\hyperlink{BigMac}{death by chemical weapons fog} is sufficient to scare detained individuals into compliance.
+
+Within a few years, however, departments began to realize they had no need for the machines, and began selling them with no use aside from testing \citep{DesMoinesTribune1975_05_06}.
+The Storm Lake Iowa (1970 pop. 8,591; \citet{USCB1970}) purchased a fogger in 1971 in advance of a motorcycle rally that never happened, and used free advertising in local media in attempts to pawn it \citep{DesMoinesTribune1975_05_06}.
+The article/ad mentions that officers have used foggers ``on occasion'' in Des Moines (Iowa's capital; 1970 pop. 201,404; \citet{USCB1970}) in addition to \protect\hyperlink{IowaCity}{one instance on the University of Iowa's campus} \citep{DesMoinesTribune1975_05_06}, although I have not located contemporaneous mentions.
+
+\hypertarget{Canada}{%
+\subsection*{Crossing to Canada}\label{Canada}}
+
+
+Canadian law enforcement was also quick to jump on the fogger train and the media were just as happy to propagandize their use \citep{Patterson1976}.
+A convention of US and Canadian police chiefs held in Halifax, Nova Scotia in 1976 provided a glimpse into the state of affairs by mid-decade, at which point a supply chain had clearly been developed, although weapons salesmen refused to be named or have their statements linked to employers \citep{Patterson1976}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{img/MacKenzie1976} 
+
+}
+
+\caption{Sergeant Al Oakley shows off a pepper fogger \citep{MacKenzie1976}.}\label{fig:imgMacKenzie1976}
+\end{figure}
+
+\hypertarget{scholastic-endeavors}{%
+\chapter*{Scholastic Endeavors}\label{scholastic-endeavors}}
+
+
+Perhaps instigated by the willingness of the California Highway Patrol to use chemical weapons (including thermal foggers) in \protect\hyperlink{BerkeleyCA1968_08_31}{Berkeley on and around the University of California campus during the 1968 Convention protests}, many law enforcement agencies escalated anti-war and racial just protests in University towns during the 1960s and 1970s via chemical weapons.
+
+The willingness of police to fog literally any place where undergraduates standing up for racial justice and against imperialism were gathering was highlighted in May of 1970 when \protect\hyperlink{CollegeParkMD1970_05_04}{Maryland State Police deployed chemical weapons via thermal fogger into the University of Maryland Chapel} \citep{Cabe1970}.
+
+Use of fogger-based chemical weapons against students, particularly students of color, was not limited to college campuses, but extended to high and middle schools.
+
+\hypertarget{university-cities}{%
+\section*{University Cities}\label{university-cities}}
+
+
+\hypertarget{durham}{%
+\subsection*{Durham}\label{durham}}
+
+
+Durham North Carolina Police broke up the ``Allen Building Demonstration'' taking place February 13 1969 on the campus of Duke University in Durham using a variety of weapons, including a thermal fogger \citep{DMH1969, Schreiberetal1971a, Schreiberetal1971b}.
+The police reportedly chased protesters across campus with the fogger, including using it inside Duke Chapel \citep{Schreiberetal1971a, Schreiberetal1971b}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/durham_1969_02_13_1} 
+
+}
+
+\caption{Deployment of a thermal fogger by police on Duke Campus \citep{DMH1969}.}\label{fig:imgdurham196902131}
+\end{figure}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/durham_1969_02_13_2} 
+
+}
+
+\caption{Police with pepper fogger on Duke campus \citep{DMH1969}.}\label{fig:imgdurham196902132}
+\end{figure}
+
+\hypertarget{berkeley}{%
+\subsection*{Berkeley}\label{berkeley}}
+
+
+\hypertarget{BerkeleyCA1969_02_21}{%
+\subsubsection*{February 21 1969}\label{BerkeleyCA1969_02_21}}
+
+
+A year after \protect\hyperlink{ChicagoIL1968_08_26}{using the fogger on a protest held in solidarity with the Chicago Protest}, police in Berkeley again deployed a fogger to clear demonstrators including striking students from outside a University Regents and Sproul Hall plaza on the University of California campus.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/berkeley_1969_02_21a} 
+
+}
+
+\caption{Police use a pepper fogger and other chemical weapons to clear a University plaza \citep{APphoto1969a}.}\label{fig:imgberkeley19690221a}
+\end{figure}
+
+This deployment was covered in papers across the country including the Press-Telegram (Long Beach, California) \citep{PressTelegram1969_02_21}, The Jackson Sun (Jackson, Tennessee) \citep{TheJacksonSun1969_02_21}, The Daily Tribune (Wisconsin Rapids, Wisconsin) \citep{TheDailyTribune1969_02_21}, The Sumter Daily Item (Sumter, South Carolina) \citep{TheSumterDailyItem1969_02_21}, The New Mexican (Santa Fe, New Mexico) \citep{TheNewMexican1969_02_21}, Janesville Daily Gazette (Janesville, Wisconsin) \citep{JanesvilleDailyGazette1969_02_22}, and Messenger-Inquirer (Owensboro, Kentucky) \citep{MessengerInquirer1969_02_22}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/berkeley_1969_02_21b} 
+
+}
+
+\caption{Police engulf a University plaza in chemical fog \citep{APphoto1969a}.}\label{fig:imgberkeley19690221b}
+\end{figure}
+
+Canadian newspapers detailed the fogger use as well, specifically the Red Deer Advocate Red Deer, Alberta, Canada) \citep{RedDeerAdvocate1969_02_21} and The Leader-Post (Regina, Saskatchewan) \citep{TheLeaderPost1969_02_21}.
+
+\hypertarget{february-28-1969}{%
+\subsubsection*{February 28 1969}\label{february-28-1969}}
+
+
+The following week, the police in Berkeley were joined by California National Guard troops to attack strikers, and continued to use the pepper fogger \citep{TheMiamiNews1969_03_01, PressandSunBulletin1969_03_01}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/berkeley_1969_02_28_1} 
+
+}
+
+\caption{National guardsmen and police fog UC Berkeley \citep{APphoto1969c}.}\label{fig:imgberkeley196902281}
+\end{figure}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/berkeley_1969_02_28_2} 
+
+}
+
+\caption{View from behind of the police using a pepper fogger on striking students \citep{APphoto1969d}.}\label{fig:imgberkeley196902282}
+\end{figure}
+
+\hypertarget{may-15-1969}{%
+\subsubsection*{May 15 1969}\label{may-15-1969}}
+
+
+Alameda County sheriffs deployed a pepper fogger on UC Berkeley's campus again during the ``People's Park Riots'' of 1969 \citep{LATimes1969, Hayes1970}.
+
+The riot apparently started when the university tried to prevent individuals living on the street from a volunteer-run park they built on a lot owned by the school \citep{ThePressDemocrat1970_10_13}.
+
+The Sheriffs were joined by the California National Guard once again, who this time fogged neighborhoods from the back of a Jeep:
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=9.69in]{img/gasjeep} 
+
+}
+
+\caption{California National Guard's Gas Jeep \citep{gasjeep}.}\label{fig:gasjeep}
+\end{figure}
+
+\hypertarget{seattle}{%
+\subsection*{Seattle}\label{seattle}}
+
+
+Seattle Washington police deployed CN and CS gas via a new pepper fogger in their clash with ``hundreds of unruly youths in the University District'' on August 14 1969 \citep{StatesmanJournal1969_08_17}.
+Witnesses recounted that the machine was ``highly effective'', filling ``2-3 blocks of a street with tear gas in about a minute'' \citep{StatesmanJournal1969_08_17}.
+
+\hypertarget{CollegeParkMD1970_05_04}{%
+\subsection*{College Park}\label{CollegeParkMD1970_05_04}}
+
+
+On May 4th 1970, students gathered at campuses around the country to protest President Nixon's expansion of war into Cambodia, inlcuding in at the University of MAryland (UMD) campus in College Park \citep{WAS2013}.
+Police responded with chemical weapons that did not deter the protest, but rather moved it around the campus \citep{Cabe1970}.
+By later in the day, UMD students had heard about the Ohio National Guard shooting four Kent State students and took up a position in front on and inside the UMD Chapel \citep{WAS2013}, which did not stop the chemical weapons barrage or the use of the fogger specifically \citep{Oates1970}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/Cabe1970} 
+
+}
+
+\caption{Police fog the University of Maryland \citep{Cabe1970}.}\label{fig:imgCabe1970}
+\end{figure}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/Oates1970} 
+
+}
+
+\caption{Police fog the University of Maryland Chapel \citep{Cabe1970}.}\label{fig:imgOates1970}
+\end{figure}
+
+The Maryland State Police liked the \protect\hyperlink{GOEC}{GOEC} fogger so much they included it in their Manual on Civil Disturbances as a tool for deploying \href{https://en.wikipedia.org/wiki/CS_gas}{CS gas} \citep{MSP}:
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/MSP} 
+
+}
+
+\caption{Maryland State Police's \protect\hyperlink{GOEC}{GOEC} pepper fogger \citep{MSP}.}\label{fig:imgMSP}
+\end{figure}
+
+\hypertarget{IowaCity}{%
+\subsection*{Iowa City}\label{IowaCity}}
+
+
+Johnson County sheriffs - including two deputies carrying pepper foggers - used chemical weapons against protesters in Iowa City, Iowa IA on May 6 1971 \citep{Eckholt1971}.
+
+The chemicals deployed smelled like insecticides and were described in print as ``unidentified'' because the Sheriff refused to publicly name the compounds, including to the news media \citep{Eckholt1971}.
+
+\hypertarget{Minneapolis1972_05_10}{%
+\subsection*{Minneapolis}\label{Minneapolis1972_05_10}}
+
+
+Thousands of anti-war protesters gathered in cities around the US on May 10 1972 to demonstrate against the use of mines in Vietnam harbors \citep{ArgusLeader1972_05_11a}.
+In Minneapolis, crowds totalling a thousand protestered gathered on and near the University of Minnesota campus and police responded with chemical weapons deployed via grenades, sprays, a helicopter and a thermal fogger \citep{ArgusLeader1972_05_11b, StarTribune1972_05_11}.
+
+The fogger was used to direct the crowd around campus and spread gas over large areas, such as the area known as Scholars Walk (\textasciitilde0.25 mile from Washington Avenue to the Auditorium) \citep{StarTribune1972_05_11}.
+
+\hypertarget{gainesville}{%
+\subsection*{Gainesville}\label{gainesville}}
+
+
+Similarly to the anti-mine protests in \protect\hyperlink{Minneapolis1972_05_10}{Minneapolis}, on the campus of the University of Florida in Gainesville, Florida Highway Patrol deployed a riot vehicle dubbed ``The Monster'' which ``spewed tear gas'' \citep{ArgusLeader1972_05_11b}.
+Although a fogger is not mentioned specifically, this is the same agency (Florida Highway Patrol) that first \href{Liberty\%20City\%20\#MiamiFL1968_08_08}{deployed thermal foggers via a truck} in 1968 \citep{Tschenschlok1995, Lorentzen2018}.
+
+\hypertarget{high-schools}{%
+\section*{High Schools}\label{high-schools}}
+
+
+As soon as they laid their hands on foggers, law enforcement extended their use from \protect\hypertarget{Universities}{}{universities} to high schools, specifically using the weapons against Black youth protesters.
+
+I will stop to repeat that again so that we (myself included) can all reflect on this.
+
+Law enforcement agents used chemical weapons against Black junior and high school students during the Civil Rights Era, including a weapon (the thermal fogger) developed not even five years prior to \protect\hyperlink{Vietnam}{gas Vietnamese soldiers and civilians from tunnels}.
+
+\hypertarget{SanGordonio}{%
+\subsection*{San Gordonio}\label{SanGordonio}}
+
+
+Although undated, this photograph printed in The Delta Democrat-Times (Greenville, Mississippi Thursday) \citep{TheDeltaDemocratTimes1969_11_20} on November 20, 1969 references a ``recent'' use of the fogger on students.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/san_bernardino_1969_xx_xx} 
+
+}
+
+\caption{Police use a pepper fogger on students at San Gordonio High School \citep{UPIphoto1969}.}\label{fig:imgsanbernardino1969xxxx}
+\end{figure}
+
+Use of the thermal fogger by police that day seems likely, given their more documented deployment of it on December 3, 1971.
+On that day, a combination of San Bernardino police, San Bernardino County sheriffs, and California Highway Patrol used tear gas from a pepper fogger to break up a ``major racial confrontation'' among students at San Gorgonio High School and across a 20-block area surrounding campus \citep{Yetzeretal1971}.
+
+\hypertarget{Lawrence1970_04_21}{%
+\subsection*{Lawrence}\label{Lawrence1970_04_21}}
+
+
+Lawrence, Kansas Police used tear gas, including from a thermal fogger, on April 21st, 1970 against Black high school and junior high students, their parents, and community members \citep{Monhollon2002}.
+The students had gathered that day after a week-long stand-off with administration in response to their failures to meet their demands regarding Black representation in curriculum, hiring, sports, and awards \citep{Monhollon2002}.
+
+Black students had occuppied the principal's office on May 13th and prominent members of the office occupation were arrested from the school that day and promptly suspended from school \citep{Monhollon2002}.
+Racial tensions escalated over the subsequent week flamed by presence and actions of the local Klu Klux Klan and Minutemen, some of whom were also police officers \citep{Monhollon2002}.
+The night of April 20th, the school board held a meeting where they barred suspended students from participating and did not reinstate them, nor did they address the demands, and there was a mass walkout \citep{Monhollon2002}.
+
+The next day, police were ready with heavy chemical weaponry, including the \protect\hyperlink{GOEC}{GOEC Pepper Fog} fogger:
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/lawrence_1970_04_21} 
+
+}
+
+\caption{Police bring a \protect\hyperlink{GOEC}{GOEC} pepper fogger to gas Black high school and junior high students at Lawrence High School \citep{UKA1970}.}\label{fig:imglawrence19700421}
+\end{figure}
+
+\hypertarget{broadening-application}{%
+\chapter*{Broadening Application}\label{broadening-application}}
+
+
+The use of foggers, while not commonly overt, spread throughout the 1970s and 1980s, occasionally making an appearance in news media reports.
+
+\hypertarget{racial-justice}{%
+\section*{Racial Justice}\label{racial-justice}}
+
+
+Police are generally more apt to use heavy responses including chemical weapons against Black protesters in general \citep{DSPDX2020}.
+It is therefore not surprising to learn that law enforcement use foggers to deploy chemical weapons on racial justice protests.
+Indeed, the first use of the fogger in the United States was during the \protect\hyperlink{MiamiFL1968_08_08}{Liberty City Riots}, a police action in response to Black community organizations holding conversation among themselves.
+
+\hypertarget{danville-il}{%
+\subsection*{Danville IL}\label{danville-il}}
+
+
+Foggers have been used in a variety of cities, not just major metropolitan areas.
+
+Danville, Illinois (1970 pop. 42,570; \citep{USCB1970}) Police used a pepper fogger to disperse a crowd of Black protesters that had used picnic tables to barricade a street through their neighborhood on a second night of demonstrations \citep{Palladium-Item1969}, August 10th 1969.
+
+\hypertarget{rodney-king}{%
+\subsection*{Rodney King}\label{rodney-king}}
+
+
+Although mentioned in a few outlets during the 1992 police response to the protests in response to the verdict in the Rodney King case, I have yet to find documentation of foggers being used explicitly during that time \citep{Askren1992}.
+For example, Riley County (Kansas; 1970 pop. 56,788; \citet{USCB1970}) Sheriffs had a fogger in their arsenal in 1992 according to Director Alvan Johnson \citep{Askren1992}.
+
+\hypertarget{labor}{%
+\section*{Labor}\label{labor}}
+
+
+Another common target of police force are labor activists, and so it is not suprising to see the fogger being deployed against strikers at least once in US history.
+
+\hypertarget{north-kingstown-ri-march-22-1982}{%
+\subsection*{North Kingstown RI, March 22 1982}\label{north-kingstown-ri-march-22-1982}}
+
+
+The Brown and Sharpe company called in local police and Rhode Island State Police officers to help try to break a (at the time) 22-long strike at their factory in North Kingstown, Rhode Island \citep{TheLexingtonHerald1982_03_23, Carbone2017}.
+A North Kingstown officer named TJ Varone deployed tear gas via a pepper fogger on a group of 75 people, primarily workers' wives and Brown University students, that was blocking the main entrance to the tool factory \citep{TheLexingtonHerald1982_03_23, Carbone2017}.
+The picketers braved the gas for a considerable amount of time, requiring close-range fogging to finally disperse them \citep{Carbone2017}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/north_Kingstown_1982_3_22} 
+
+}
+
+\caption{Police fog striking workers and their families \citep{APphoto1982}.}\label{fig:imgnorthKingstown1982322}
+\end{figure}
+
+The fogging did not, however, break the strike \citep{Carbone2017}.
+
+Newspaper and television coverage of the fogging circled the globe \citep{Carbone2017}.
+
+\hypertarget{celebrations}{%
+\section*{Celebrations}\label{celebrations}}
+
+
+On occasion, police forces have used foggers against protests or riots that are more of a celebratory nature but still do not respond to their commands to disperse.
+
+\hypertarget{nhra-nationals}{%
+\subsection*{1974 NHRA Nationals}\label{nhra-nationals}}
+
+
+Indiana State Police used a pepper fogger and gas grenades on a crowd of 2,000 drag racing fans blocking a highway between the track and campsites at the Hot Rod Association's US Nationals in Clermont IN, September 1 1974 \citep{Courier1974_09_02, TheBillingsGazette1982_01_10}.
+
+\hypertarget{new-years-eve}{%
+\subsection*{1975 New Years Eve}\label{new-years-eve}}
+
+
+New Year's Eve 1975 was apparently quite raucous in Florida, as many cities experienced revelry that got out-of-hand enough to elicit police use of force \citep{TheTampaTribune1976_01_02}.
+In Ft. Lauderdale, party-goers pulled down a traffic light and police deployed multiple foggers on a crowd of 2,500 on the beach \citep{TheTampaTribune1976_01_02}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/ft_lauderdale_1975_12_31} 
+
+}
+
+\caption{Police carrying pepper foggers towards the beach \citep{UPIphoto1975}.}\label{fig:imgftlauderdale19751231}
+\end{figure}
+
+The mayhem was noteworthy enough to garner publication in the Berkeley Gazette \citep{BerkeleyGazette1976_01_02} as well as the Tampa Tribune \citep{TheTampaTribune1976_01_02}.
+
+\hypertarget{trainging-accidents}{%
+\section*{Trainging Accidents}\label{trainging-accidents}}
+
+
+While not an intentional deployment, in at least one documented incident, a pepper fogger used in firefighter training exercises caused severe symptoms and led to an investigation \citep{Judd1981}.
+
+\hypertarget{bullitt-volunteer-fire-department}{%
+\subsection*{Bullitt Volunteer Fire Department}\label{bullitt-volunteer-fire-department}}
+
+
+On December 15 1981, The Southeast Bullitt Volunteer Fire Department In Kentucky was conducting a smoke training exercise using a pepper fogger on loan from the fire marshal's office when their ``victim'' and 16 others (including firefighters) began experiencing coughing fits, headaches, and chest pains \citep{Judd1981}.
+
+Although Smith and Wesson (the Pepper Fogger manufacturer at the time) claimed this was a one-off incident, the Kentucky State Fire Marshal's office had received other reports of firefighters becoming sick when using foggers in smoke training \citep{Judd1981}.
+Residue tests later revealed no unexpected compounds \citep{TheCourierJournal1982_01_10}, indicating the toxicity had come from the design-for-use ``safe'' smoke.
+
+\hypertarget{CarceralSystem}{%
+\chapter*{The Carceral System}\label{CarceralSystem}}
+
+
+Like many chemical weapons devices, thermal foggers are used in local, state, and federal carceral systems.
+Unfortunately most deployments go undocumented or such documents never see the light of day.
+It seems that the only time we find out about prisoners being fogged is when a serious incident occurs triggering outside investigations and the judicial system.
+
+\hypertarget{BigMac}{%
+\section*{Big Mac}\label{BigMac}}
+
+
+In the 1970s, the McAlester (``Big Mac'') Oklahoma State Penitentiary was the site of considerable resistance and rioting by inmates \citep{TheRag1975, WinterSoldier1975}.
+A major tool used by the guards in retaliation was tear gas, which they deployed via shot shells, grenades, and pepper foggers \citep{Allen1974a, Allen1975a, Allen1975b, Coffey1975b}.
+Given its use here, it is highly likely that the Oklahoma State Penitentiary system used pepper foggers before (and likely after) \citep{Johnson1974}.
+
+The guards regularly isolated the uprising's leaders in the solitary confinement building known as ``The Rock'', sealed the building, and gassed it so thick it lasted for days \citep{Allen1974b, TheRag1975}.
+During the May 20 1974 gassings in response to riots, Black prisoner Robert Forsythe, a 33-year old serving time for a robbery, happened to be in solitary confinement due to being caught with contraband money and was not associated with the uprising directly, and so inexperienced with the effects of gas \citep{Johnson1974, TheRag1975, Wilson1993}.
+Although reports are conflicting on details, guards started fogging and gassing prisoners who were, at most, rattling their doors \citep{Hobbs1974}.
+The likely reason for the barrage was retaliatory, as it was ``unjustified'' according to a veteran guard \citep{Coffey1975a}.
+
+During the gassings, a pepper fogger was specifically used in the building and created ``fumes of gas {[}that{]} were awfully heavy, one of the worst I've ever seen'' according to veteran corrections officers' trial testimony \citep{Allen1975b, Coffey1975a}.
+The gassing lasted for four hours despite yells for help, resulting in serious injuries including burned and blistered skin, eyes swollen shut, and breathing difficulties \citep{Coffey1975b}.
+That intense fogging and lack of medical attention over the next two days were main factors contributing to Forsythe's injuries and death two days later, according to medical experts' testimony \citep{Allen1974b, Allen1975a, Allen1975b}.
+
+Although the guards involved were indicted by a grand jury and brought to trial, they ultimately were acquitted of all charges \citep{UPI1975a, UPI1975b}.
+
+\hypertarget{union-correctional}{%
+\section*{Union Correctional}\label{union-correctional}}
+
+
+According to the superintendent, a riot was caused in the Florida State Prison's Union Correctional Institution in Raiford on July 5th, 1981 by 22 prisoners who were intoxicated, and the only way to subdue them was to deploy a thermal fogger \citep{TallahasseeDemocrat1981_07_07}.
+As a result of two officers being ``slightly injured'' and three inmates being stabbed, an investigation was launched that caused the event to be picked up in the newspapers \citep{TallahasseeDemocrat1981_07_07}.
+
+\hypertarget{dade-county}{%
+\section*{Dade County}\label{dade-county}}
+
+
+Dade County Sheriffs used foggers to sweep a field on July 17th 1974 in search of a murder suspect that had eluded K-9 units, helicopters, a plane, and an attempt to flush him out by burning the field \citep{TampaBayTimes1974_07_18}.
+The suspect was so well dug in that he could withstand significant gassing that surprised a Sheriff's sergeant who participated in the operation \citep{TampaBayTimes1974_07_18}.
+
+\hypertarget{CBP}{%
+\chapter*{Border Patrol: A Second Boomeranging}\label{CBP}}
+
+
+United States Border Patrol (BP) has played an outsized role in policing and corrections within the federal immigration system and abroad both in support of armed services and independently \citep{Miller2019}.
+Indeed, BP has provided another boomeranging of the Imperial Tetherball that bridges the Vietnam-era and present-day domestic applications via export to foreign governments for use in controling their own populaces.
+
+\hypertarget{international-trafficking}{%
+\section*{International Trafficking}\label{international-trafficking}}
+
+
+Within a year and a half of the fogger's arrival to US domestic police agencies, BP agents were engaging foreign governments independent of the military on chemical weapons deployment including using thermal foggers.
+During April 25 - May 9 of 1970, Raymond Dee Bond, a Border Patrol agent with decades of experience, sold \$15,000 worth of chemical weaponry to the Mexican federal government \citep{ValleyMorningStar1973_08_04}.
+Included in the cache were multiple pepper foggers and formulations \citep{ValleyMorningStar1973_08_04}.
+Bond was caught and charges with weapons trafficking and acting as a foreign agent without notifying the Secretary of State \citep{DailyNews1972_10_27}.
+Although indicted by a federal grand jury, Bond was able to escape prosecution by resigning from his position \citep{ValleyMorningStar1973_08_04}.
+
+Given the extensive reach of Border Patrol into Central and South America fueled in particular by the `Drug War' \citep{Chepesiuk1999}, it is reasonable to expect that this was not an isolated event.
+
+\hypertarget{bortac}{%
+\section*{BORTAC}\label{bortac}}
+
+
+By 2020, the Border Patrol Tactical Unit (BORTAC) had been established to, among other tasks, provide particularly extreme responses to domestic as well as foreign uprisings \citep{CBP2006, CBP2014, CBP2018}.
+BORTAC is truly a global domestic law enforcement agency, operating in 28 countries (they were willing to publicly disclose as of 2006; \citet{CBP2006}), providing a wide range of services \citep{CBP2014, Miller2019}.
+BORTAC's specific genesis was focused on riots in federal immigration detention centers \citep{CBP2006, CBP2014}, noteworthy given the use of thermal foggers in the United States \href{@CarceralSystem}{carceral system}.
+
+Border Patrol agents from the El Paso unit specifically were deployed to police protests in El Paso in addition to being sent to Portland and other cities like Albuquerque, New Mexico \citep{Borunda2020}.
+
+\hypertarget{PortlandOR2020_2021}{%
+\subsection*{Portland OR}\label{PortlandOR2020_2021}}
+
+
+The thermal fogger made a very visible return to the public sphere in July of 2020, when US Customs and Border Protection (CBP) officers brought a bright-green version to Portland, OR during the \protect\hyperlink{PortlandOR2020_07_29}{2020 Black Lives Matter protests} \citep{pb20202021}.
+Since then, the fogger has been deployed \protect\hyperlink{PortlandORICE2020_2021}{three additional times by CBP in Portland}, all at the property Immigration and Customs Enforcement (ICE) rents on the South Waterfront.
+
+\hypertarget{PortlandOR2020_07_29}{%
+\subsubsection*{July 29 2020}\label{PortlandOR2020_07_29}}
+
+
+At the beginning of July 2020, then-president Trump deployed Department of Homeland Security (DHS) agents to ``protect'' federal property in Portland, OR \citep{DHS2020, Flanigan2020, Trump2020}.
+During the final days of the visible presence and response of federal agents in Summer 2020, Customs and Border Protection (CBP) unveiled their thermal fogger \citep{Recompiler2020_07_29}, which has been identified through photos as an \href{https://www.nixalite.com/product/igeba-tf-35}{IGEBA TF35} thermal fogger from Nixalite of America Inc.
+This machine is designed and marketed for bird control, and while ``\emph{training tool for military/law enforcement}'' is listed among its uses \citep{Nixalite2009a}, its safety requirements explicitly state:
+
+\begin{quote}
+``\emph{\textbf{19. Do not fog directly against persons\ldots During operation keep distance of minimum {[}10 ft{]}.}}'' - \citep{Nixalite2009b}
+\end{quote}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2020_07_29} 
+
+}
+
+\caption{CBP agent deploying chemical agent via thermal fogger in front of the federal courthouse \citep{Brown2020}.}\label{fig:imgportland202007292}
+\end{figure}
+
+\hypertarget{PortlandORICE2020_2021}{%
+\subsubsection*{Abolish ICE: Immigration and Customs Enforcement Rental Property}\label{PortlandORICE2020_2021}}
+
+
+While the thermal fogger hasn't been deployed at the federal Courthouse in downtown Portland since July 29 2020, it has been used repeatedly by Department of Homeland Security agents at the private property US Immigration and Customs Enforcement (ICE) rents to use as a holding center for deportees in the South Waterfront neighborhood \citep{Simonis2021} -- the same building that saw the weeks-long Ocuppy ICE protests in 2018 \citep{Dubois2018}.
+
+The first of such deployments occurred during the fall of 2020.
+
+Along with cities across the country, Portland hosted many events on October 17th focused around the racial and gender justice \citep{Recompiler2020_10_17}.
+In the evening, there was a gathering at Willamette Park in the Southwest part of the city, where organizers passed out balloons detailing harrowing experiences of migrants and immigrants detained by ICE \citep{Recompiler2020_10_17}.
+After marching to the ICE rental property, individuals tied the balloons to the gate to the parking garage, and Department of Homeland Security (DHS) agents including Customs and Border Protection (CBP) officers deployed massive amounts of chemical weapons, including via a thermal fogger, throughout the neighborhood \citep{Recompiler2020_10_17}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2020_10_17} 
+
+}
+
+\caption{CBP agent fogging a South Waterfront neighborhood \citep{Lake2020}.}\label{fig:imgportland20201017}
+\end{figure}
+
+\hypertarget{J20}{%
+\subsubsection*{Inaugration 2021}\label{J20}}
+
+
+The same fogger (or at least the same model) was again brought out at the ICE rental property on January 20th 2021 during the Inauguration Day (``J20'') Abolish ICE protests in response to an individual spray painting a piece of plywood tacked outside the building \citep{Recompiler2021_01_20}.
+The fogged up and down multiple blocks, with visible plumes entering units in the adjacent apartment complexes and covering the playground of an adjacent public school \citep{Recompiler2021_01_20, Simonis2021}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2021_01_20} 
+
+}
+
+\caption{CBP officer holding thermal fogger \citep{Staab2021}.}\label{fig:imgportland20210120}
+\end{figure}
+
+That weekend, CBP deployed the fogger again during Abolish ICE protests, this time gassing even more of the neighborhood, including the local public school and veterans-preference housing \citep{Recompiler2021_01_23, Simonis2021}.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2021_01_23_1} 
+
+}
+
+\caption{CBP agent holding thermal fogger \citep{Lewis-Rolland2021a}.}\label{fig:imgportland202101231}
+\end{figure}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{img/portland_2021_01_23_2} 
+
+}
+
+\caption{CBP agent fogging an intersection in the South Waterfront neighborhood \citep{Lewis-Rolland2021b}.}\label{fig:imgportland202101232}
+\end{figure}
+
+  \bibliography{packages.bib,references.bib}
+
+\printindex
+
+\end{document}

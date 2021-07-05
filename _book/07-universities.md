@@ -26,7 +26,7 @@ The police reportedly chased protesters across campus with the fogger, including
 
 <br>
 
-(ref:imgdurham196902132) Police with pepper fogger on Duke campus [@DMH1969].  
+(ref:imgdurham196902132) Police with pepper fogger on Duke campus [@DMH1969].
 
 <div class="figure" style="text-align: center">
 <img src="img/durham_1969_02_13_2.jpg" alt="B/W Image: Background has brick building with steps. In front of the building from center to right, a line of 5 police officers facing front and wearing helmets &amp; gas masks holding slim white clubs about a yard long. They are standing with legs apart and clubs in both hands in front of their bodies. On the left 5 officers similarly dressed, facing towards one another. Four slim clubs are visible, and one officer is holding what appears to be a fogger in one arm hanging down at the side." width="500" />

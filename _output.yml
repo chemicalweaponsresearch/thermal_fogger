@@ -17,6 +17,9 @@ bookdown::gitbook:
       text: "Edit"
     sharing: null
 
+bookdown::html_chapters:
+  css: [css/style.css, css/toc.css]
+
 bookdown::pdf_book: 
   keep_tex: yes
   pandoc_args: --top-level-division=chapter

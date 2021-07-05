@@ -40,10 +40,10 @@ fig:imgOates1970
 fig:imgMSP
 fig:imgsanbernardino1969xxxx
 fig:imglawrence19700421
+fig:imgnorthKingstown1982322
+fig:imgftlauderdale19751231
 fig:imgportland202007292
 fig:imgportland20201017
 fig:imgportland20210120
 fig:imgportland202101231
 fig:imgportland202101232
-fig:imgnorthKingstown1982322
-fig:imgftlauderdale19751231

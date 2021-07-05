@@ -61,3 +61,16 @@ Indeed, the thermal cracking temperatures of common chemical contemporary chemic
 
 As a result, it is impossible for anyone to definitively know what chemicals they are fogging someone with, but it is fair to say the mixtures are likely to have considerably higher toxicities than product labels and safety sheets indicate, which are already concerning [@defteccs].
 
+
+
+
+
+
+### Figure Descriptions {-}
+
+Here are all the alt-text entries for figures included in this book:
+
+
+
+* Figure 1 (chunk label 'imgportland20200729'): Fully riot-geared and for some reason in green camo US Homeland Security agents (to the middle and the left of the photo) behind a row of two-foot tall, one-foot radius metal posts, behind a metal grate wall over 7 feet tall with metal support beams and concrete pylon buttressing. In the front of the left side is an agent holding a plastic clear riot shield, through which you can see a patch that say 'Border Patrol Federal Agent' in yellow and some insignia patches as well. In the middle are the agents in camo, one with a hand on the shoulder of another who is operating a thermal fogger machine shooting gas through the fence. The machine is maybe four or five feet long and has a body not unlike a bush whacker with a two-cycle engine, but fueling a vaporizer instead of a rotor. The agent is holding the machine with their right hand visibly and there is a black strap across their shoulder holding it up. The machine is mostly shiny metal, although the tip is showing signs of corrosion (no surprise based on the compounds and heat) and the supports of the body are a bright green
+* Figure 2 (chunk label 'imgCrockett1969'): B/W image drawing with text from an old white paper book. The text says FOG DISSEMINATION at the top then a paragraph with `Fog dissemination devices operate by rapidly vaporizing a high boiling point liquid agent formulation. This is accomplished by injecting the liquid agent into a hot gas flow and allowing the vaporized agent to contact the cooler ambient air where the agent condenses into a fog and ultimately into extremely small agent particles.` In the middle is the drawing with a square on the left with a long rectangle coming out of it to the right with a cloud out the further end of the rectangle. There are bits of text around it, pointing to the box it says `FUEL`, `SPARK`, and `COMBUSTION CHAMBER`. in the middle of the rectange it says `HOT GASES` in the middle of arrows pointing out towards the cloud. Along the rectangle another injection area is noted for `Liquid Agent Injection` Text on the bottom says `FIGURE 4. FOG DISSEMINATION. A liquid chemical agent is vaporized by a hot gas flow and released as a fog cloud`.

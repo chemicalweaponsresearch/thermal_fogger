@@ -1,0 +1,39 @@
+
+```{r index-1, echo=FALSE}
+is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
+is_online <- curl::has_internet()
+is_html <- knitr::is_html_output()
+is_latex <- knitr::is_latex_output()
+if (is_html) {
+  out_width <- 500
+} else if (is_latex) {
+  out_width <-"100%"
+}
+
+```
+
+# Conclusion {- #Conclusion}
+
+Although the use of a thermal fogger by US CBP to deploy chemical weapons on racial justice protesters in Portland in 2020 and 2021 appeared novel to many, the truth is that it is just the most recent chapter in acylical narrative stretching back half a century and spanning the globe.
+
+Spawned from the US military occupation of Vietnam, the thermal fogger has always been a tool for suppressing resistance among the populace.
+Its initial transition to the American homefront was rapid and smooth, with retired military law enforcement eager to deploy them against civil rights and anti-war protesters.
+
+As the fogger grew less popular with police and faded from public view in the past few decades, its use was maintained in the carceral system 
+Simultaneously, foggers were peddled by US CBP Agents overseas -- a second deployment.
+Agents from the same units within CBP then brought the fogger back home again, for a second return.
+
+Throughout all of this, the fogger was used to maim and even kill individuals while targeting the marginalized, many of whom have stories that have not been heard publicly.
+I hope that through this work, I can call attention to the shared history across generations, spark conversations, and facilitate story telling to illuminate the impacts of the thermal fogger on human people beings.
+
+Building on the concept of an Imperial Boomerang, I propose that the trajectory of the thermal fogger can be thought of as an Imperial Tetherball, with multiple depatures and returns.
+Key questions from my perspective are then: 
+
+- what perpetuates the momentum of the fogger, facilitating it to swing around more than once?
+- what routes exist for subsequent rotations where the fogger could be deployed overseas and then brought home again?
+
+Clearly, this topic deserves more theoretical evaluation, as well.
+
+While the thermal fogger is still presently _in play_ in Portland, countless other departments around the world have these machines of war sitting in their arsenals, primed and ready.
+
+And we still don't even know what comes out of the exhaust nozzle.

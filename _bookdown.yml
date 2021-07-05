@@ -9,6 +9,7 @@ rmd_files:
     - "06-broaden.Rmd"
     - "07-the_carceral_system.Rmd"
     - "08-cbp.Rmd"
+    - "09-conclusion.Rmd"
     - "99-references.Rmd"
 new_session: yes
 delete_merged_file: true

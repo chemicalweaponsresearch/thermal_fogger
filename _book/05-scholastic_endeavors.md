@@ -117,7 +117,7 @@ The Sheriffs were joined by the California National Guard once again, who this t
 (ref:gasjeep) California National Guard's Gas Jeep [@gasjeep].
 
 <div class="figure" style="text-align: center">
-<img src="img/gasjeep.JPEG" alt="B/W photo of An old style open-top army jeep with two National Guard troops in the front and one in the rear, the one in the rear is operating a thermal fogger. They are driving down what appears to be a residential street from right to left. There are houses and cars behind them and no one in sight on the street/sidewalk/etc." width="349" />
+<img src="img/gasjeep.JPEG" alt="B/W photo of An old style open-top army jeep with two National Guard troops in the front and one in the rear, the one in the rear is operating a thermal fogger. They are driving down what appears to be a residential street from right to left. There are houses and cars behind them and no one in sight on the street/sidewalk/etc."  />
 <p class="caption">(\#fig:gasjeep)(ref:gasjeep)</p>
 </div>
 

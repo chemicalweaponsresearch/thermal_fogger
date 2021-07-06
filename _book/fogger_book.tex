@@ -1,22 +1,11 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
-\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
 %
 \documentclass[
   11pt,
 ]{krantz}
-\title{The Thermal Fogger}
-\usepackage{etoolbox}
-\makeatletter
-\providecommand{\subtitle}[1]{% add subtitle to \maketitle
-  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
-}
-\makeatother
-\subtitle{An Imperial Tetherball}
-\author{Dr.~Juniper L. Simonis}
-\date{2021-07-05}
-
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
 \usepackage{iftex}
@@ -72,29 +61,6 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
-\newlength{\cslentryspacingunit} % times entry-spacing
-\setlength{\cslentryspacingunit}{\parskip}
-\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
- {% don't indent paragraphs
-  \setlength{\parindent}{0pt}
-  % turn on hanging indent if param 1 is 1
-  \ifodd #1
-  \let\oldpar\par
-  \def\par{\hangindent=\cslhangindent\oldpar}
-  \fi
-  % set entry spacing
-  \setlength{\parskip}{#2\cslentryspacingunit}
- }%
- {}
-\usepackage{calc}
-\newcommand{\CSLBlock}[1]{#1\hfill\break}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
-\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage[bf,singlelinecheck=off]{caption}
@@ -204,6 +170,37 @@
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\title{The Thermal Fogger}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{An Imperial Tetherball}
+\author{Dr.~Juniper L. Simonis}
+\date{2021-07-05}
 
 \begin{document}
 \maketitle
@@ -382,7 +379,7 @@ Indeed, the thermal cracking temperatures of common chemical contemporary chemic
 As a result, it is impossible for anyone to definitively know what chemicals they are fogging someone with, but it is fair to say the mixtures are likely to have considerably higher toxicities than product labels and safety sheets indicate, which are already concerning (\protect\hyperlink{ref-defteccs}{Defense Technology 2015}).
 
 \hypertarget{Vietnam}{%
-\chapter{A Colonial Tool}\label{Vietnam}}
+\chapter{Vietnam}\label{Vietnam}}
 
 The modern day use of thermal foggers for chemical weapons deployment was born from the American colonization of Vietnam in the mid-to-late-20th Century (\protect\hyperlink{ref-USMACV1965}{USMACV 1965}, \protect\hyperlink{ref-Bunker1996}{Bunker 1996}).
 
@@ -582,7 +579,7 @@ By 1966 the Australian Tunnel Rats were particularly fond of fogging tunnels wit
 Unnamed Australian arms experts who spoke on background said there was no application for the fogger in the country (\protect\hyperlink{ref-Allen1972}{Allen 1972}), although that hasn't stopped its use elsewhere.
 
 \hypertarget{TheReturn}{%
-\chapter{Domestic Applications}\label{TheReturn}}
+\chapter{The Return}\label{TheReturn}}
 
 As to be expected following the basic trajectory of an Imperial Boomerang (\protect\hyperlink{ref-Cesaire1950}{Césaire 1950}, \protect\hyperlink{ref-Arendt1951}{Arendt 1951}, \protect\hyperlink{ref-Foucault1976}{Foucault 1976}), the repressive technique (thermal fogging) developed by an imperialist country (USA) to control colonial territories (Vietnam) was brought home by the imperialist nation to use on its own people (\protect\hyperlink{ref-Graham2013}{Graham 2013}).
 
@@ -806,13 +803,13 @@ Importantly, by the summer of 1968, the Florida Highway Patrol, Chicago Police D
 Beyond their legacy as the first domestic fogger deployments, the lingering impact of the 1968 Conventions was felt for years to come.
 The Kansas City (Missouri) Police Department armed up their chemical weapons cache in advance of the 1976 Republican National Convention, including purchase of fogger fluids (\protect\hyperlink{ref-Hudson1976}{Hudson 1976}).
 
-\hypertarget{rnc}{%
-\section{RNC}\label{rnc}}
+\hypertarget{republican-national-convention}{%
+\section{Republican National Convention}\label{republican-national-convention}}
 
 \hypertarget{MiamiFL1968_08_08}{%
-\subsection{Miami, August 8}\label{MiamiFL1968_08_08}}
+\subsection{Miami, Florida}\label{MiamiFL1968_08_08}}
 
-The first use of a thermal fogger to deploy chemical weapons in the US that I have been able to uncover was during the ``\href{https://en.wikipedia.org/wiki/1968_Miami_riot}{Liberty City Riots},'' which took place in during the \href{https://en.wikipedia.org/wiki/1968_Republican_National_Convention}{1968 Republican National Convention} (RNC) in Miami, Florida (\protect\hyperlink{ref-Tschenschlok1995}{Tschenschlok 1995}, \protect\hyperlink{ref-Tschenschlok1996}{1996}, \protect\hyperlink{ref-McArdle2018}{McArdle 2018}).
+The first use of a thermal fogger to deploy chemical weapons in the US that I have been able to uncover occured on August 8th 1968, during the ``\href{https://en.wikipedia.org/wiki/1968_Miami_riot}{Liberty City Riots},'' which took place in the midst of the \href{https://en.wikipedia.org/wiki/1968_Republican_National_Convention}{1968 Republican National Convention} (RNC) in Miami, Florida (\protect\hyperlink{ref-Tschenschlok1995}{Tschenschlok 1995}, \protect\hyperlink{ref-Tschenschlok1996}{1996}, \protect\hyperlink{ref-McArdle2018}{McArdle 2018}).
 A white reporter with the Miami Herald attempted to gain access to rally of concerned Black people that was meant to be only among Black people that was occurring in Liberty City, a Black neighborhood, on August 7th (\protect\hyperlink{ref-Tschenschlok1995}{Tschenschlok 1995}, \protect\hyperlink{ref-Tschenschlok1996}{1996}).
 When the reporter was ejected from the rally, Miami police responded with a large and heavy presence and during the standoff, a white motorist with a ``Wallace for President'' bumper sticker attempted to drive through but was met with resistance and drove into another car, and fled the scene on foot (\protect\hyperlink{ref-Tschenschlok1995}{Tschenschlok 1995}, \protect\hyperlink{ref-Lorentzen2018}{Lorentze 2018}).
 
@@ -825,13 +822,13 @@ FHP used a truck with multiple foggers (\protect\hyperlink{ref-Lorentzen2018}{Lo
 FHP used the truck-mounted thermal foggers indiscriminately and caused visible symptoms (gagging, etc.) in all present, including a 5-month old (\protect\hyperlink{ref-McArdle2018}{McArdle 2018}).
 The fog quickly spread into neighborhood homes, forcing residents outside to seek fresh air (\protect\hyperlink{ref-Tschenschlok1995}{Tschenschlok 1995}).
 
-\hypertarget{dnc}{%
-\section{DNC}\label{dnc}}
+\hypertarget{democratic-national-convention}{%
+\section{Democratic National Convention}\label{democratic-national-convention}}
 
 \hypertarget{ChicagoIL1968_08_26}{%
-\subsection{Chicago, August 26 - 29}\label{ChicagoIL1968_08_26}}
+\subsection{Chicago, Illinois}\label{ChicagoIL1968_08_26}}
 
-Later that month anti-war protests took place in Chicago, Illinois during the \href{https://en.wikipedia.org/wiki/1968_Democratic_National_Convention}{Democratic National Convention}, and a massive force of law enforcement (Chicago Police with assistance from over 6,000 National Guard members and 6,000 Army troops (\protect\hyperlink{ref-TaylorandMorris2018}{Taylor and Morris 2018})) responded excessively, including with chemical weapons, on network news (\protect\hyperlink{ref-Schultz1969}{Schultz 1969}, \protect\hyperlink{ref-Karnow1983}{Karnow 1983}, \protect\hyperlink{ref-Farber1988}{Farber 1988}, \protect\hyperlink{ref-Langguth2000}{Langguth 2000}).
+Later that month, from August 26th to 29th, anti-war protests took place in Chicago, Illinois during the \href{https://en.wikipedia.org/wiki/1968_Democratic_National_Convention}{Democratic National Convention}, and a massive force of law enforcement (Chicago Police with assistance from over 6,000 National Guard members and 6,000 Army troops (\protect\hyperlink{ref-TaylorandMorris2018}{Taylor and Morris 2018})) responded excessively, including with chemical weapons, on network news (\protect\hyperlink{ref-Schultz1969}{Schultz 1969}, \protect\hyperlink{ref-Karnow1983}{Karnow 1983}, \protect\hyperlink{ref-Farber1988}{Farber 1988}, \protect\hyperlink{ref-Langguth2000}{Langguth 2000}).
 After four days, hundreds had been given medical assistance for exposure to chemical weapons (\protect\hyperlink{ref-TaylorandMorris2018}{Taylor and Morris 2018}).
 
 Although I have yet to find contemporary documentation of fogger use during the convention, an AP report on fogger use in \protect\hyperlink{BerkeleyCA1969_02_21}{Berkeley the year later} states
@@ -844,9 +841,9 @@ As such, I consider this a very likely deployment.
 I am continuing to search for evidence.
 
 \hypertarget{BerkeleyCA1968_08_31}{%
-\subsection{Berkeley, August 31}\label{BerkeleyCA1968_08_31}}
+\subsection{Berkeley, California}\label{BerkeleyCA1968_08_31}}
 
-A demonstration in Berkeley, California was called by the Young Socialist Alliance, Independent Socialist Club, and the Black Panther Party in solidarity with anti-war protesters in Chicago who the police had recently brutalized (\protect\hyperlink{ref-PatersonEveningNews1968_08_31}{United Press International 1968a}, \protect\hyperlink{ref-TheCapitalTimes1968_08_31}{1968b}), including \protect\hyperlink{ChicagoIL1968_08_26}{use of a pepper fogger} (\protect\hyperlink{ref-TheDailyTribune1969_02_21}{Associated Press 1969a}).
+An August 31st demonstration in Berkeley, California was called by the Young Socialist Alliance, Independent Socialist Club, and the Black Panther Party in solidarity with anti-war protesters in Chicago who the police had recently brutalized (\protect\hyperlink{ref-PatersonEveningNews1968_08_31}{United Press International 1968a}, \protect\hyperlink{ref-TheCapitalTimes1968_08_31}{1968b}), including \protect\hyperlink{ChicagoIL1968_08_26}{use of a pepper fogger} (\protect\hyperlink{ref-TheDailyTribune1969_02_21}{Associated Press 1969a}).
 In response, police brutalized the protesters, and in the process brought out a hand-held pepper fogger, a ``new police weapon\ldots{} which produced a gas that caused sneezing'' (\protect\hyperlink{ref-PatersonEveningNews1968_08_31}{United Press International 1968a}).
 
 
@@ -877,10 +874,13 @@ The GOEC thermal fogger was so new, it would not have a trademarked name (``Pepp
 \end{figure}
 
 \hypertarget{coming-soon-to-a-town-near-you}{%
-\section{Coming Soon To A Town Near You!}\label{coming-soon-to-a-town-near-you}}
+\chapter{Coming Soon To A Town Near You!}\label{coming-soon-to-a-town-near-you}}
 
 Following the conventions, the fogger quickly became a part of the law enforcement arsenal.
 US police had a hard time containing their glee when purchasing and testing thermal foggers for use on domestic civilians, as a general media blitz played out across the country through the late 1960s and early 1970s (\protect\hyperlink{ref-PlainDealer1971}{The McHenry Plaindealer 1971}).
+
+\hypertarget{expansion-from-the-nexuses}{%
+\section{Expansion from the Nexuses}\label{expansion-from-the-nexuses}}
 
 \hypertarget{illinois}{%
 \subsection{Illinois}\label{illinois}}
@@ -942,12 +942,12 @@ The department and new state regulations required officers to be trained in chem
 \end{figure}
 
 \hypertarget{national-guard}{%
-\subsection{National Guard}\label{national-guard}}
+\section{National Guard}\label{national-guard}}
 
 Following the Kent State Massacre, the Ohio National Guard, as well as others around the country began equipping their forces with thermal foggers, using the death of those students as justification for massive purchaing of ``less lethal'' options (\protect\hyperlink{ref-Bandy1970}{Bandy 1970}).
 
 \hypertarget{small-town-usa}{%
-\subsection{Small Town USA}\label{small-town-usa}}
+\section{Small Town USA}\label{small-town-usa}}
 
 No matter the size of the town, by the early 70s, police wanted in on that sweet sweet fogger action.
 The Brigham City (Utah; 1970 pop. 14,007; \protect\hyperlink{ref-USCB1970}{USCB} (\protect\hyperlink{ref-USCB1970}{1971})) Police Department leveraged federal Omnibus Crime Act money to purchase a variety of weapons to use against protesters in 1971 (\protect\hyperlink{ref-BoxElderAgencies1971}{Box Elder Agencies 1971}).
@@ -987,7 +987,7 @@ The Storm Lake Iowa (1970 pop. 8,591; \protect\hyperlink{ref-USCB1970}{USCB} (\p
 The article/ad mentions that officers have used foggers ``on occasion'' in Des Moines (Iowa's capital; 1970 pop. 201,404; \protect\hyperlink{ref-USCB1970}{USCB} (\protect\hyperlink{ref-USCB1970}{1971})) in addition to \protect\hyperlink{IowaCity}{one instance on the University of Iowa's campus} (\protect\hyperlink{ref-DesMoinesTribune1975_05_06}{Des Moines Tribune 1975}), although I have not located contemporaneous mentions.
 
 \hypertarget{Canada}{%
-\subsection{Crossing to Canada}\label{Canada}}
+\section{Crossing to Canada}\label{Canada}}
 
 Canadian law enforcement was also quick to jump on the fogger train and the media were just as happy to propagandize their use (\protect\hyperlink{ref-Patterson1976}{Patterson 1976}).
 A convention of US and Canadian police chiefs held in Halifax, Nova Scotia in 1976 provided a glimpse into the state of affairs by mid-decade, at which point a supply chain had clearly been developed, although weapons salesmen refused to be named or have their statements linked to employers (\protect\hyperlink{ref-Patterson1976}{Patterson 1976}).
@@ -1117,7 +1117,7 @@ The Sheriffs were joined by the California National Guard once again, who this t
 
 \begin{figure}
 
-{\centering \includegraphics[width=9.69in]{img/gasjeep} 
+{\centering \includegraphics{img/gasjeep} 
 
 }
 
@@ -1256,8 +1256,8 @@ Police are generally more apt to use heavy responses including chemical weapons 
 It is therefore not surprising to learn that law enforcement use foggers to deploy chemical weapons on racial justice protests.
 Indeed, the first use of the fogger in the United States was during the \protect\hyperlink{MiamiFL1968_08_08}{Liberty City Riots}, a police action in response to Black community organizations holding conversation among themselves.
 
-\hypertarget{danville-il}{%
-\subsection{Danville IL}\label{danville-il}}
+\hypertarget{danville-illinois}{%
+\subsection{Danville, Illinois}\label{danville-illinois}}
 
 Foggers have been used in a variety of cities, not just major metropolitan areas.
 
@@ -1274,10 +1274,10 @@ For example, Riley County (Kansas; 1970 pop. 56,788; \protect\hyperlink{ref-USCB
 
 Another common target of police force are labor activists, and so it is not suprising to see the fogger being deployed against strikers at least once in US history.
 
-\hypertarget{north-kingstown-ri-march-22-1982}{%
-\subsection{North Kingstown RI, March 22 1982}\label{north-kingstown-ri-march-22-1982}}
+\hypertarget{north-kingstown-rhode-island}{%
+\subsection{North Kingstown, Rhode Island}\label{north-kingstown-rhode-island}}
 
-The Brown and Sharpe company called in local police and Rhode Island State Police officers to help try to break a (at the time) 22-long strike at their factory in North Kingstown, Rhode Island (\protect\hyperlink{ref-TheLexingtonHerald1982_03_23}{Associated Press 1982b}, \protect\hyperlink{ref-Carbone2017}{Carbone 2017}).
+On March 22 1982, the Brown and Sharpe company called in local police and Rhode Island State Police officers to help try to break a (at the time) 22-long strike at their factory in North Kingstown, Rhode Island (\protect\hyperlink{ref-TheLexingtonHerald1982_03_23}{Associated Press 1982b}, \protect\hyperlink{ref-Carbone2017}{Carbone 2017}).
 A North Kingstown officer named TJ Varone deployed tear gas via a pepper fogger on a group of 75 people, primarily workers' wives and Brown University students, that was blocking the main entrance to the tool factory (\protect\hyperlink{ref-TheLexingtonHerald1982_03_23}{Associated Press 1982b}, \protect\hyperlink{ref-Carbone2017}{Carbone 2017}).
 The picketers braved the gas for a considerable amount of time, requiring close-range fogging to finally disperse them (\protect\hyperlink{ref-Carbone2017}{Carbone 2017}).
 
@@ -1638,16 +1638,16 @@ Alt-text descriptions for figures in the book:
 Allen, P. 1972. Police in secret tests of giant "pepper fogger". The Sydney Morning Herald 1972-06-18:3, 14.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Allen1974a}{}}%
-Allen, R. B. 1974a. Dying man's pleas related by convict. The Daily Oklahoman 1974-06-17.
+Allen, R. B. 1974a. Dying man's pleas related by convict. The Daily Oklahoman 1974-06-17:1.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Allen1974b}{}}%
-Allen, R. B. 1974b. Move isolates rebel convicts. The Daily Oklahoman 1974-10-22.
+Allen, R. B. 1974b. Move isolates rebel convicts. The Daily Oklahoman 1974-10-22:1--2.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Allen1975a}{}}%
-Allen, R. B. 1975a. Jurors hear witness to prison gas death. The Daily Oklahoman 1975-01-07.
+Allen, R. B. 1975a. Jurors hear witness to prison gas death. The Daily Oklahoman 1975-01-07:6.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Allen1975b}{}}%
-Allen, R. B. 1975b. Unavailability of medical aid at "rock" cited. The Daily Oklahoman 1975-01-10.
+Allen, R. B. 1975b. Unavailability of medical aid at "rock" cited. The Daily Oklahoman 1975-01-10:71.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Amanphoto1970}{}}%
 Aman, D. 1970, April 4. Sheriff's captain robert dysart and his "buck rogers" pepper fogger at riot-control demonstration. Mansfield, OH, USA.
@@ -1710,28 +1710,28 @@ Associated Press. 1969m. Guardsmen. The Miami News Tribune 1969-03-01:3A.
 Associated Press. 1969n. Guardsmen charge students. Press and Sun Bulletin 1969-03-01:3A.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Palladium-Item1969}{}}%
-Associated Press. 1969o. Negroes and police battle in illinois. Palladium-Item 1969-08-11.
+Associated Press. 1969o. Negroes and police battle in illinois. Palladium-Item 1969-08-11:7.
 
 \leavevmode\vadjust pre{\hypertarget{ref-StatesmanJournal1969_08_17}{}}%
-Associated Press. 1969p. Pepper fogger stops unruly youth in seattle. Associated Press 1969-08-17.
+Associated Press. 1969p. Pepper fogger stops unruly youth in seattle. Associated Press 1969-08-17:3.
 
 \leavevmode\vadjust pre{\hypertarget{ref-ArgusLeader1972_05_11a}{}}%
-Associated Press. 1972a. Thousands demonstrate against mines. Argus-Leader 1972-05-11.
+Associated Press. 1972a. Thousands demonstrate against mines. Argus-Leader 1972-05-11:1, 10.
 
 \leavevmode\vadjust pre{\hypertarget{ref-ArgusLeader1972_05_11b}{}}%
-Associated Press. 1972b. Guards arrive on campus at minnesota. Argus-Leader 1972-05-11.
+Associated Press. 1972b. Guards arrive on campus at minnesota. Argus-Leader 1972-05-11:1, 10.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Courier1974_09_02}{}}%
-Associated Press. 1974a. Melee breaks out at NHRA nationals. The Courier 1974-09-02.
+Associated Press. 1974a. Melee breaks out at NHRA nationals. The Courier 1974-09-02:15.
 
 \leavevmode\vadjust pre{\hypertarget{ref-TheBillingsGazette1982_01_10}{}}%
-Associated Press. 1974b. Drag race fans riot at nationals. The Billings Gazette 1974-09-02.
+Associated Press. 1974b. Drag race fans riot at nationals. The Billings Gazette 1974-09-02:19.
 
 \leavevmode\vadjust pre{\hypertarget{ref-APphoto1982}{}}%
 Associated Press. 1982a, March 22. North Kingstown, RI, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-TheLexingtonHerald1982_03_23}{}}%
-Associated Press. 1982b. Protest at factory. Lexington Herald 1982-03-23.
+Associated Press. 1982b. Protest at factory. Lexington Herald 1982-03-23:11.
 
 \leavevmode\vadjust pre{\hypertarget{ref-TampaBayTimes1974_07_18}{}}%
 Associated Press, and United Press International. 1974. Abductor collects payment, slays two. Tampa Bay Times 1974-07-18:1B, 11B.
@@ -1767,10 +1767,10 @@ Césaire, A. 1950. Discourse on colonialism. Éditions Réclame, Paris, France.
 Chepesiuk, R. 1999. The war on drugs: An international encyclopedia. \url{https://archive.org/details/warondrugsintern0000chep}, Santa Barbara, CA, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Coffey1975a}{}}%
-Coffey, I. 1975a. Veteran guard terms gassing "unjustified". The Daily Oklahoman 1975-06-26.
+Coffey, I. 1975a. Veteran guard terms gassing "unjustified". The Daily Oklahoman 1975-06-26:1, 2.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Coffey1975b}{}}%
-Coffey, I. 1975b. Trio gives testimony in fatal gassing trial. The Daily Oklahoman 1975-06-27.
+Coffey, I. 1975b. Trio gives testimony in fatal gassing trial. The Daily Oklahoman 1975-06-27:79.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Compton1987}{}}%
 Compton, J. A. F. 1987. Military chemical and biological agents: Chemical and toxicological properties. Page 215. Telford Press, Caldwell, NJ, USA.
@@ -1779,13 +1779,13 @@ Compton, J. A. F. 1987. Military chemical and biological agents: Chemical and to
 Conheim, M. 1972. Federal funds finance anti-riot arsenals. Detroit Free Press 1972-05-12:3, 8.
 
 \leavevmode\vadjust pre{\hypertarget{ref-CopleyNewsService1970}{}}%
-Copley News Service. 1970, May 12. Tear dispenser. Colorado Springs, CO, USA.
+Copley News Service. 1970. Tear dispenser. Colorado Springs Gazette-Telegraph 1970-05-12:5.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Crockett1969}{}}%
-Crockett, T. S. 1969. Police chemical agents manual. International Association of Chiefs of Police, Professional Standards Division, Washington, DC, USA.
+Crockett, T. S. 1969. Police chemical agents manual. Pages 1--109. International Association of Chiefs of Police, Professional Standards Division, Washington, DC, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-defteccs}{}}%
-Defense Technology. 2015. Pepper fog CS formulation.
+Defense Technology. 2015. Pepper fog CS formulation:1--15.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Delf2012}{}}%
 Delf, B. 2012. Tunnel rat in vietnam. Osprey Publishing Limited, New York, NY, USA.
@@ -1794,10 +1794,10 @@ Delf, B. 2012. Tunnel rat in vietnam. Osprey Publishing Limited, New York, NY, U
 Des Moines Tribune. 1975. {For Sale: Pepper Fogger, Low Miles; Immac. Cond.} Des Moines Tribune 1975-05-06:3.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Dubois2018}{}}%
-Dubois, S. 2018. Protesters ordered to leave ICE property. Statesman Journal 2018-06-26.
+Dubois, S. 2018. Protesters ordered to leave ICE property. Statesman Journal 2018-06-26:A1, A3.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Eckholt1971}{}}%
-Eckholt, L. 1971. {Offer \$5,000 reward for Iowa City blast arrests; Protest leaders schedule workshops aimed at U of I}. Des Moines Register 1971-05-08.
+Eckholt, L. 1971. {Offer \$5,000 reward for Iowa City blast arrests; Protest leaders schedule workshops aimed at U of I}. Des Moines Register 1971-05-08:4.
 
 \leavevmode\vadjust pre{\hypertarget{ref-NewYorkTimes1977}{}}%
 Faas, H. 1977. Vietnamese recalls agonies of tunnel war. The New York Times 1977-10-13.
@@ -1812,7 +1812,7 @@ Federal Laboratories. 1980. Federal fogger model 298. Saltsburg, PA, USA.
 Flanigan, K. 2020. Docs: Homeland security's portland protest mission called "operation diligent valor". KOIN 6 News 2020-07-23.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Foucault1976}{}}%
-Foucault, M. 1976. Society must be defended.
+Foucault, M. 1976. Society must be defended. Lecture at College de France.
 
 \leavevmode\vadjust pre{\hypertarget{ref-GOECphoto}{}}%
 General Ordnance Equipment Corporation. 1969a. Street cleaner. Page 185 \emph{in} R. Applegate, editor. Riot control - materiel and technique. Stackpole Books, Harrisburg, PA, USA.
@@ -1821,7 +1821,7 @@ General Ordnance Equipment Corporation. 1969a. Street cleaner. Page 185 \emph{in
 General Ordnance Equipment Corporation. 1969b. PEPPER FOG tear smoke generator.
 
 \leavevmode\vadjust pre{\hypertarget{ref-GOECadLNS1970}{}}%
-General Ordnance Equipment Corporation. 1969c. To take the violence out of men's minds with the least violent means: Liberation News Service 199.
+General Ordnance Equipment Corporation. 1969c. To take the violence out of men's minds with the least violent means: Liberation News Service 199:291.
 
 \leavevmode\vadjust pre{\hypertarget{ref-GOECadObserver1970}{}}%
 General Ordnance Equipment Corporation. 1970. Street cleaner. Observer 13:Back Page.
@@ -1851,7 +1851,7 @@ Harris, M. 1969b. 'Pepper fogger' can empty a house fast. Mt. Vernon Register-Ne
 Harris, M. 1969c. 'Pepper fogger' can fill soldier field with gas in minute. The Daily Dispatch 1969-04-09:28.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Hayes1970}{}}%
-Hayes, E. 1970. Grand jury riot report reviewed. Oakland Tribune 1970-09-04.
+Hayes, E. 1970. Grand jury riot report reviewed. Oakland Tribune 1970-09-04:1--14.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Hemmings2019}{}}%
 Hemmings, J. 2019. Amazing pictures of tunnel rats: The warriors who infiltrated underground tunnels in the vietnam war. War History Online.
@@ -1860,7 +1860,7 @@ Hemmings, J. 2019. Amazing pictures of tunnel rats: The warriors who infiltrated
 Henderson, D. E., and S. K. Henderson. 1992. Thermal decomposition of capsaicin. 1. Interactions with oleic acid at high temperatures. Journal of Agricultural and Food Chemistry 40:2263--2268.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Hobbs1974}{}}%
-Hobbs, C. 1974. Jury to probe prison gassing. The Daily Oklahoman 1974-10-22.
+Hobbs, C. 1974. Jury to probe prison gassing. The Daily Oklahoman 1974-10-22:1--2.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Hudson1976}{}}%
 Hudson, R. B. 1976. Overtime bonanza for police. The Kansas City Times 1976-03-16:1--2.
@@ -1869,7 +1869,7 @@ Hudson, R. B. 1976. Overtime bonanza for police. The Kansas City Times 1976-03-1
 IARC. 1979. Monographs on the evaluation of the carcinogenic risk of chemicals to humans. Geneva: World health organization, international agency for research on cancer, 1972-PRESENT. Page 468. \url{https://monographs.iarc.fr/ENG/Classification/index.php}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Johnson1974}{}}%
-Johnson, J. 1974. Permanent gassing ban under study. The Daily Oklahoman 1974-05-25.
+Johnson, J. 1974. Permanent gassing ban under study. The Daily Oklahoman 1974-05-25:17.
 
 \leavevmode\vadjust pre{\hypertarget{ref-DMH1969}{}}%
 Jolley, R., and C. Olive. 1969, Summer 2. 25 injured in clash of students and police after black seizure of duke campus building. \url{https://exhibits.library.duke.edu/exhibits/show/black-students-matter--allen-/item/1901}.
@@ -1905,7 +1905,7 @@ Lewis-Rolland, M. 2021b, January 23. \url{https://twitter.com/MathieuLRolland/st
 Lorentze, C. 2018. The riot stuff. Bookforum Summer 2018.
 
 \leavevmode\vadjust pre{\hypertarget{ref-LATimes1969}{}}%
-Los Angeles Times. 1969. People's park not worth the battle so far. The Delta Democrat-Times 1969-11-20.
+Los Angeles Times. 1969. People's park not worth the battle so far. The Delta Democrat-Times 1969-11-20:28.
 
 \leavevmode\vadjust pre{\hypertarget{ref-vietnam_aus1}{}}%
 MacGregor, A. H. 'Sandy'. 1966a. Double acetylene generator and a mighty mite air blower used to blow fumes into viet cong tunnels. Australian War Memorial.
@@ -1935,13 +1935,13 @@ Miller, T. 2019. Empire of borders. Tuscon Weekly 2019-08-01.
 Monhollon, R. L. 2002. 'This is america?' The sixties in lawrence, kansas. PALGRAVE, New York, NY, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-DSPDX2020}{}}%
-Morman, A., Z. Williams, D. Smith, and A. C. Randolph. 2020. Riot control agents: Systemic reassessment of adverse effects on health, mental stability, and social inequities. \url{https://www.dontshootpdx.org/wp-content/uploads/2020/06/DSPFinal-RCAreport4SocialChange-AM.AR_.ZW_.DS-.pdf}; Don't Shoot PDX, Portland, OR, USA.
+Morman, A., Z. Williams, D. Smith, and A. C. Randolph. 2020. Riot control agents: Systemic reassessment of adverse effects on health, mental stability, and social inequities. Pages 1--36. \url{https://www.dontshootpdx.org/wp-content/uploads/2020/06/DSPFinal-RCAreport4SocialChange-AM.AR_.ZW_.DS-.pdf}; Don't Shoot PDX, Portland, OR, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Nixalite2009a}{}}%
-Nixalite. 2009b. TF-35 thermal fogger brochure. \url{https://www.nixalite.com/SiteContent/Documents/PDFs/TF35.pdf}, Capser, WY, USA.
+Nixalite. 2009b. TF-35 thermal fogger brochure. Page 1. \url{https://www.nixalite.com/SiteContent/Documents/PDFs/TF35.pdf}, Capser, WY, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Nixalite2009b}{}}%
-Nixalite. 2009a. TF-35 thermal fogger owners manual. \url{https://www.nixalite.com/SiteContent/Documents/PDFs/IGEBA\%20TF35\%20OWNERS\%20MANUAL.pdf}, Capser, WY, USA.
+Nixalite. 2009a. TF-35 thermal fogger owners manual. Pages 1--24. \url{https://www.nixalite.com/SiteContent/Documents/PDFs/IGEBA\%20TF35\%20OWNERS\%20MANUAL.pdf}, Capser, WY, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Oates1970}{}}%
 Oates, W. 1970. \emph{in} Washington Area Spark, editor. D.c. Public library washington star collection. \url{https://www.flickr.com/photos/washington_area_spark/27910799119/in/album-72157631184115662/}; Washington Post, Baltimore, MD, USA.
@@ -1974,19 +1974,19 @@ Safariland, LLC. 2020b, June. \url{https://www.defense-technology.com/product/pe
 Safariland, LLC. 2020a. Pepper fogger generator golden each technical specifications. Defense Technology, Capser, WY, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Recompiler2020_07_29}{}}%
-Sal. 2020a, July 30. Protests for july 29. \url{https://pdx.recompilermag.com/2020/07/30/protests-for-july-29/}; Recompiler Magazine, Portland, OR, USA.
+Sal. 2020a. Protests for july 29. Recompiler Magazine 2020-07-30.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Recompiler2020_10_17}{}}%
-Sal. 2020b, October 17. Protests for october 17. \url{https://pdx.recompilermag.com/2020/10/17/protests-for-october-17/}; Recompiler Magazine, Portland, OR, USA.
+Sal. 2020b. Protests for october 17. Recompiler Magazine 2020-10-17.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Recompiler2021_01_20}{}}%
-Sal. 2021a. January 20, 2021 protests - abolish ICE.
+Sal. 2021a. January 20, 2021 protests - abolish ICE. Recompiler Magazine 2021-01-20.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Recompiler2021_01_23}{}}%
-Sal. 2021b, January 23. January 23, 2021 protests - abolish ICE. \url{https://pdx.recompilermag.com/2021/01/23/january-23-2021-protest-abolish-ice/}; Recompiler Magazine, Portland, OR, USA.
+Sal. 2021b. January 23, 2021 protests - abolish ICE. Recompiler Magazine 2021-01-23.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Samuelsetal1969}{}}%
-Samuels, D. W., D. O. Egner, and D. Campbell. 1969. Riot control: Analysis and catalog. US Army Limited Wat Laboratory, Abardeen Proving Ground, MD, USA.
+Samuels, D. W., D. O. Egner, and D. Campbell. 1969. Riot control: Analysis and catalog. Pages 1--164. US Army Limited Wat Laboratory, Abardeen Proving Ground, MD, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-USAES}{}}%
 School, U. A. E. 2003. How army engineers cleared viet cong tunnels. The Army Engineer in Vietnam 62.
@@ -1995,10 +1995,10 @@ School, U. A. E. 2003. How army engineers cleared viet cong tunnels. The Army En
 Schrader, S. 2019. Badges without borders: How global counterinsurgency transformed american policing. University of California Press, Berkeley, CA, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Schreiberetal1971a}{}}%
-Schreiber, W. L., S. K. Billingsley, R. E. Schafer, J. G. Rogers, and E. W. Rounds. 1971a. The identification, description, and evaluation of law enforcement command and control problems related to crowds and demonstrations. NCJRS.
+Schreiber, W. L., S. K. Billingsley, R. E. Schafer, J. G. Rogers, and E. W. Rounds. 1971a. The identification, description, and evaluation of law enforcement command and control problems related to crowds and demonstrations. NCJRS:1--124.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Schreiberetal1971b}{}}%
-Schreiber, W. L., S. K. Billingsley, R. E. Schafer, J. G. Rogers, and E. W. Rounds. 1971b. The identification, description, and evaluation of law enforcement command and control problems related to crowds and demonstrations. NCJRS.
+Schreiber, W. L., S. K. Billingsley, R. E. Schafer, J. G. Rogers, and E. W. Rounds. 1971b. The identification, description, and evaluation of law enforcement command and control problems related to crowds and demonstrations. NCJRS:1--213.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Schultz1969}{}}%
 Schultz, J. 1969. No one was killed: The democratic national convention, august 1968. University of Chicago Press, Chicago, IL, USA.
@@ -2016,16 +2016,16 @@ Spicknall, T. E. 1969. Civilian repairs and utilities in the combat zone. The Mi
 Staab, M. 2021, January 20. \url{https://twitter.com/MaranieRae/status/1352394871080816641/photo/1}, Portland, OR, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-StarTribune1972_05_11}{}}%
-Star Tribune. 1972. Guard moves to 'u' after antiwar violence. Star Tribune 1972-05-11.
+Star Tribune. 1972. Guard moves to 'u' after antiwar violence. Star Tribune 1972-05-11:1, 4.
 
 \leavevmode\vadjust pre{\hypertarget{ref-ValleyMorningStar1973_08_04}{}}%
-Star Tribune. 1973. Border patrol agent released from charges. Valley Morning Star 1973-08-04.
+Star Tribune. 1973. Border patrol agent released from charges. Valley Morning Star 1973-08-04:3.
 
 \leavevmode\vadjust pre{\hypertarget{ref-TaylorandMorris2018}{}}%
 Taylor, D., and S. Morris. 2018. The whole world is watching: How the 1968 chicago 'police riot' shocked america and divided the nation. The Guardian 2018-08-19.
 
 \leavevmode\vadjust pre{\hypertarget{ref-TheCourierJournal1982_01_10}{}}%
-The Courier-Journal. 1982. Fire-training smoke wasn't tainted. The Courier-Journal 1982-01-10.
+The Courier-Journal. 1982. Fire-training smoke wasn't tainted. The Courier-Journal 1982-01-10:22.
 
 \leavevmode\vadjust pre{\hypertarget{ref-TheGastoniaGazetteSun1970_10_04}{}}%
 The Gastonian Gazette Sun. 1970b, October 5. PEPPER FOGGER. Gastonia, NC, USA.
@@ -2079,7 +2079,7 @@ United Press International. 1969b, November 20. San Bernardino, CA, USA.
 United Press International. 1969a, November 20. Gas gun. Greenville, MS, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-ThePressDemocrat1970_10_13}{}}%
-United Press International. 1970. Ex-lawman shot because "not practical to arrest". The Press Democrat 1970-10-13.
+United Press International. 1970. Ex-lawman shot because "not practical to arrest". The Press Democrat 1970-10-13:10.
 
 \leavevmode\vadjust pre{\hypertarget{ref-DailyNews1972_10_27}{}}%
 United Press International. 1972. Border cop held in arms selling. Daily News 1972-10-27:8.
@@ -2088,16 +2088,16 @@ United Press International. 1972. Border cop held in arms selling. Daily News 19
 United Press International. 1975a, January 2. Ft. Lauderdale, FL, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-UPI1975a}{}}%
-United Press International. 1975b. In prison probe -- US grand jury indicts officers. Sapulpa Daily News 1975-01-28.
+United Press International. 1975b. In prison probe -- US grand jury indicts officers. Sapulpa Daily News 1975-01-28:1.
 
 \leavevmode\vadjust pre{\hypertarget{ref-UPI1975b}{}}%
-United Press International. 1975c. US jury acquits prison guards. Sapulpa Daily News 1975-07-11.
+United Press International. 1975c. US jury acquits prison guards. Sapulpa Daily News 1975-07-11:1.
 
 \leavevmode\vadjust pre{\hypertarget{ref-TheTampaTribune1976_01_02}{}}%
-United Press International. 1976a. New year's revelers, police clash. Pasco Tribune 1976-01-02.
+United Press International. 1976a. New year's revelers, police clash. Pasco Tribune 1976-01-02:1.
 
 \leavevmode\vadjust pre{\hypertarget{ref-BerkeleyGazette1976_01_02}{}}%
-United Press International. 1976b. Tear-gas guns. Berkeley Gazette 1976-01-02.
+United Press International. 1976b. Tear-gas guns. Berkeley Gazette 1976-01-02:1.
 
 \leavevmode\vadjust pre{\hypertarget{ref-TallahasseeDemocrat1981_07_07}{}}%
 United Press International. 1981. Prisoners moved after disturbance. Tallahassee Democrat 1981-07-07:1.
@@ -2106,7 +2106,7 @@ United Press International. 1981. Prisoners moved after disturbance. Tallahassee
 University of Kansas Archives. 1970, April 21. Lawrence, KS, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-USArmy1966}{}}%
-US Army. 1966. Mighty mite. Military Review XLVI.
+US Army. 1966. Mighty mite. Military Review XLVI:1--116.
 
 \leavevmode\vadjust pre{\hypertarget{ref-USArmy2005}{}}%
 US Army. 2005. III corps tactical zone.
@@ -2121,13 +2121,13 @@ USCBP. 2006. CBP border patrol tactical unit graduates 20th class. U.S. Customs 
 USCBP. 2014. Border patrol tactical unit fact sheet. \url{https://www.cbp.gov/sites/default/files/documents/Border\%20Patrol\%20Tactical\%20Unit.pdf}, Washington, DC, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-CBP2018}{}}%
-USCBP. 2018. Border patrol special operations group fact sheet. \url{https://www.cbp.gov/sites/default/files/assets/documents/2018-Aug/border-patrol-special-operations-group.pdf}, Washington, DC, USA.
+USCBP. 2018. Border patrol special operations group fact sheet. Page 1. \url{https://www.cbp.gov/sites/default/files/assets/documents/2018-Aug/border-patrol-special-operations-group.pdf}, Washington, DC, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-DHS2020}{}}%
 USDHS. 2020, July 1. DHS announces new task force to protect american monuments, memorials, and statues. \url{https://www.dhs.gov/news/2020/07/01/dhs-announces-new-task-force-protect-american-monuments-memorials-and-statues}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-USMACV1965}{}}%
-USMACV. 1965. Operational employment of the mity mite portable blower. Lessons Learned.
+USMACV. 1965. Operational employment of the mity mite portable blower. Pages 1--9. Lessons Learned.
 
 \leavevmode\vadjust pre{\hypertarget{ref-USTPO2018}{}}%
 USTPO. 2018. General ordnance equipment corporation: Pepper fog. \url{https://uspto.report/TM/72310456}.
@@ -2142,19 +2142,19 @@ Washington Area Spark. 2013. Thirty days in may: U of MD 1970. {Washington Area 
 Wayne Gaylord. 1971, October 13. The pepper fogger with one quart of tear gas solution does the job of 300 grenades. McHenry, IL, USA.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Wills1971a}{}}%
-Wills, G. 1971a. Tear gas tears. The Herald Statesman 1971-04-07.
+Wills, G. 1971a. Tear gas tears. The Herald Statesman 1971-04-07:17.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Wills1971b}{}}%
-Wills, G. 1971b. Tear gas tears. The Daily Item 1971-04-07.
+Wills, G. 1971b. Tear gas tears. The Daily Item 1971-04-07:14.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Wills1971c}{}}%
-Wills, G. 1971c. Far, far too many tears over tear gas. The Charlotte News 1974-04-10.
+Wills, G. 1971c. Far, far too many tears over tear gas. The Charlotte News 1974-04-10:10.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Wills1971d}{}}%
 Wills, G. 1971d. Tear gas is humane in "certain situations". The Philadelphia Inquirer 1971-04-10.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Wilson1993}{}}%
-Wilson, S. D. 1993. Coming home: The birth and spirit in america's gulag. \emph{in} L. R. Reed, editor. The american indian in the white man's prisons: A story of genocide. A collective statement by native american prisoners, former prisoners, and spiritual leaders of north america.
+Wilson, S. D. 1993. Coming home: The birth and spirit in america's gulag. Pages 133--156 \emph{in} L. R. Reed, editor. The american indian in the white man's prisons: A story of genocide. A collective statement by native american prisoners, former prisoners, and spiritual leaders of north america.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Winter1970}{}}%
 Winter, M. 1970, October 10. Scott county deputy sheriff jim lewis, left, holds a new grenade launcher and a riot gun while sheriff william strout displays a pepper fogger and gas mask. Davenport, IA, USA.

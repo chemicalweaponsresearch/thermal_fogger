@@ -1,20 +1,6 @@
+# Conclusion {#Conclusion}
 
-```{r index-1, echo=FALSE}
-is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
-is_online <- curl::has_internet()
-is_html <- knitr::is_html_output()
-is_latex <- knitr::is_latex_output()
-if (is_html) {
-  out_width <- 500
-} else if (is_latex) {
-  out_width <-"100%"
-}
-
-```
-
-# Conclusion {- #Conclusion}
-
-Although the use of a thermal fogger by US CBP to deploy chemical weapons on racial justice protesters in Portland in 2020 and 2021 appeared novel to many, the truth is that it is just the most recent chapter in acylical narrative stretching back half a century and spanning the globe.
+Although the use of a thermal fogger by US CBP to deploy chemical weapons on racial justice protesters in Portland in 2020 and 2021 appeared novel to many, the truth is that it is just the most recent chapter in a cylical narrative stretching back half a century and spanning the globe.
 
 Spawned from the US military occupation of Vietnam, the thermal fogger has always been a tool for suppressing resistance among the populace.
 Its initial transition to the American homefront was rapid and smooth, with retired military law enforcement eager to deploy them against civil rights and anti-war protesters.
@@ -26,7 +12,7 @@ Agents from the same units within CBP then brought the fogger back home again, f
 Throughout all of this, the fogger was used to maim and even kill individuals while targeting the marginalized, many of whom have stories that have not been heard publicly.
 I hope that through this work, I can call attention to the shared history across generations, spark conversations, and facilitate story telling to illuminate the impacts of the thermal fogger on human people beings.
 
-Building on the concept of an Imperial Boomerang, I propose that the trajectory of the thermal fogger can be thought of as an Imperial Tetherball, with multiple depatures and returns.
+Building on the concept of an Imperial Boomerang, I propose that the trajectory of the thermal fogger can be thought of as an Imperial Tetherball, with multiple departures and returns.
 Key questions from my perspective are then: 
 
 - what perpetuates the momentum of the fogger, facilitating it to swing around more than once?

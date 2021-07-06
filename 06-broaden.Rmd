@@ -1,44 +1,31 @@
 
-```{r index-1, echo=FALSE}
-is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
-is_online <- curl::has_internet()
-is_html <- knitr::is_html_output()
-is_latex <- knitr::is_latex_output()
-if (is_html) {
-  out_width <- 500
-} else if (is_latex) {
-  out_width <-"100%"
-}
-
-```
-
-# Broadening Application {-}
+# Broadening Application 
 
 The use of foggers, while not commonly overt, spread throughout the 1970s and 1980s, occasionally making an appearance in news media reports.
 
-## Racial Justice {-}
+## Racial Justice 
 
 Police are generally more apt to use heavy responses including chemical weapons against Black protesters in general [@DSPDX2020].
 It is therefore not surprising to learn that law enforcement use foggers to deploy chemical weapons on racial justice protests.
 Indeed, the first use of the fogger in the United States was during the [Liberty City Riots](#MiamiFL1968_08_08), a police action in response to Black community organizations holding conversation among themselves.
 
-### Danville IL {-}
+### Danville IL 
 
 Foggers have been used in a variety of cities, not just major metropolitan areas. 
 
 Danville, Illinois (1970 pop. 42,570; [@USCB1970]) Police used a pepper fogger to disperse a crowd of Black protesters that had used picnic tables to barricade a street through their neighborhood on a second night of demonstrations [@Palladium-Item1969], August 10th 1969.
 
-### Rodney King {-}
+### Rodney King 
 
 Although mentioned in a few outlets during the 1992 police response to the protests in response to the verdict in the Rodney King case, I have yet to find documentation of foggers being used explicitly during that time [@Askren1992].
 For example, Riley County (Kansas; 1970 pop. 56,788; @USCB1970) Sheriffs had a fogger in their arsenal in 1992 according to Director Alvan Johnson [@Askren1992].
 
 
-## Labor {-}
+## Labor 
 
 Another common target of police force are labor activists, and so it is not suprising to see the fogger being deployed against strikers at least once in US history.
 
-### North Kingstown RI, March 22 1982 {-}
+### North Kingstown RI, March 22 1982 
 
 The Brown and Sharpe company called in local police and Rhode Island State Police officers to help try to break a (at the time) 22-long strike at their factory in North Kingstown, Rhode Island [@TheLexingtonHerald1982_03_23; @Carbone2017]. 
 A North Kingstown officer named TJ Varone deployed tear gas via a pepper fogger on a group of 75 people, primarily workers' wives and Brown University students, that was blocking the main entrance to the tool factory  [@TheLexingtonHerald1982_03_23; @Carbone2017].
@@ -46,7 +33,7 @@ The picketers braved the gas for a considerable amount of time, requiring close-
 
 (ref:imgnorthKingstown1982322) Police fog striking workers and their families [@APphoto1982].
 
-```{r imgnorthKingstown1982322, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgnorthKingstown1982322)", fig.align = "center", fig.alt = "B/W newspaper clipping: To the left there are several people crouched on the ground with their heads down and covered. Behind them is a small crowd of people turning and moving away. To the right are three officials in helmets and masks facing the people on the ground and holding a fogger in front that is spraying a cloud of fog right over those on the ground."}   
+```{r imgnorthKingstown1982322, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgnorthKingstown1982322)", fig.align = "center", fig.alt = "B/W newspaper clipping: To the left there are several people crouched on the ground with their heads down and covered. Behind them is a small crowd of people turning and moving away. To the right are three officials in helmets and masks facing the people on the ground and holding a fogger in front that is spraying a cloud of fog right over those on the ground."}   
 knitr::include_graphics("img/north_Kingstown_1982_3_22.png") 
 ```
  
@@ -59,18 +46,18 @@ Newspaper and television coverage of the fogging circled the globe [@Carbone2017
 
 
 
-## Celebrations {-}
+## Celebrations 
 
 On occasion, police forces have used foggers against protests or riots that are more of a celebratory nature but still do not respond to their commands to disperse.
 
 
-### 1974 NHRA Nationals {-}
+### 1974 NHRA Nationals 
 
 Indiana State Police used a pepper fogger and gas grenades on a crowd of 2,000 drag racing fans blocking a highway between the track and campsites at the Hot Rod Association's US Nationals in Clermont IN, September 1 1974 [@Courier1974_09_02; @TheBillingsGazette1982_01_10].
 
 
 
-### 1975 New Years Eve {-}
+### 1975 New Years Eve 
 
 New Year's Eve 1975 was apparently quite raucous in Florida, as many cities experienced revelry that got out-of-hand enough to elicit police use of force [@TheTampaTribune1976_01_02].
 In Ft. Lauderdale, party-goers pulled down a traffic light and police deployed multiple foggers on a crowd of 2,500 on the beach [@TheTampaTribune1976_01_02].
@@ -79,7 +66,7 @@ In Ft. Lauderdale, party-goers pulled down a traffic light and police deployed m
 
 (ref:imgftlauderdale19751231) Police carrying pepper foggers towards the beach [@UPIphoto1975].
 
-```{r imgftlauderdale19751231, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgftlauderdale19751231)", fig.align = "center", fig.alt = "B/W image: Two people in foreground wearing helmets and face shields with gas masks and uniforms with short sleeves walking towards the camera, carrying boxy looking tools with nozzles pointing forward, with both hands. Person behind, also in short sleeve uniform, helmet, and gas mask carrying slim sabre or rod across the body. Behind these people seem to be more people but there are no clear details."}
+```{r imgftlauderdale19751231, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgftlauderdale19751231)", fig.align = "center", fig.alt = "B/W image: Two people in foreground wearing helmets and face shields with gas masks and uniforms with short sleeves walking towards the camera, carrying boxy looking tools with nozzles pointing forward, with both hands. Person behind, also in short sleeve uniform, helmet, and gas mask carrying slim sabre or rod across the body. Behind these people seem to be more people but there are no clear details."}
 knitr::include_graphics("img/ft_lauderdale_1975_12_31.png") 
 ```
 
@@ -90,11 +77,11 @@ The mayhem was noteworthy enough to garner publication in the Berkeley Gazette [
 
 
 
-## Trainging Accidents {-}
+## Trainging Accidents 
 
 While not an intentional deployment, in at least one documented incident, a pepper fogger used in firefighter training exercises caused severe symptoms and led to an investigation [@Judd1981].
 
-### Bullitt Volunteer Fire Department {-}
+### Bullitt Volunteer Fire Department 
 
 On December 15 1981, The Southeast Bullitt Volunteer Fire Department In Kentucky was conducting a smoke training exercise using a pepper fogger on loan from the fire marshal's office when their "victim" and 16 others (including firefighters) began experiencing coughing fits, headaches, and chest pains [@Judd1981].
 

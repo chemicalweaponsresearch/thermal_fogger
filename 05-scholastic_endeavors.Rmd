@@ -1,18 +1,5 @@
 
-```{r index-1, echo=FALSE}
-is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
-is_online <- curl::has_internet()
-is_html <- knitr::is_html_output()
-is_latex <- knitr::is_latex_output()
-if (is_html) {
-  out_width <- 500
-} else if (is_latex) {
-  out_width <-"100%"
-}
-
-```
-
-# Scholastic Endeavors {-}
+# Scholastic Endeavors 
 
 Perhaps instigated by the willingness of the California Highway Patrol to use chemical weapons (including thermal foggers) in [Berkeley on and around the University of California campus during the 1968 Convention protests](#BerkeleyCA1968_08_31), many law enforcement agencies escalated anti-war and racial just protests in University towns during the 1960s and 1970s via chemical weapons.
 
@@ -21,9 +8,9 @@ The willingness of police to fog literally any place where undergraduates standi
 Use of fogger-based chemical weapons against students, particularly students of color, was not limited to college campuses, but extended to high and middle schools.
 
 
-## University Cities {-}
+## University Cities 
 
-### Durham {-}
+### Durham 
 
 Durham North Carolina Police broke up the "Allen Building Demonstration" taking place February 13 1969 on the campus of Duke University in Durham using a variety of weapons, including a thermal fogger [@DMH1969; @Schreiberetal1971a; @Schreiberetal1971b].
 The police reportedly chased protesters across campus with the fogger, including using it inside Duke Chapel [@Schreiberetal1971a; @Schreiberetal1971b].
@@ -32,7 +19,7 @@ The police reportedly chased protesters across campus with the fogger, including
 
 (ref:imgdurham196902131) Deployment of a thermal fogger by police on Duke Campus [@DMH1969].
 
-```{r imgdurham196902131, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgdurham196902131)", fig.align = "center", fig.alt = "B/W Image: One person wearing gas mask and helmet, centered, stepping to the right. Person is holding slim white club in left hand and pepper-fogger in right hand. Fogger is pointing forward and a white cloud is surrounding the person to the front, back, and behind. The remaining background is black."}
+```{r imgdurham196902131, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgdurham196902131)", fig.align = "center", fig.alt = "B/W Image: One person wearing gas mask and helmet, centered, stepping to the right. Person is holding slim white club in left hand and pepper-fogger in right hand. Fogger is pointing forward and a white cloud is surrounding the person to the front, back, and behind. The remaining background is black."}
 knitr::include_graphics("img/durham_1969_02_13_1.jpg")
 ```
  
@@ -42,7 +29,7 @@ knitr::include_graphics("img/durham_1969_02_13_1.jpg")
 
 (ref:imgdurham196902132) Police with pepper fogger on Duke campus [@DMH1969].
 
-```{r imgdurham196902132, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgdurham196902132)", fig.align = "center", fig.alt = "B/W Image: Background has brick building with steps. In front of the building from center to right, a line of 5 police officers facing front and wearing helmets & gas masks holding slim white clubs about a yard long. They are standing with legs apart and clubs in both hands in front of their bodies. On the left 5 officers similarly dressed, facing towards one another. Four slim clubs are visible, and one officer is holding what appears to be a fogger in one arm hanging down at the side."}
+```{r imgdurham196902132, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgdurham196902132)", fig.align = "center", fig.alt = "B/W Image: Background has brick building with steps. In front of the building from center to right, a line of 5 police officers facing front and wearing helmets & gas masks holding slim white clubs about a yard long. They are standing with legs apart and clubs in both hands in front of their bodies. On the left 5 officers similarly dressed, facing towards one another. Four slim clubs are visible, and one officer is holding what appears to be a fogger in one arm hanging down at the side."}
    
 knitr::include_graphics("img/durham_1969_02_13_2.jpg")
 ```
@@ -51,9 +38,9 @@ knitr::include_graphics("img/durham_1969_02_13_2.jpg")
 
 
 
-### Berkeley {-}
+### Berkeley 
 
-#### February 21 1969 {- #BerkeleyCA1969_02_21}
+#### February 21 1969 {#BerkeleyCA1969_02_21}
 
 A year after [using the fogger on a protest held in solidarity with the Chicago Protest](#ChicagoIL1968_08_26), police in Berkeley again deployed a fogger to clear demonstrators including striking students from outside a University Regents and Sproul Hall plaza on the University of California campus. 
 
@@ -61,7 +48,7 @@ A year after [using the fogger on a protest held in solidarity with the Chicago 
 
 (ref:imgberkeley19690221a) Police use a pepper fogger and other chemical weapons to clear a University plaza [@APphoto1969a].
 
-```{r imgberkeley19690221a, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgberkeley19690221a)", fig.align = "center", fig.alt = "B/W newspaper clipping. Four people walking towards camera wearing helmets with face shields. Person on the left wearing white shirt and tie has several items hanging from belt. In right hand carrying radio with extended antenna. On right side person dressed in all black standing with a wide stance and holding pepper-fogger at hip height in right hand aimed forward. In center two more people dressed in all black, one with a short stick or club in left hand. Background is mostly cloudy with someone behind white shirt person, holding some sort of stick aloft.  Glimpses of additional bodies are visible in the cloudy background.    "}   
+```{r imgberkeley19690221a, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgberkeley19690221a)", fig.align = "center", fig.alt = "B/W newspaper clipping. Four people walking towards camera wearing helmets with face shields. Person on the left wearing white shirt and tie has several items hanging from belt. In right hand carrying radio with extended antenna. On right side person dressed in all black standing with a wide stance and holding pepper-fogger at hip height in right hand aimed forward. In center two more people dressed in all black, one with a short stick or club in left hand. Background is mostly cloudy with someone behind white shirt person, holding some sort of stick aloft.  Glimpses of additional bodies are visible in the cloudy background.    "}   
 knitr::include_graphics("img/berkeley_1969_02_21a.jpg") 
 ```
  
@@ -73,7 +60,7 @@ This deployment was covered in papers across the country including the Press-Tel
 
 (ref:imgberkeley19690221b) Police engulf a University plaza in chemical fog [@APphoto1969a].
  
-```{r imgberkeley19690221b, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgberkeley19690221b)", fig.align = "center", fig.alt = "B/W newspaper clipping. Rather difficult to make out the people differentially in the background, but there's a large group of folks standing in the back part of the photo, the mid ground is relatively empty but filling with a cloud of white smoke eminating from an area on the left that appears to be an officer holding a thermal fogger. Behind everyone is the student union. "}   
+```{r imgberkeley19690221b, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgberkeley19690221b)", fig.align = "center", fig.alt = "B/W newspaper clipping. Rather difficult to make out the people differentially in the background, but there's a large group of folks standing in the back part of the photo, the mid ground is relatively empty but filling with a cloud of white smoke eminating from an area on the left that appears to be an officer holding a thermal fogger. Behind everyone is the student union. "}   
 knitr::include_graphics("img/berkeley_1969_02_21b.jpg") 
 ```
  
@@ -81,7 +68,7 @@ knitr::include_graphics("img/berkeley_1969_02_21b.jpg")
 
 Canadian newspapers detailed the fogger use as well, specifically the Red Deer Advocate Red Deer, Alberta, Canada) [@RedDeerAdvocate1969_02_21] and The Leader-Post (Regina, Saskatchewan) [@TheLeaderPost1969_02_21].
 
-#### February 28 1969 {-}
+#### February 28 1969 
 
 The following week, the police in Berkeley were joined by California National Guard troops to attack strikers, and continued to use the pepper fogger [@TheMiamiNews1969_03_01; @PressandSunBulletin1969_03_01]. 
 
@@ -89,7 +76,7 @@ The following week, the police in Berkeley were joined by California National Gu
 
 (ref:imgberkeley196902281) National guardsmen and police fog UC Berkeley [@APphoto1969c].
 
-```{r imgberkeley196902281, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgberkeley196902281)", fig.align = "center",  fig.alt = "Guardsmen with bayonetted rifles and sheriff's deputies with tear and and pepper fogger walking through UC campus: B/W newspaper clipping:  Eight people in masks, shields, and tied boots walking from left to right, the one in front wearing a spray fogger strapped on back and holding the hose and nozzle in front. A cloud of fog is spraying from the nozzle. The second person is carrying a bayoneted rifle upright. The others are only partially visible as they are passing behind a tree. On the right ahead of the others an additional helmeted person can be seen turning towards the left. Two slim trees are in the foreground."}
+```{r imgberkeley196902281, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgberkeley196902281)", fig.align = "center",  fig.alt = "Guardsmen with bayonetted rifles and sheriff's deputies with tear and and pepper fogger walking through UC campus: B/W newspaper clipping:  Eight people in masks, shields, and tied boots walking from left to right, the one in front wearing a spray fogger strapped on back and holding the hose and nozzle in front. A cloud of fog is spraying from the nozzle. The second person is carrying a bayoneted rifle upright. The others are only partially visible as they are passing behind a tree. On the right ahead of the others an additional helmeted person can be seen turning towards the left. Two slim trees are in the foreground."}
 knitr::include_graphics("img/berkeley_1969_02_28_1.jpg") 
 ```
  
@@ -100,7 +87,7 @@ knitr::include_graphics("img/berkeley_1969_02_28_1.jpg")
 
 (ref:imgberkeley196902282) View from behind of the police using a pepper fogger on striking students [@APphoto1969d].
 
-```{r  imgberkeley196902282, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgberkeley196902282)", fig.align = "center", fig.alt = "Four people walking away from camera, wearing helmets and holsters. Lead person has a fogger on their back and is holding the hose on the right spraying a fog ahead of them. Person on the right is carrying a bayoneted rifle raised above the left shoulder. The four are walking into the fog they’ve produced. There are some small trees to the right."}
+```{r  imgberkeley196902282, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgberkeley196902282)", fig.align = "center", fig.alt = "Four people walking away from camera, wearing helmets and holsters. Lead person has a fogger on their back and is holding the hose on the right spraying a fog ahead of them. Person on the right is carrying a bayoneted rifle raised above the left shoulder. The four are walking into the fog they’ve produced. There are some small trees to the right."}
 knitr::include_graphics("img/berkeley_1969_02_28_2.jpg") 
 ```
  
@@ -109,7 +96,7 @@ knitr::include_graphics("img/berkeley_1969_02_28_2.jpg")
 
 
 
-#### May 15 1969 {-}
+#### May 15 1969 
 
 Alameda County sheriffs deployed a pepper fogger on UC Berkeley's campus again during the "People's Park Riots" of 1969 [@LATimes1969; @Hayes1970].
 
@@ -126,14 +113,14 @@ The Sheriffs were joined by the California National Guard once again, who this t
 knitr::include_graphics("img/gasjeep.JPEG") 
 ```
 
-### Seattle {-}
+### Seattle 
 
 Seattle Washington police deployed CN and CS gas via a new pepper fogger in their clash with "hundreds of unruly youths in the University District" on August 14 1969 [@StatesmanJournal1969_08_17].
 Witnesses recounted that the machine was "highly effective", filling "2-3 blocks of a street with tear gas in about a minute" [@StatesmanJournal1969_08_17].
 
 
 
-### College Park {- #CollegeParkMD1970_05_04}
+### College Park {#CollegeParkMD1970_05_04}
 
 On May 4th 1970, students gathered at campuses around the country to protest President Nixon's expansion of war into Cambodia, inlcuding in at the University of MAryland (UMD) campus in College Park [@WAS2013].
 Police responded with chemical weapons that did not deter the protest, but rather moved it around the campus [@Cabe1970].
@@ -144,7 +131,7 @@ By later in the day, UMD students had heard about the Ohio National Guard shooti
 
 (ref:imgCabe1970) Police fog the University of Maryland [@Cabe1970].
 
-```{r imgCabe1970, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgCabe1970)", fig.align = "center", fig.alt = "Black and white photo of a college quad with brick facade white column buildingsbehind trees around the left, back, and part of right sides of the frame. Eight or so police officers walking away from the camera wear riot gear. A few in dark, a few in light. One in light near the front is carrying a fogger with a shoulder strap and spraying a big cloud off to the left, obscuring a large portion of the photograph."}
+```{r imgCabe1970, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgCabe1970)", fig.align = "center", fig.alt = "Black and white photo of a college quad with brick facade white column buildingsbehind trees around the left, back, and part of right sides of the frame. Eight or so police officers walking away from the camera wear riot gear. A few in dark, a few in light. One in light near the front is carrying a fogger with a shoulder strap and spraying a big cloud off to the left, obscuring a large portion of the photograph."}
 knitr::include_graphics("img/Cabe1970.jpg") 
 ```
  
@@ -154,7 +141,7 @@ knitr::include_graphics("img/Cabe1970.jpg")
 
 (ref:imgOates1970) Police fog the University of Maryland Chapel [@Cabe1970].
 
-```{r imgOates1970, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgOates1970)", fig.align = "center", fig.alt = "Black and white photo of a college A whole bunch of police officers stand on or in front of a short (3 ft) brick wall surrounding the open field. A road, grass, and sidewalk are on this side of the wall, and a tree is just over it on that side. The open field behind the wall is filled with fog from one or perhaps two individuals fogging the chapel, which is where a large crowd gathers on the steps in the background. The chapel has a brick facade and white columns and a very large spire clock tower. The student protesters are visible on the steps of the chapel holding sigms."}   
+```{r imgOates1970, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgOates1970)", fig.align = "center", fig.alt = "Black and white photo of a college A whole bunch of police officers stand on or in front of a short (3 ft) brick wall surrounding the open field. A road, grass, and sidewalk are on this side of the wall, and a tree is just over it on that side. The open field behind the wall is filled with fog from one or perhaps two individuals fogging the chapel, which is where a large crowd gathers on the steps in the background. The chapel has a brick facade and white columns and a very large spire clock tower. The student protesters are visible on the steps of the chapel holding sigms."}   
 knitr::include_graphics("img/Oates1970.jpg") 
 ```
  
@@ -167,13 +154,13 @@ The Maryland State Police liked the [GOEC](#GOEC) fogger so much they included i
 
 (ref:imgMSP) Maryland State Police's [GOEC](#GOEC) pepper fogger [@MSP].
 
-```{r imgMSP, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgMSP)", fig.align = "center", fig.alt = "Black and white photo of a GOEC Pepper Fog fogger on a white ground with a maryland state police badge and in front of a brick wall. The fogger is in the mid right and points off to the left."}
+```{r imgMSP, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgMSP)", fig.align = "center", fig.alt = "Black and white photo of a GOEC Pepper Fog fogger on a white ground with a maryland state police badge and in front of a brick wall. The fogger is in the mid right and points off to the left."}
 knitr::include_graphics("img/MSP.jpg") 
 ```
  
 <br>
 
-### Iowa City {- #IowaCity}
+### Iowa City {#IowaCity}
 
 Johnson County sheriffs - including two deputies carrying pepper foggers - used chemical weapons against protesters in Iowa City, Iowa IA on May 6 1971  [@Eckholt1971].
 
@@ -181,7 +168,7 @@ The chemicals deployed smelled like insecticides and were described in print as 
 
 
 
-### Minneapolis {- #Minneapolis1972_05_10}
+### Minneapolis {#Minneapolis1972_05_10}
 
 Thousands of anti-war protesters gathered in cities around the US on May 10 1972 to demonstrate against the use of mines in Vietnam harbors [@ArgusLeader1972_05_11a].
 In Minneapolis, crowds totalling a thousand protestered gathered on and near the University of Minnesota campus and police responded with chemical weapons deployed via grenades, sprays, a helicopter and a thermal fogger [@ArgusLeader1972_05_11b; @StarTribune1972_05_11].
@@ -189,7 +176,7 @@ In Minneapolis, crowds totalling a thousand protestered gathered on and near the
 The fogger was used to direct the crowd around campus and spread gas over large areas, such as the area known as Scholars Walk (~0.25 mile from Washington Avenue to the Auditorium) [@StarTribune1972_05_11].
 
 
-### Gainesville  {-}
+### Gainesville  
 
 Similarly to the anti-mine protests in [Minneapolis](#Minneapolis1972_05_10), on the campus of the University of Florida in Gainesville, Florida Highway Patrol deployed a riot vehicle dubbed "The Monster" which "spewed tear gas" [@ArgusLeader1972_05_11b].
 Although a fogger is not mentioned specifically, this is the same agency (Florida Highway Patrol) that first [deployed thermal foggers via a truck](Liberty City #MiamiFL1968_08_08) in 1968 [@Tschenschlok1995; @Lorentzen2018]. 
@@ -197,7 +184,7 @@ Although a fogger is not mentioned specifically, this is the same agency (Florid
 
 
 
-## High Schools {-}
+## High Schools 
 
 As soon as they laid their hands on foggers, law enforcement extended their use from [universities]{#Universities} to high schools, specifically using the weapons against Black youth protesters.
 
@@ -205,14 +192,14 @@ I will stop to repeat that again so that we (myself included) can all reflect on
 
 Law enforcement agents used chemical weapons against Black junior and high school students during the Civil Rights Era, including a weapon (the thermal fogger) developed not even five years prior to [gas Vietnamese soldiers and civilians from tunnels](#Vietnam).
 
-### San Gordonio {- #SanGordonio}
+### San Gordonio {#SanGordonio}
 
 Although undated, this photograph printed in The Delta Democrat-Times (Greenville, Mississippi Thursday) [@TheDeltaDemocratTimes1969_11_20] on November 20, 1969 references a "recent" use of the fogger on students. 
 
 
 (ref:imgsanbernardino1969xxxx) Police use a pepper fogger on students at San Gordonio High School [@UPIphoto1969].
 
-```{r imgsanbernardino1969xxxx, echo = FALSE, out.width = out_width, fig.cap = "(ref:imgsanbernardino1969xxxx)", fig.align = "center", fig.alt = "B/W faded image: To the left is a person wearing a uniform with a patch on the shoulder and a helmet. In their right hand is the nozzle to a fogger and it appears to be emitting fog. There is a white fog cloud covering most of the rest of the image."}  
+```{r imgsanbernardino1969xxxx, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imgsanbernardino1969xxxx)", fig.align = "center", fig.alt = "B/W faded image: To the left is a person wearing a uniform with a patch on the shoulder and a helmet. In their right hand is the nozzle to a fogger and it appears to be emitting fog. There is a white fog cloud covering most of the rest of the image."}  
 knitr::include_graphics("img/san_bernardino_1969_xx_xx.jpg") 
 ```
  
@@ -223,7 +210,7 @@ On that day, a combination of San Bernardino police, San Bernardino County sheri
 
 
 
-### Lawrence {- #Lawrence1970_04_21}
+### Lawrence {#Lawrence1970_04_21}
 
 Lawrence, Kansas Police used tear gas, including from a thermal fogger, on April 21st, 1970 against Black high school and junior high students, their parents, and community members [@Monhollon2002].
 The students had gathered that day after a week-long stand-off with administration in response to their failures to meet their demands regarding Black representation in curriculum, hiring, sports, and awards [@Monhollon2002].
@@ -238,7 +225,7 @@ The next day, police were ready with heavy chemical weaponry, including the [GOE
 
 (ref:imglawrence19700421) Police bring a [GOEC](#GOEC) pepper fogger to gas Black high school and junior high students at Lawrence High School [@UKA1970].
 
-```{r imglawrence19700421, echo = FALSE, out.width = out_width, fig.cap = "(ref:imglawrence19700421)", fig.align = "center", fig.alt = "yellowed B/W faded image of police officers standing on a T of a sidewalk blocking the space from a group of predominately Black young people, who are standing behind them on the grass and facing the camera. Behind them are some cars and houses across a stree. The officer in the front left of the frame is carrying a Pepper Fog GOEC fogger."}
+```{r imglawrence19700421, echo = FALSE, out.width = out_width_500, fig.cap = "(ref:imglawrence19700421)", fig.align = "center", fig.alt = "yellowed B/W faded image of police officers standing on a T of a sidewalk blocking the space from a group of predominately Black young people, who are standing behind them on the grass and facing the camera. Behind them are some cars and houses across a stree. The officer in the front left of the frame is carrying a Pepper Fog GOEC fogger."}
 knitr::include_graphics("img/lawrence_1970_04_21.jpg") 
 ```
  

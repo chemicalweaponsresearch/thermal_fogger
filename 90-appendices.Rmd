@@ -1,0 +1,33 @@
+\cleardoublepage 
+
+# (APPENDIX) Appendices {-}
+
+
+# Figure Descriptions {#AltTexts}
+
+Alt-text descriptions for figures in the book:
+
+
+```{r retrieve-chunk-opt, include = FALSE}
+chunks_with_alt <- knitr::all_labels(nzchar(fig.alt))
+chunks_content <- knitr::knit_code$get(chunks_with_alt)
+chunks_opts <- lapply(chunks_content, function(x) attr(x, "chunk_opts"))
+if(any(names(chunks_opts) == "cover")){
+  chunks_opts[["cover"]] <- NULL
+}
+```
+
+
+```{r write-appendix, results = 'asis', echo = FALSE}
+
+l <- lapply(seq_along(chunks_opts), function(opt_ind) {
+
+  opt <- chunks_opts[[opt_ind]]
+  knitr::knit_expand(text = "* Figure \\@ref(fig:{{label}}): {{alt_text}}", 
+            alt_text = opt$fig.alt,
+            label = opt$label)
+
+})
+
+cat(unlist(l), sep = "\n\n")
+```

@@ -8,17 +8,15 @@ github-repo: "chemicalweaponsresearch/thermal_fogger"
 cover-image: "img/cover.png"
 url: "thermalfogger.chemicalweaponsresearch.com"
 colorlinks: yes
-graphics: yes
 bibliography: [packages.bib, references.bib]
 biblio-style: apalike
+csl: ecology.csl
 link-citations: yes
-knit: bookdown::render_book
 site: bookdown::bookdown_site
 documentclass: krantz
 lof: yes
 monofontoptions: "Scale=0.7"
 fontsize: 11pt
-classoption: titlepage
 favicon: "img/icon.png"
 ---
 
@@ -27,13 +25,30 @@ is_on_ghactions <- identical(Sys.getenv("GITHUB_ACTIONS"), "true")
 is_online <- curl::has_internet()
 is_html <- knitr::is_html_output(excludes = c("epub"))
 is_latex <- knitr::is_latex_output()
+is_not_latex <- !is_latex
+
+if (is_html) {
+  out_width_300 <- 300
+  out_width_400 <- 400
+  out_width_500 <- 500
+  out_width_650 <- 650
+} else if (is_latex) {
+  out_width_300 <- "75%"
+  out_width_400 <-"100%"
+  out_width_500 <-"100%"
+  out_width_650 <-"100%"
+}
 ```
+
+
+
 
 ```{asis include = is_html}
-#  {-}
+#  Cover {-}
 ```
 
-```{r cover, out.width = 500, fig.alt = "Cover for the book, which has fogger clouds as background and says The Thermal Fogger An Imperial Thetherball at the top and Dr Juniper L Simonis they/them/theirs in the bottom right. The focal image is a blurred, sketched over, re-rendered, and otherwise edited photo of a US Customs and Border Protection agent in all green and tan camo riot gear holding a thermal fogger in their right hand.", echo = FALSE, include = is_html, fig.align = "center"}
+
+```{r cover, out.width = out_width_500, fig.alt = "Cover for the book, which has fogger clouds as background and says The Thermal Fogger An Imperial Thetherball at the top and Dr Juniper L Simonis they/them/theirs in the bottom right. The focal image is a blurred, sketched over, re-rendered, and otherwise edited photo of a US Customs and Border Protection agent in all green and tan camo riot gear holding a thermal fogger in their right hand.", echo = FALSE, include = is_html, fig.align = "center"}
 knitr::include_graphics("img/cover.png")
 ```  
 

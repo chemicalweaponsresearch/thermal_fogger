@@ -51,7 +51,7 @@ knitr::include_graphics("img/portland_2020_07_29.jpg")
 
 #### Abolish ICE: Immigration and Customs Enforcement Rental Property {#PortlandORICE2020_2021}
 
-While the thermal fogger hasn't been deployed at the federal Courthouse in downtown Portland since July 29 2020, it has been used repeatedly by Department of Homeland Security agents at the private property US Immigration and Customs Enforcement (ICE) rents to use as a holding center for deportees in the South Waterfront neighborhood [@Simonis2021] -- the same building that saw the weeks-long Ocuppy ICE protests in 2018 [@Dubois2018]. 
+While the thermal fogger hasn't been deployed at the federal Courthouse in downtown Portland since July 29 2020, it has been used repeatedly by Department of Homeland Security agents at the private property US Immigration and Customs Enforcement (ICE) rents to use as a holding center for deportees in the South Waterfront neighborhood [@Simonis2021] -- the same building that saw the weeks-long Occupy ICE protests in 2018 [@Dubois2018]. 
 
 The first of such deployments occurred during the fall of 2020.
 
@@ -69,7 +69,7 @@ knitr::include_graphics("img/portland_2020_10_17.png")
  
 <br>
 
-#### Inaugration 2021 {#J20}
+#### Inauguration 2021 {#J20}
 
 The same fogger (or at least the same model) was again brought out at the ICE rental property on January 20th 2021 during the Inauguration Day ("J20") Abolish ICE protests in response to an individual spray painting a piece of plywood tacked outside the building [@Recompiler2021_01_20]. 
 The fogged up and down multiple blocks, with visible plumes entering units in the adjacent apartment complexes and covering the playground of an adjacent public school [@Recompiler2021_01_20; @Simonis2021].

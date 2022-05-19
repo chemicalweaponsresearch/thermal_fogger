@@ -77,7 +77,7 @@ The mayhem was noteworthy enough to garner publication in the Berkeley Gazette [
 
 
 
-## Trainging Accidents 
+## Training Accidents 
 
 While not an intentional deployment, in at least one documented incident, a pepper fogger used in firefighter training exercises caused severe symptoms and led to an investigation [@Judd1981].
 

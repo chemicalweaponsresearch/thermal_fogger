@@ -23,7 +23,7 @@ jobs:
 
       - name: Install package dependencies
         run: |
-          install.packages(c("bookdown", "curl", "rmarkdown"))
+          install.packages(c("bookdown", "rcurl", "rmarkdown"))
         shell: Rscript {0}
 
 

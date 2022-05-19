@@ -23,8 +23,7 @@ jobs:
 
       - name: Install package dependencies
         run: |
-          remotes::install_deps(dependencies = TRUE)
-          install.packages(c("bookdown", "curl"))
+          install.packages(c("bookdown", "curl", "rmarkdown"))
         shell: Rscript {0}
 
 

@@ -16,25 +16,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: r-lib/actions/setup-tinytex@v2
-
       - uses: r-lib/actions/setup-pandoc@v2
 
       - uses: r-lib/actions/setup-r@v2
 
-
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y libcurl-dev
-
-
-      - name: Install package dependencies
-        run: |
-          install.packages(c("bookdown", "curl", "rmarkdown"))
-        shell: Rscript {0}
-
-
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+        extra-packages: |
+          any::bookdown
+          any::curl
 
       - name: Build books and send to rstudio
         run: |

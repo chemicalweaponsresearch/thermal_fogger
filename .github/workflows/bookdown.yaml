@@ -22,9 +22,9 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-        extra-packages: |
-          any::bookdown
-          any::curl
+          extra-packages: |
+            any::bookdown
+            any::curl
 
       - name: Build books and send to rstudio
         run: |

@@ -5,7 +5,7 @@ account: simonis
 server: bookdown.org
 hostUrl: https://bookdown.org/__api__
 appId: 7863
-bundleId: 70930
+bundleId: 70932
 url: https://bookdown.org/simonis/fogger_book/
-when: 1653013121.39066
-lastSyncTime: 1653013121.39068
+when: 1653013677.84816
+lastSyncTime: 1653013677.84818
